@@ -11,26 +11,23 @@ import darkLogo from "@/assets/dr-arefin-logo-dark.webp";
 import { Reveal } from "@/hooks/useScrollReveal";
 
 /* ── Hero BG ── */
-import heroBg from "@/assets/gallery/gallbladder-surgery-operating-room-panoramic-dhaka.webp";
-
 /* ── Operation Theater ── */
-import ot01 from "@/assets/gallery/best-gallbladder-surgery-team-operating-theater-dhaka.webp";
 import ot02 from "@/assets/gallery/dr-murshidul-arefin-laparoscopic-surgery-duo-popular-medical-dhaka.webp";
 import ot03 from "@/assets/gallery/dr-murshidul-arefin-laparoscopic-team-operation-theater-dhaka.webp";
 import ot04 from "@/assets/gallery/dr-murshidul-arefin-open-surgery-closeup-popular-medical-dhaka.webp";
 import ot05 from "@/assets/gallery/dr-murshidul-arefin-open-surgery-suturing-popular-medical-dhaka.webp";
 import ot06 from "@/assets/gallery/dr-murshidul-arefin-operation-theater-light.webp";
-import ot07 from "@/assets/gallery/dr-murshidul-arefin-performing-gallbladder-surgery-dhaka.webp";
 import ot08 from "@/assets/gallery/dr-murshidul-arefin-surgical-team-operation-theater-popular-medical.webp";
-import ot09 from "@/assets/gallery/gallbladder-surgery-team-popular-medical-college-hospital.webp";
 import ot10 from "@/assets/gallery/hepatobiliary-open-surgery-best-surgeon-team-dhaka.webp";
-import ot11 from "@/assets/gallery/laparoscopic-gallbladder-surgery-full-ot-team-popular-medical-dhaka.webp";
 import ot12 from "@/assets/gallery/liver-surgery-team-closeup-hepatobiliary-surgeon-dhaka.webp";
-import ot13 from "@/assets/gallery/three-surgeons-gallbladder-operation-popular-medical-dhaka.webp";
-import ot14 from "@/assets/gallery/empyema-gallbladder-laparoscopic-surgery-specialist-dhaka.webp";
-import ot15 from "@/assets/gallery/gallbladder-stone-laparoscopic-removal-surgery-dhaka.webp";
-import ot16 from "@/assets/gallery/dr-murshidul-arefin-surgical-team-gallbladder-operation-popular-medical.webp";
-import ot17 from "@/assets/gallery/gallbladder-operation-surgical-team-popular-medical-dhaka.webp";
+/* ── Liver replacements for the 13 removed photos (D3) ── */
+import liverTeamHpb from "@/assets/gallery/liver-pancreatic-open-surgery-specialist-team-dhaka.webp";
+import liverOtPortrait from "@/assets/gallery/dr-murshidul-arefin-surgeon-ot-portrait.webp";
+import liverOtTeam from "@/assets/gallery/dr-murshidul-arefin-surgical-team-operation-theater-popular-medical.webp";
+import liverScrubs from "@/assets/gallery/dr-murshidul-arefin-surgical-scrubs-closeup.webp";
+import liverDoingOt from "@/assets/dr-arefin-doing-ot-real.webp";
+import liverOtTeamReal from "@/assets/dr-arefin-ot-team-real.webp";
+import liverDoctor from "@/assets/dr-arefin-liver-doctor-real.webp";
 
 /* ── Conference & Training ── */
 import ct01 from "@/assets/gallery/dr-arefin-16th-international-surgical-congress-2025.webp";
@@ -52,13 +49,9 @@ import ct16 from "@/assets/gallery/dr-arefin-senior-colleague-sea-pearl-selsb-20
 
 /* ── Chamber ── */
 import ch01 from "@/assets/gallery/dr-murshidul-arefin-liver-specialist-consultation-chamber-dhaka.webp";
-import ch02 from "@/assets/gallery/dr-murshidul-arefin-best-gallbladder-surgeon-dhaka.webp";
 import ch03 from "@/assets/gallery/dr-murshidul-arefin-hepatobiliary-surgeon.webp";
-import ch04 from "@/assets/gallery/dr-murshidul-arefin-appointment-gallbladder-liver-surgeon-dhaka.webp";
 
 /* ── Successful OT ── */
-import sot01 from "@/assets/gallery/dr-murshidul-arefin-successful-gallbladder-stone-operation-dhaka.webp";
-import sot02 from "@/assets/gallery/dr-murshidul-arefin-patient-recovery-after-gallbladder-surgery-dhaka.webp";
 import sot03 from "@/assets/gallery/dr-murshidul-arefin-popular-medical-college-hospital-full-staff-dhaka.webp";
 import sot04 from "@/assets/gallery/dr-murshidul-arefin-popular-medical-college-hospital-team-dhaka.webp";
 
@@ -86,23 +79,20 @@ export const slugifyAlt = (alt: string): string =>
 /* ── Gallery data ── */
 export const galleryImages: GalleryImage[] = [
   /* Operation Theater */
-  { src: ot01, alt: "Best liver surgery team in operation theater, Dhaka", category: "Operation Theater" },
+  { src: liverTeamHpb, alt: "Hepatobiliary surgery specialist team in operation theater, Dhaka", category: "Operation Theater" },
   { src: ot02, alt: "Dr. Murshidul Arefin laparoscopic surgery duo at Popular Medical College", category: "Operation Theater" },
   { src: ot03, alt: "Dr. Murshidul Arefin with laparoscopic team in operation theater", category: "Operation Theater" },
   { src: ot04, alt: "Dr. Murshidul Arefin open surgery closeup at Popular Medical College", category: "Operation Theater" },
   { src: ot05, alt: "Dr. Murshidul Arefin performing open surgery suturing", category: "Operation Theater" },
   { src: ot06, alt: "Dr. Murshidul Arefin in operation theater under OT lights", category: "Operation Theater" },
-  { src: ot07, alt: "Dr. Murshidul Arefin performing liver surgery in Dhaka", category: "Operation Theater" },
+  { src: liverDoingOt, alt: "Dr. Murshidul Arefin performing liver surgery in operation theater, Dhaka", category: "Operation Theater" },
   { src: ot08, alt: "Dr. Murshidul Arefin surgical team in operation theater", category: "Operation Theater" },
-  { src: ot09, alt: "Liver surgery team at Popular Medical College Hospital", category: "Operation Theater" },
+  { src: liverOtTeam, alt: "Liver surgery team in operation theater at Popular Medical College Hospital", category: "Operation Theater" },
   { src: ot10, alt: "Hepatobiliary open surgery — best surgeon team in Dhaka", category: "Operation Theater" },
-  { src: ot11, alt: "Laparoscopic liver surgery full OT team at Popular Medical", category: "Operation Theater" },
+  { src: liverOtTeamReal, alt: "Liver surgery team in operation theater, Dhaka", category: "Operation Theater" },
   { src: ot12, alt: "Liver surgery team closeup — hepatobiliary surgeon Dhaka", category: "Operation Theater" },
-  { src: ot13, alt: "Three surgeons performing liver operation at Popular Medical", category: "Operation Theater" },
-  { src: ot14, alt: "Liver surgery specialist in operation theater, Dhaka", category: "Operation Theater" },
-  { src: ot15, alt: "Laparoscopic liver surgery in Dhaka", category: "Operation Theater" },
-  { src: ot16, alt: "Dr. Murshidul Arefin surgical team liver operation at Popular Medical", category: "Operation Theater" },
-  { src: ot17, alt: "Liver operation surgical team at Popular Medical, Dhaka", category: "Operation Theater" },
+  { src: liverOtPortrait, alt: "Dr. Murshidul Arefin, liver surgeon, in operation theater, Dhaka", category: "Operation Theater" },
+  { src: liverScrubs, alt: "Dr. Murshidul Arefin in surgical scrubs, Dhaka", category: "Operation Theater" },
 
   /* Conference & Training */
   { src: ct01, alt: "Dr. Arefin at 16th International Surgical Congress 2025", category: "Conference & Training" },
@@ -124,13 +114,10 @@ export const galleryImages: GalleryImage[] = [
 
   /* Chamber */
   { src: ch01, alt: "Dr. Murshidul Arefin liver specialist consultation chamber, Dhaka", category: "Chamber" },
-  { src: ch02, alt: "Dr. Murshidul Arefin — best liver surgeon in Dhaka", category: "Chamber" },
+  { src: liverDoctor, alt: "Dr. Murshidul Arefin, liver doctor, Dhaka", category: "Chamber" },
   { src: ch03, alt: "Dr. Murshidul Arefin — hepatobiliary surgeon portrait", category: "Chamber" },
-  { src: ch04, alt: "Dr. Murshidul Arefin appointment — liver surgeon, Dhaka", category: "Chamber" },
 
   /* Successful OT */
-  { src: sot01, alt: "Dr. Murshidul Arefin successful liver operation, Dhaka", category: "Successful OT" },
-  { src: sot02, alt: "Patient recovery after liver surgery by Dr. Murshidul Arefin", category: "Successful OT" },
   { src: sot03, alt: "Dr. Murshidul Arefin with full staff at Popular Medical College Hospital", category: "Successful OT" },
   { src: sot04, alt: "Dr. Murshidul Arefin with team at Popular Medical College Hospital, Dhaka", category: "Successful OT" },
 ];
@@ -266,7 +253,7 @@ const GalleryDark = () => {
         <title>Gallery — Surgical Operations & Medical Events by Dr. Murshidul Arefin</title>
         <meta name="description" content="View Dr. Murshidul Arefin's surgical gallery — hepatobiliary operations, laparoscopic procedures, medical conferences, and training sessions at Popular Medical College Hospital, Dhaka." />
         <link rel="canonical" href="https://drarefin.com/gallery/" />
-        <link rel="preload" as="image" href={heroBg} />
+        <link rel="preload" as="image" href={ot12} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Gallery — Dr. Murshidul Arefin's Surgical Operations & Events" />
         <meta property="og:description" content="View Dr. Murshidul Arefin's surgical gallery — hepatobiliary operations, laparoscopic procedures, and medical conferences in Dhaka." />
@@ -284,8 +271,8 @@ const GalleryDark = () => {
 
       {/* ══════════════ HERO — shared HeroSection (homepage parity) ══════════════ */}
       <HeroSection
-        imageSrc={heroBg}
-        imageAlt="Operating-room panorama at Popular Medical College Hospital — Dr. Murshidul Arefin"
+        imageSrc={ot12}
+        imageAlt="Liver surgery team closeup — hepatobiliary surgeon Dhaka"
         breadcrumb="Gallery"
         kicker="Photo Gallery"
         h1="Gallery — Surgical Operations & Medical Events"
