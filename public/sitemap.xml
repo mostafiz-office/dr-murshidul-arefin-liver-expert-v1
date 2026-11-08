@@ -21,7 +21,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery/</loc>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-tumor-cancer-surgery-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -61,7 +61,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/about/dr-arefin-gallbladder-specialist/</loc>
+    <loc>https://drarefin-v4.lovable.app/about/dr-arefin-liver-specialist/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -87,11 +87,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/best-biliary-tract-surgeon-in-dhanmondi-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/best-gallbladder-surgeon-in-dhanmondi-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -151,11 +146,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/conditions/gallstones/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/conferences-presented/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -166,17 +156,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/credentials/1500-gallbladder-surgeries-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/credentials/20-years-gallbladder-surgery-experience-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/</loc>
+    <loc>https://drarefin-v4.lovable.app/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -196,7 +176,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/do-gallbladder-polyps-need-surgery-in-dhaka/</loc>
+    <loc>https://drarefin-v4.lovable.app/do-benign-liver-tumours-need-surgery-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -207,11 +187,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/do-you-offer-second-opinions/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/does-dr-arefin-perform-gallbladder-cancer-surgery-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -266,11 +241,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/faq/best-gallbladder-surgeon-in-dhanmondi-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/faq/best-hepatobiliary-surgeon-in-dhanmondi-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -286,7 +256,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/faq/do-gallbladder-polyps-need-surgery-in-dhaka/</loc>
+    <loc>https://drarefin-v4.lovable.app/faq/do-benign-liver-tumours-need-surgery-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -297,11 +267,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/faq/do-you-offer-second-opinions/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/faq/does-dr-arefin-perform-gallbladder-cancer-surgery-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -341,11 +306,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/faq/how-long-does-recovery-after-gallbladder-surgery-take-in-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/faq/how-long-does-recovery-after-liver-resection-take-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -357,11 +317,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/faq/how-much-does-bile-duct-surgery-cost-in-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/faq/how-much-does-gallbladder-stone-surgery-cost-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -381,7 +336,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/faq/how-to-book-a-gallbladder-surgery-consultation-in-dhanmondi/</loc>
+    <loc>https://drarefin-v4.lovable.app/faq/how-to-book-a-liver-surgery-consultation-in-dhanmondi/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -397,11 +352,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/faq/is-financial-assistance-available/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/faq/is-laparoscopic-cholecystectomy-available-in-dhanmondi/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -426,17 +376,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/faq/treatment-for-bile-duct-injury-after-gallbladder-surgery-in-dhaka/</loc>
+    <loc>https://drarefin-v4.lovable.app/faq/treatment-for-bile-duct-injury-during-liver-surgery-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/faq/treatment-for-bile-duct-stricture-in-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/faq/treatment-for-empyema-of-the-gallbladder-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -452,6 +397,11 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/faq/what-is-dr-arefin-specialty/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/faq/what-is-the-treatment-for-liver-abscess-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -487,11 +437,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/financial-assistance/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/best-gallbladder-surgery-team-in-operation-theater-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -556,16 +501,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-appointment-gallbladder-and-liver-surgeon-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-best-gallbladder-surgeon-in-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-hepatobiliary-surgeon-portrait/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -581,6 +516,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-in-surgical-scrubs-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-keynote-speaker-at-popular-medical-college/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -591,7 +531,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-liver-doctor-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-liver-specialist-consultation-chamber-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-liver-surgeon-in-operation-theater-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -611,22 +561,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-performing-gallbladder-surgery-in-dhaka/</loc>
+    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-performing-liver-surgery-in-operation-theater-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-performing-open-surgery-suturing/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-successful-gallbladder-stone-operation-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/dr-murshidul-arefin-surgical-team-gallbladder-operation-at-popular-medical/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -651,32 +591,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/empyema-gallbladder-laparoscopic-surgery-specialist-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/gallbladder-operation-surgical-team-at-popular-medical-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/gallbladder-stone-laparoscopic-removal-surgery-in-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/gallbladder-surgery-team-at-popular-medical-college-hospital/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/gallery/hepatobiliary-open-surgery-best-surgeon-team-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/laparoscopic-gallbladder-surgery-full-ot-team-at-popular-medical/</loc>
+    <loc>https://drarefin-v4.lovable.app/gallery/hepatobiliary-surgery-specialist-team-in-operation-theater-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -686,12 +606,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/patient-recovery-after-gallbladder-surgery-by-dr-murshidul-arefin/</loc>
+    <loc>https://drarefin-v4.lovable.app/gallery/liver-surgery-team-in-operation-theater-at-popular-medical-college-hospital/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/gallery/three-surgeons-performing-gallbladder-operation-at-popular-medical/</loc>
+    <loc>https://drarefin-v4.lovable.app/gallery/liver-surgery-team-in-operation-theater-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -736,11 +656,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/how-long-does-recovery-after-gallbladder-surgery-take-in-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/how-long-does-recovery-after-liver-resection-take-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -752,11 +667,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/how-much-does-bile-duct-surgery-cost-in-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/how-much-does-gallbladder-stone-surgery-cost-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -776,7 +686,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/how-to-book-a-gallbladder-surgery-consultation-in-dhanmondi/</loc>
+    <loc>https://drarefin-v4.lovable.app/how-to-book-a-liver-surgery-consultation-in-dhanmondi/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -796,17 +706,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/is-laparoscopic-cholecystectomy-available-in-dhanmondi/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/is-laparoscopic-liver-surgery-available-in-dhanmondi/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/laparoscopic-cholecystectomy/</loc>
+    <loc>https://drarefin-v4.lovable.app/laparoscopic-liver-surgery/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1061,7 +966,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/treatment-for-bile-duct-injury-after-gallbladder-surgery-in-dhaka/</loc>
+    <loc>https://drarefin-v4.lovable.app/treatment-for-bile-duct-injury-during-liver-surgery-in-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1071,7 +976,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/treatment-for-empyema-of-the-gallbladder-in-dhaka/</loc>
+    <loc>https://drarefin-v4.lovable.app/treatment/acute-liver-conditions-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/benign-liver-tumour-surgery-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1236,31 +1146,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/cholecystitis-surgery-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/cholecystitis-surgery-dhaka/abdominal-ultrasound/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/cholecystitis-surgery-dhaka/liver-function-tests/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/cholecystitis-surgery-dhaka/mrcp-when-indicated/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/cholecystitis-surgery-dhaka/symptom-evaluation/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/treatment/choledochal-cyst-surgery-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1312,11 +1197,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/treatment/distal-pancreatectomy-dhaka/whipple-distal-resection/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/empyema-gallbladder-dhaka/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1401,131 +1281,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-cancer-resection-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-cancer-resection-dhaka/anaesthetic-clearance/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-cancer-resection-dhaka/laparoscopic-vs-open-decision/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-cancer-resection-dhaka/patient-counselling/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-cancer-resection-dhaka/pre-op-optimisation/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-banani/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-bashundhara/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-chattogram/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-dhanmondi/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-gulshan/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-khulna/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-mirpur/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-mohakhali/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-old-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-rajshahi/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-rangpur-sadar/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-sylhet/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-tejgaon/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-uttara/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallbladder-surgery-in-wari/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallstone-removal-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallstone-removal-dhaka/2-week-review/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallstone-removal-dhaka/diet-and-wound-guidance/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallstone-removal-dhaka/long-term-support/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/gallstone-removal-dhaka/same-next-day-discharge/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/treatment/hepatobiliary-surgery-in-banani/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1602,31 +1357,6 @@
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/treatment/hepatobiliary-surgery/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/laparoscopic-cholecystectomy-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/laparoscopic-cholecystectomy-dhaka/critical-view-of-safety/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/laparoscopic-cholecystectomy-dhaka/drain-placement-if-needed/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/laparoscopic-cholecystectomy-dhaka/keyhole-incisions/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/laparoscopic-cholecystectomy-dhaka/stone-and-specimen-retrieval/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1711,7 +1441,92 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-abscess-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-cancer-resection-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://drarefin-v4.lovable.app/treatment/liver-cyst-surgery-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-banani/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-bashundhara/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-chattogram/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-dhanmondi/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-gulshan/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-khulna/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-mirpur/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-mohakhali/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-old-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-rajshahi/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-rangpur-sadar/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-sylhet/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-tejgaon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-uttara/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-resection-surgery-in-wari/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1816,6 +1631,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-surgery-recovery/follow-up-consultations/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-surgery-recovery/lifetime-support/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-surgery-recovery/recovery-protocol/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-surgery-recovery/rehabilitation-guidance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://drarefin-v4.lovable.app/treatment/liver-transplant-coordination-in-banani/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1906,17 +1741,17 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/treatment/liver-tumor-cancer-surgery-dhaka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/treatment/liver-tumor-cancer-surgery-dhaka/multidisciplinary-review/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/treatment/liver-tumor-cancer-surgery-dhaka/patient-counseling/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/treatment/liver-tumor-cancer-surgery-dhaka/patient-counselling/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2156,6 +1991,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://drarefin-v4.lovable.app/what-is-the-treatment-for-liver-abscess-in-dhaka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://drarefin-v4.lovable.app/where-does-dr-arefin-practice/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2196,17 +2036,17 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://drarefin-v4.lovable.app/why-gallbladder-surgery-is-required/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://drarefin-v4.lovable.app/why-hepatobiliary-surgery-is-required/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://drarefin-v4.lovable.app/why-laparoscopic-surgery-is-required/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drarefin-v4.lovable.app/why-liver-resection-surgery-is-required/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

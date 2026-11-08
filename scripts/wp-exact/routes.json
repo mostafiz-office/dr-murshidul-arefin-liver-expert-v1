@@ -3,7 +3,7 @@
   { "route": "/about/" },
   { "route": "/treatment/" },
   { "route": "/treatment/liver-surgery/" },
-  { "route": "/treatment/gallbladder-surgery/" },
+  { "route": "/treatment/liver-tumor-cancer-surgery-dhaka/" },
   { "route": "/treatment/pancreatic-surgery/" },
   { "route": "/treatment/biliary-tract-surgery/" },
   { "route": "/mentorship/" },
