@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import DrArefinHomeDark from "./pages/DrArefinHomeDark";
-import GallbladderSurgeryDark from "./pages/GallbladderSurgeryDark";
+import LiverTumourSurgeryDark from "./pages/LiverTumourSurgeryDark";
 import PancreaticSurgeryDark from "./pages/PancreaticSurgeryDark";
 import BiliarySurgeryDark from "./pages/BiliarySurgeryDark";
 import MentorshipDark from "./pages/MentorshipDark";
@@ -60,8 +60,11 @@ const App = () => (
             <Route path="/treatment/" element={<TreatmentDark />} />
             <Route path="/treatment/liver-surgery" element={<LiverSurgeryDark />} />
             <Route path="/treatment/liver-surgery/" element={<LiverSurgeryDark />} />
-            <Route path="/treatment/gallbladder-surgery" element={<GallbladderSurgeryDark />} />
-            <Route path="/treatment/gallbladder-surgery/" element={<GallbladderSurgeryDark />} />
+            <Route path="/treatment/liver-tumor-cancer-surgery-dhaka" element={<LiverTumourSurgeryDark />} />
+            <Route path="/treatment/liver-tumor-cancer-surgery-dhaka/" element={<LiverTumourSurgeryDark />} />
+            {/* Liver-focus redirect (Batch 3): old gallbladder hub -> liver tumour hub. Full redirect block in Phase 8. */}
+            <Route path="/treatment/gallbladder-surgery" element={<Navigate to="/treatment/liver-tumor-cancer-surgery-dhaka/" replace />} />
+            <Route path="/treatment/gallbladder-surgery/" element={<Navigate to="/treatment/liver-tumor-cancer-surgery-dhaka/" replace />} />
             <Route path="/treatment/pancreatic-surgery" element={<PancreaticSurgeryDark />} />
             <Route path="/treatment/pancreatic-surgery/" element={<PancreaticSurgeryDark />} />
             <Route path="/treatment/biliary-tract-surgery" element={<BiliarySurgeryDark />} />

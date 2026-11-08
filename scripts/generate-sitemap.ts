@@ -33,7 +33,7 @@ const staticEntries: SitemapEntry[] = [
   { path: "/about/", changefreq: "monthly", priority: "0.9" },
   { path: "/treatment/", changefreq: "monthly", priority: "0.9" },
   { path: "/treatment/liver-surgery/", changefreq: "monthly", priority: "0.8" },
-  { path: "/treatment/gallbladder-surgery/", changefreq: "monthly", priority: "0.8" },
+  { path: "/treatment/liver-tumor-cancer-surgery-dhaka/", changefreq: "monthly", priority: "0.8" },
   { path: "/treatment/pancreatic-surgery/", changefreq: "monthly", priority: "0.8" },
   { path: "/treatment/biliary-tract-surgery/", changefreq: "monthly", priority: "0.8" },
   { path: "/mentorship/", changefreq: "monthly", priority: "0.7" },
