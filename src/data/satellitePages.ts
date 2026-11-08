@@ -88,12 +88,12 @@ export const SATELLITE_PAGES: SatellitePage[] = [
       {
         heading: "What hepatobiliary surgery covers",
         body:
-          "<p>The hepatobiliary system includes the liver, gallbladder, and the network of bile ducts that drain bile into the small intestine. Surgical management is required when these structures are affected by tumors, stones, infection, or structural anomalies.</p><p>Dr. Arefin's hepatobiliary practice covers <a href='/treatment/liver-surgery/' title='Advanced liver surgery — tumors, cysts, resection'>liver tumor and cyst surgery</a>, <a href='/treatment/gallbladder-surgery/' title='Laparoscopic gallbladder surgery in Dhaka'>laparoscopic and open gallbladder surgery</a>, <a href='/treatment/bile-duct-surgery/' title='Bile duct and biliary reconstruction surgery'>bile duct reconstruction</a>, and <a href='/treatment/liver-transplant-coordination/' title='Liver transplant pre and post-operative coordination'>liver transplant coordination</a>.</p>",
+          "<p>The hepatobiliary system includes the liver, gallbladder, and the network of bile ducts that drain bile into the small intestine. Surgical management is required when these structures are affected by tumors, stones, infection, or structural anomalies.</p><p>Dr. Arefin's hepatobiliary practice covers <a href='/treatment/liver-surgery/' title='Advanced liver surgery — tumors, cysts, resection'>liver tumor and cyst surgery</a>, <a href='/treatment/liver-tumor-cancer-surgery-dhaka/' title='Laparoscopic gallbladder surgery in Dhaka'>laparoscopic and open gallbladder surgery</a>, <a href='/treatment/bile-duct-surgery/' title='Bile duct and biliary reconstruction surgery'>bile duct reconstruction</a>, and <a href='/treatment/liver-transplant-coordination/' title='Liver transplant pre and post-operative coordination'>liver transplant coordination</a>.</p>",
       },
       {
         heading: "Conditions treated",
         body:
-          "<ul><li>Benign and malignant <strong>liver tumors</strong>, including hepatocellular carcinoma</li><li><strong>Liver cysts</strong> — simple, hydatid, and polycystic disease</li><li>Symptomatic <a href='/conditions/gallstones/' title='Gallstone removal surgery in Dhaka'>gallstones</a> and gallbladder polyps</li><li>Bile duct strictures, injuries, and choledochal cysts</li><li>Pancreatic head and periampullary tumors (Whipple)</li><li>Portal hypertension and end-stage liver disease workup</li></ul>",
+          "<ul><li>Benign and malignant <strong>liver tumors</strong>, including hepatocellular carcinoma</li><li><strong>Liver cysts</strong> — simple, hydatid, and polycystic disease</li><li>Symptomatic <a href='/treatment/liver-cyst-surgery-dhaka/' title='Gallstone removal surgery in Dhaka'>gallstones</a> and gallbladder polyps</li><li>Bile duct strictures, injuries, and choledochal cysts</li><li>Pancreatic head and periampullary tumors (Whipple)</li><li>Portal hypertension and end-stage liver disease workup</li></ul>",
       },
       {
         heading: "Surgical approach",
@@ -122,7 +122,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
     related: [
       { to: "/treatment/liver-surgery/", label: "Advanced Liver Surgery", title: "Liver tumor, cyst, and resection surgery by Dr. Arefin" },
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder & Biliary Surgery", title: "Laparoscopic gallbladder surgery in Dhaka" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
       { to: "/treatment/bile-duct-surgery/", label: "Bile Duct & Hepatic Surgery", title: "Bile duct reconstruction and stricture repair" },
       { to: "/treatment/liver-transplant-coordination/", label: "Liver Transplant Coordination", title: "Pre and post liver transplant care by Dr. Arefin" },
     ],
@@ -257,7 +257,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
       {
         heading: "Procedures Dr. Arefin performs laparoscopically",
         body:
-          "<ul><li><a href='/treatment/gallbladder-surgery/' title='Laparoscopic gallbladder surgery'>Laparoscopic cholecystectomy</a> for gallstones and polyps</li><li>Common bile duct exploration and stone removal</li><li>Hernia repair and adhesiolysis</li><li>Selected liver wedge resections and cyst fenestrations</li><li>Diagnostic laparoscopy for staging and biopsy</li></ul>",
+          "<ul><li><a href='/treatment/liver-tumor-cancer-surgery-dhaka/' title='Laparoscopic gallbladder surgery'>Laparoscopic cholecystectomy</a> for gallstones and polyps</li><li>Common bile duct exploration and stone removal</li><li>Hernia repair and adhesiolysis</li><li>Selected liver wedge resections and cyst fenestrations</li><li>Diagnostic laparoscopy for staging and biopsy</li></ul>",
       },
       {
         heading: "Benefits of the laparoscopic approach",
@@ -290,69 +290,14 @@ export const SATELLITE_PAGES: SatellitePage[] = [
       },
     ],
     related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Laparoscopic gallbladder surgery in Dhaka" },
-      { to: "/conditions/gallstones/", label: "Gallstones", title: "Gallstone removal surgery in Dhaka" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
+      { to: "/treatment/liver-cyst-surgery-dhaka/", label: "Liver Cyst Surgery", title: "Liver cyst surgery in Dhaka" },
       { to: "/treatment/bile-duct-surgery/", label: "Bile Duct Surgery", title: "Bile duct surgery and CBD exploration" },
       { to: "/treatment/hepatobiliary-surgery/", label: "Hepatobiliary Surgery", title: "Hepatobiliary surgery overview" },
     ],
   },
 
-  /* ───────────── 5. Gallstones ───────────── */
-  {
-    slug: "/conditions/gallstones",
-    kicker: "Condition Guide",
-    title: "Gallstone Surgery in Dhaka — Dr. Arefin",
-    metaDesc:
-      "Gallstone symptoms, diagnosis, and laparoscopic removal surgery in Dhaka by Dr. Murshidul Arefin. Same-day discharge for routine cases.",
-    h1: "Gallstone Treatment & Surgery in Dhaka",
-    intro:
-      "<p><strong>Gallstones</strong> are hardened deposits that form inside the gallbladder. Many are silent, but once they cause pain, jaundice, or infection, surgery is usually required. <a href='/about/' title='Dr. Arefin — gallbladder and biliary surgeon in Dhaka'>Dr. Murshidul Arefin</a> performs <a href='/treatment/laparoscopic-surgery/' title='Laparoscopic gallbladder surgery'>laparoscopic gallstone removal</a> as a routine day-care procedure at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital chamber'>Popular Medical College Hospital</a>.</p>",
-    heroImage: IMG.gallstones,
-    heroAlt:
-      "Gallbladder stone laparoscopic removal surgery in Dhaka — পিত্তথলির পাথর ল্যাপারোস্কপিক অপারেশন",
-    sections: [
-      {
-        heading: "Symptoms of gallstones",
-        body:
-          "<ul><li>Right upper-abdominal pain, often after fatty meals</li><li>Pain radiating to the right shoulder or back</li><li>Nausea, vomiting, bloating, indigestion</li><li>Jaundice (yellowing of skin/eyes) when stones block the bile duct</li><li>Fever and chills if infection develops</li></ul>",
-      },
-      {
-        heading: "How gallstones are diagnosed",
-        body:
-          "<p>Ultrasound of the upper abdomen is the first-line test and is highly accurate. MRCP is added when stones are suspected in the bile duct. Liver function tests help assess obstruction.</p>",
-      },
-      {
-        heading: "Treatment — when surgery is needed",
-        body:
-          "<p>Symptomatic gallstones are best treated with <strong>laparoscopic cholecystectomy</strong> — removal of the gallbladder through 3–4 small incisions. The procedure takes 30–60 minutes. Most patients are discharged the same day or next morning. Asymptomatic stones may be observed in selected patients but require surgery in diabetics and high-risk groups.</p>",
-      },
-      {
-        heading: "Recovery",
-        body:
-          "<p>Patients walk on the same evening, eat normally within 24 hours, and resume office work in 5–7 days. Long-term, the body adjusts to the absence of the gallbladder without dietary restrictions for most patients.</p>",
-      },
-    ],
-    faq: [
-      {
-        q: "Can gallstones be dissolved with medicine?",
-        a: "Oral bile acid therapy works only for small cholesterol stones in selected patients and takes months. Surgery is the definitive treatment for symptomatic stones.",
-      },
-      {
-        q: "What is the cost of gallbladder surgery in Dhaka?",
-        a: "Costs vary by hospital tier and length of stay. Dr. Arefin's chamber provides a transparent estimate after consultation.",
-      },
-      {
-        q: "Will I need a special diet after surgery?",
-        a: "Most patients return to a normal diet within days. A small percentage experience temporary loose motions with very fatty meals, which usually settles within weeks.",
-      },
-    ],
-    related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery in Dhaka" },
-      { to: "/treatment/laparoscopic-surgery/", label: "Laparoscopic Surgery", title: "Laparoscopic surgery techniques" },
-      { to: "/treatment/bile-duct-surgery/", label: "Bile Duct Surgery", title: "Bile duct stone removal and reconstruction" },
-      { to: "/popular-medical-college-hospital/", label: "Chamber & Hospital", title: "Dr. Arefin chamber at Popular Medical College Hospital" },
-    ],
-  },
+  /* ───────────── 5. Liver Cysts (was Gallstones — merged, entry removed) ───────────── */
 
   /* ───────────── 6. Popular Medical College Hospital ───────────── */
   {
@@ -381,7 +326,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
       {
         heading: "Procedures performed here",
         body:
-          "<p>The hospital's modular OT complex supports the full hepatobiliary spectrum: <a href='/treatment/laparoscopic-surgery/' title='Laparoscopic surgery'>laparoscopic</a> and open <a href='/treatment/gallbladder-surgery/' title='Gallbladder surgery'>gallbladder surgery</a>, <a href='/treatment/liver-surgery/' title='Liver surgery'>liver resection</a>, <a href='/treatment/bile-duct-surgery/' title='Bile duct surgery'>bile duct reconstruction</a>, and Whipple procedures.</p>",
+          "<p>The hospital's modular OT complex supports the full hepatobiliary spectrum: <a href='/treatment/laparoscopic-surgery/' title='Laparoscopic surgery'>laparoscopic</a> and open <a href='/treatment/liver-tumor-cancer-surgery-dhaka/' title='Gallbladder surgery'>gallbladder surgery</a>, <a href='/treatment/liver-surgery/' title='Liver surgery'>liver resection</a>, <a href='/treatment/bile-duct-surgery/' title='Bile duct surgery'>bile duct reconstruction</a>, and Whipple procedures.</p>",
       },
       {
         heading: "How to book a consultation",
@@ -455,8 +400,8 @@ export const SATELLITE_PAGES: SatellitePage[] = [
       },
     ],
     related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery in Dhaka" },
-      { to: "/conditions/gallstones/", label: "Gallstones", title: "Gallstone treatment in Dhaka" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
+      { to: "/treatment/liver-cyst-surgery-dhaka/", label: "Liver Cyst Surgery", title: "Liver cyst surgery in Dhaka" },
       { to: "/treatment/hepatobiliary-surgery/", label: "Hepatobiliary Surgery", title: "Hepatobiliary surgery overview" },
       { to: "/treatment/laparoscopic-surgery/", label: "Laparoscopic Surgery", title: "Laparoscopic surgery in Dhaka" },
     ],
@@ -488,7 +433,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
       {
         heading: "When surgery becomes necessary",
         body:
-          "<p>Surgery is needed only when fatty liver progresses to advanced complications — large hepatocellular carcinoma needing resection, decompensated cirrhosis needing transplant, or coexisting <a href='/conditions/gallstones/' title='Gallstones in fatty liver patients'>symptomatic gallstones</a>. Dr. Arefin coordinates surgical care with hepatologist follow-up.</p>",
+          "<p>Surgery is needed only when fatty liver progresses to advanced complications — large hepatocellular carcinoma needing resection, decompensated cirrhosis needing transplant, or coexisting <a href='/treatment/liver-cyst-surgery-dhaka/' title='Gallstones in fatty liver patients'>symptomatic gallstones</a>. Dr. Arefin coordinates surgical care with hepatologist follow-up.</p>",
       },
     ],
     faq: [
@@ -639,7 +584,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
       },
       {
         heading: "Procedures performed",
-        body: "<p>Liver resections, complex <a href='/treatment/gallbladder-surgery/' title='Gallbladder surgery'>gallbladder surgery</a>, <a href='/treatment/bile-duct-surgery/' title='Bile duct surgery'>bile duct reconstruction</a>, pancreatic surgery, and selected emergency hepatobiliary cases.</p>",
+        body: "<p>Liver resections, complex <a href='/treatment/liver-tumor-cancer-surgery-dhaka/' title='Gallbladder surgery'>gallbladder surgery</a>, <a href='/treatment/bile-duct-surgery/' title='Bile duct surgery'>bile duct reconstruction</a>, pancreatic surgery, and selected emergency hepatobiliary cases.</p>",
       },
     ],
     faq: [
@@ -649,7 +594,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     related: [
       { to: "/treatment/hepatobiliary-surgery/", label: "Hepatobiliary Surgery", title: "Hepatobiliary surgery overview" },
       { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Advanced liver surgery" },
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Laparoscopic gallbladder surgery" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
     ],
   },
   {
@@ -956,14 +901,14 @@ export const SATELLITE_PAGES: SatellitePage[] = [
   {
     slug: "/complex-liver-gallbladder-pancreatic-surgery",
     kicker: "Subspecialty",
-    title: "Complex Liver, Gallbladder & Pancreatic Surgery in Dhaka",
-    metaDesc: "Complex liver, gallbladder, and pancreatic surgery in Dhaka — high-acuity hepatobiliary procedures performed by Dr. Murshidul Arefin.",
-    h1: "Complex Liver, Gallbladder & Pancreatic Surgery",
-    intro: "<p>High-acuity hepatobiliary operations covering the liver, gallbladder, bile ducts, and pancreas — performed by a dedicated subspecialist in Dhaka.</p>",
+    title: "Complex Liver & HPB Surgery in Dhaka — Dr. Arefin",
+    metaDesc: "Complex liver and HPB surgery in Dhaka — high-acuity liver resections and hepatobiliary procedures performed by Dr. Murshidul Arefin.",
+    h1: "Complex Liver & HPB Surgery in Dhaka",
+    intro: "<p>High-acuity <strong>liver operations</strong> — large liver resections, re-do hepatobiliary surgery, and cases with prior failed intervention — performed by a dedicated liver subspecialist in Dhaka. The liver leads every case here; bile-duct and pancreatic work is supporting hepatobiliary care, not the focus of this page.</p>",
     heroImage: IMG.liverSurgeon,
-    heroAlt: "Complex liver, gallbladder, and pancreatic surgery in Dhaka",
-    sections: [{ heading: "What counts as complex", body: "<p>Re-do biliary surgery, large liver resections, Whipple's, and any case with prior failed intervention.</p>" }],
-    faq: [{ q: "Are these surgeries done laparoscopically?", a: "Many are — case selection drives the approach." }],
+    heroAlt: "Complex liver surgery in Dhaka — Dr. Murshidul Arefin",
+    sections: [{ heading: "What counts as complex", body: "<p>Re-do biliary surgery, large liver resections, and any case with prior failed intervention. Each case is planned with triphasic CT or MRI, liver function testing and multidisciplinary review.</p>" }],
+    faq: [{ q: "Are these surgeries done laparoscopically?", a: "Many are — case selection drives the approach, and liver function and remnant liver volume decide whether a minimally invasive or open resection is safer." }],
     related: [
       { to: "/treatment/hepatobiliary-surgery/", label: "Hepatobiliary Surgery", title: "Hepatobiliary surgery" },
       { to: "/dr-murshidul-arefin/", label: "About Dr. Arefin", title: "About Dr. Arefin" },
@@ -1034,22 +979,6 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
   },
   /* ───────── Metric numbers (T08) ───────── */
-  {
-    slug: "/years-of-experience",
-    kicker: "Track record",
-    title: "8+ Years of Hepatobiliary Surgical Experience — Dr. Arefin",
-    metaDesc: "Eight-plus years of dedicated hepatobiliary, liver, gallbladder, and pancreatic surgical practice in Dhaka — Dr. Murshidul Arefin's clinical track record.",
-    h1: "8+ Years of Surgical Experience",
-    intro: "<p>A focused subspecialty career spanning more than eight years of hepatobiliary surgical practice in Dhaka.</p>",
-    heroImage: IMG.bestSurgeon,
-    heroAlt: "8+ years of hepatobiliary surgical experience — Dr. Arefin",
-    sections: [{ heading: "What 8+ years means", body: "<p>Years of repeated exposure to complex liver, gallbladder, and pancreas cases — the strongest single predictor of surgical outcome.</p>" }],
-    faq: [{ q: "Where were these years practised?", a: "Across Popular Medical College Hospital and other tertiary centres in Dhaka." }],
-    related: [
-      { to: "/dr-murshidul-arefin/", label: "About Dr. Arefin", title: "About Dr. Murshidul Arefin" },
-      { to: "/successful-surgeries/", label: "800+ Surgeries", title: "800+ successful surgeries" },
-    ],
-  },
   {
     slug: "/successful-surgeries",
     kicker: "Clinical volume",
@@ -1319,54 +1248,6 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
   },
 
-  {
-    slug: "/treatment/liver-tumor-cancer-surgery-dhaka",
-    kicker: "Liver Tumor Surgery",
-    title: "Liver Tumor & Cancer Surgery in Dhaka — Dr. Murshidul Arefin",
-    metaDesc: "Liver tumor and cancer surgery in Dhaka — hepatic resection for benign and malignant liver tumors by Dr. Murshidul Arefin, fellowship-trained hepatobiliary surgeon.",
-    h1: "Liver Tumor & Cancer Surgery in Dhaka",
-    intro: "<p><strong>Liver tumor and cancer surgery</strong> offers the best chance of cure for patients with primary and secondary liver cancers. Dr. Murshidul Arefin, a fellowship-trained hepatobiliary surgeon at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>, performs precise hepatic resections for hepatocellular carcinoma, metastatic colorectal cancer, and benign liver tumours — with outcomes that meet international standards.</p>",
-    heroImage: IMG.liverSurgeon,
-    heroAlt: "Liver tumor and cancer surgery — Dr. Murshidul Arefin performing hepatic resection in Dhaka",
-    sections: [
-      {
-        heading: "Types of liver tumours treated",
-        body: "<p>Dr. Arefin surgically manages both benign and malignant liver tumours. Benign tumours include <strong>hepatic adenomas</strong>, <strong>focal nodular hyperplasia (FNH)</strong>, and <strong>haemangiomas</strong> — removed when they cause symptoms, grow rapidly, or cannot be confidently distinguished from cancer.</p><p>Malignant tumours include <strong>hepatocellular carcinoma (HCC)</strong>, the most common primary liver cancer, and <strong>metastases</strong> from colorectal, breast, and other cancers. For selected patients with limited metastases, liver resection can be curative.</p>",
-      },
-      {
-        heading: "Surgical options for liver cancer",
-        body: "<p>The choice of surgery depends on tumour size, number, location, and the patient's liver function. Options include:</p><ul><li><strong>Anatomical resection</strong> — removing the tumour along with its vascular territory for clear margins</li><li><strong>Non-anatomical (wedge) resection</strong> — removing just the tumour with a small margin, preserving more liver</li><li><strong>Two-stage hepatectomy</strong> — for extensive bilobar disease, removing tumours in stages with portal vein embolisation between stages</li><li><strong>Associating liver partition and portal vein ligation (ALPPS)</strong> — for rapid liver growth between stages in select cases</li></ul>",
-      },
-      {
-        heading: "Minimally invasive versus open approach",
-        body: "<p>Dr. Arefin performs selected liver tumour resections <a href='/treatment/laparoscopic-surgery/' title='Laparoscopic surgery in Dhaka'>laparoscopically</a> when tumours are small and peripherally located. Laparoscopic liver resection offers faster recovery, less pain, and shorter hospital stays.</p><p>For large tumours, central lesions near major vessels, or cases requiring complex vascular reconstruction, open surgery remains the gold standard. Dr. Arefin uses intraoperative ultrasound, low central venous pressure, and precise vascular control to optimise outcomes.</p>",
-      },
-      {
-        heading: "Outcomes and prognosis after liver tumour surgery",
-        body: "<p>Outcomes depend on tumour biology, stage, and the quality of surgery. For early HCC in patients with well-preserved liver function, 5-year survival after resection can exceed 60–70%. For colorectal liver metastases, complete resection offers 5-year survival rates of 40–50%.</p><p>Dr. Arefin works closely with medical and radiation oncologists to coordinate adjuvant and neoadjuvant therapies, ensuring patients receive comprehensive multidisciplinary care. <a href='/contact/' title='Contact Dr. Arefin'>Schedule a consultation</a> to discuss your case.</p>",
-      },
-    ],
-    faq: [
-      {
-        q: "Is liver tumour surgery safe",
-        a: "In experienced hands, liver resection is safe with mortality rates below 2–3% in healthy livers. The key is choosing a high-volume hepatobiliary surgeon like Dr. Arefin and a hospital with modern ICU and blood bank support.",
-      },
-      {
-        q: "How much liver can be removed safely",
-        a: "Surgeons can remove up to 70–75% of a healthy liver, which then regenerates over 6–8 weeks. For cirrhotic livers, the safe limit is lower, and future liver remnant must be carefully calculated.",
-      },
-      {
-        q: "What is recovery like after liver tumour surgery",
-        a: "Hospital stay is typically 5–10 days. Most patients resume light activities within 4–6 weeks and normal life by 2–3 months. Regular follow-up with imaging surveillance continues long-term to detect recurrence early.",
-      },
-    ],
-    related: [
-      { to: "/treatment/liver-surgery/", label: "Advanced Liver Surgery", title: "Comprehensive liver surgery by Dr. Arefin" },
-      { to: "/treatment/complex-hepatic-resection/", label: "Complex Hepatic Resection", title: "Extended hepatectomy and major resection" },
-      { to: "/treatment/minimally-invasive-liver-surgery-dhaka/", label: "Minimally Invasive Liver Surgery", title: "Laparoscopic liver surgery techniques" },
-      { to: "/treatment/liver-cyst-surgery-dhaka/", label: "Liver Cyst Surgery", title: "Liver cyst removal and fenestration" },
-    ],
-  },
 
   {
     slug: "/treatment/liver-cyst-surgery-dhaka",
@@ -1506,6 +1387,34 @@ export const SATELLITE_PAGES: SatellitePage[] = [
         q: "How much faster is recovery after laparoscopic liver surgery",
         a: "Most patients stay 2–4 days in hospital and return to normal activities within 2–3 weeks. Open surgery typically requires 7–10 days in hospital and 6–8 weeks for full recovery. The difference is most noticeable in the first month.",
       },
+
+  {
+    slug: "/treatment/liver-surgery-recovery",
+    kicker: "Liver Surgery",
+    title: "Liver Surgery Recovery in Dhaka — Dr. Arefin",
+    metaDesc: "Liver surgery recovery in Dhaka — what to expect after liver resection, follow-up, rehabilitation and long-term liver care with Dr. Murshidul Arefin.",
+    h1: "Liver Surgery Recovery & Follow-Up in Dhaka",
+    intro: "<p>Recovery after <strong>liver surgery</strong> is a planned process, not just rest. The liver regenerates, but liver function, wound healing and nutrition all need monitoring in the first weeks. <a href='/about/' title='Dr. Murshidul Arefin'>Dr. Murshidul Arefin</a> and his team at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>, follow every patient through discharge, review and long-term liver care.</p>",
+    heroImage: IMG.liverSurgeon,
+    heroAlt: "Liver surgery recovery and follow-up — Dr. Murshidul Arefin, Dhaka",
+    sections: [
+      { heading: "The first days after liver surgery", body: "<p>Most patients spend the first days in a monitored bed with liver function, clotting and drain output checked daily. Walking starts the day after surgery, and a light diet resumes as the bowel recovers. Pain is controlled with oral medicines once drains are out.</p>" },
+      { heading: "Discharge and the first two weeks", body: "<p>Discharge is usually within a week for uncomplicated resection, with clear instructions on wound care, diet and activity. The first review is at about two weeks, when the wound, blood tests and histology report are checked together.</p>" },
+      { heading: "Rehabilitation and diet", body: "<p>Rehabilitation is gradual: light activity first, then normal activity over 4–6 weeks. A high-protein diet supports liver regeneration, and alcohol is avoided while the liver heals. Patients with fatty liver or diabetes receive metabolic follow-up alongside surgical review.</p>" },
+      { heading: "Long-term follow-up", body: "<p>Long-term follow-up depends on why surgery was done — imaging and blood tests for tumour patients, liver function monitoring for others. The liver regenerates over weeks to months, and most patients return to full activity. <a href='/contact/' title='Book a follow-up consultation'>Book a follow-up consultation</a> if you have questions after surgery.</p>" },
+    ],
+    faq: [
+      { q: "How long does recovery after liver resection take?", a: "Most patients leave hospital within a week and return to light activity in 2–3 weeks. Full recovery takes 4–6 weeks, and the liver continues to regenerate over the following months." },
+      { q: "What diet should I follow after liver surgery?", a: "A high-protein, balanced diet supports liver regeneration. Alcohol should be avoided while the liver heals, and fatty meals are introduced gradually." },
+      { q: "How often do I need follow-up after liver surgery?", a: "A first review at about two weeks, then reviews at intervals set by the reason for surgery — more frequent imaging for tumour patients, routine liver function checks for others." },
+    ],
+    related: [
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery overview" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
+      { to: "/treatment/minimally-invasive-liver-surgery-dhaka/", label: "Minimally Invasive Liver Surgery", title: "Minimally invasive liver surgery in Dhaka" },
+      { to: "/contact/", label: "Book Consultation", title: "Book a consultation with Dr. Arefin" },
+    ],
+  },
     ],
     related: [
       { to: "/treatment/liver-surgery/", label: "Advanced Liver Surgery", title: "Comprehensive liver surgery by Dr. Arefin" },
@@ -1515,144 +1424,117 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
   },
 
-  /* ───────────── Gallbladder cluster — hand-authored ───────────── */
+  /* ───────────── Liver cluster (was Gallbladder) — hand-authored ───────────── */
+
   {
-    slug: "/treatment/laparoscopic-cholecystectomy-dhaka",
-    kicker: "Gallbladder Surgery",
-    title: "Laparoscopic Cholecystectomy in Dhaka — Dr. Arefin",
-    metaDesc: "Laparoscopic cholecystectomy in Dhaka — keyhole gallbladder removal for gallstones by Dr. Murshidul Arefin at Popular Medical College Hospital, Dhanmondi.",
-    h1: "Laparoscopic Cholecystectomy Dhaka",
-    intro: "<p><strong>Laparoscopic cholecystectomy</strong> is the gold-standard treatment for symptomatic gallstones — a keyhole procedure to remove the diseased gallbladder through 3–4 small incisions. <a href='/about/' title='Dr. Murshidul Arefin — gallbladder surgeon'>Dr. Murshidul Arefin</a> performs over 200 laparoscopic cholecystectomies each year at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a> — most as same-day or next-day discharges.</p>",
-    heroImage: IMG.laparoscopic,
-    heroAlt: "Laparoscopic cholecystectomy on Storz screen — Dr. Arefin's OT in Dhaka",
+    slug: "/treatment/benign-liver-tumour-surgery-dhaka",
+    kicker: "Liver Surgery",
+    title: "Benign Liver Tumour Surgery in Dhaka — Dr. Arefin",
+    metaDesc: "Benign liver tumour surgery in Dhaka — haemangioma, adenoma and FNH assessed and resected by liver surgeon Dr. Murshidul Arefin at Popular Medical College Hospital.",
+    h1: "Benign Liver Tumour Surgery in Dhaka",
+    intro: "<p><strong>Benign liver tumours</strong> — haemangioma, hepatic adenoma and focal nodular hyperplasia (FNH) — are non-cancerous growths in the liver. Most are found by chance on imaging and need no surgery, but some cause pain, grow, or carry a risk of bleeding and need expert assessment. <a href='/about/' title='Dr. Murshidul Arefin'>Dr. Murshidul Arefin</a>, a liver surgeon at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>, assesses each tumour on its imaging, size and symptoms before recommending surgery or surveillance.</p>",
+    heroImage: IMG.bileDuct,
+    heroAlt: "Liver tumour surgery — Dr. Murshidul Arefin, liver surgeon in Dhaka",
     sections: [
-      { heading: "What laparoscopic cholecystectomy involves", body: "<p>Under general anaesthesia, 3–4 small incisions (5–12 mm) are made in the abdomen. A high-definition camera and long instruments are passed in to dissect the gallbladder away from the liver bed and the bile ducts. The cystic duct and cystic artery are clipped and divided, and the gallbladder is extracted through the umbilical port in a retrieval bag. The whole operation takes 30–60 minutes for routine cases.</p>" },
-      { heading: "When this surgery is needed", body: "<ul><li>Symptomatic <a href='/conditions/gallstones/' title='Gallstones'>gallstones</a> with biliary colic, fatty-food intolerance, or jaundice</li><li><a href='/treatment/cholecystitis-surgery-dhaka/' title='Cholecystitis surgery'>Acute or chronic cholecystitis</a></li><li>Gallbladder polyps &gt;1 cm or rapidly growing</li><li>Asymptomatic stones in diabetics, transplant candidates, or before bariatric surgery</li><li>Porcelain gallbladder (calcified wall — premalignant)</li></ul>" },
-      { heading: "Recovery and discharge", body: "<p>Most patients eat a light meal within 4–6 hours of surgery and walk the same evening. Hospital stay is typically <strong>same-day or one night</strong>. Wound pain is mild and controlled with oral analgesics. Patients return to desk work in 5–7 days and to manual work or driving in 10–14 days. The umbilical and subcostal scars fade over 3–6 months.</p>" },
-      { heading: "Why laparoscopic over open surgery", body: "<p>Compared to open cholecystectomy, the laparoscopic approach offers smaller scars, less wound pain, lower wound-infection and incisional-hernia rates, shorter hospital stay (1 day versus 5–7), and faster return to work (1 week versus 4–6). Open conversion is needed in &lt;3% of routine cases. Dr. Arefin will convert promptly when patient safety requires it — this is judgment, not failure. <a href='/contact/' title='Book consultation'>Book a consultation</a> to discuss your case.</p>" },
+      { heading: "Which benign liver tumours need surgery", body: "<ul><li>Haemangioma causing pain, pressure or rapid growth</li><li>Hepatic adenoma — especially large adenomas or adenomas in women planning pregnancy, because of bleeding and rupture risk</li><li>Focal nodular hyperplasia (FNH) that is symptomatic or uncertain on imaging</li><li>Any liver lesion where imaging cannot exclude cancer — tissue diagnosis and resection may be needed</li></ul>" },
+      { heading: "How benign liver tumours are diagnosed", body: "<p>Diagnosis starts with <strong>triphasic CT or MRI of the liver</strong>, which shows the blood-flow pattern of the lesion, plus liver function tests and tumour markers. A biopsy is avoided for haemangioma because of bleeding risk. Dr. Arefin reviews the imaging with radiology before deciding between surveillance, further imaging, or surgery.</p>" },
+      { heading: "Surgical approach", body: "<p>When surgery is needed, the operation is a <strong>liver resection (hepatectomy)</strong> — removing the tumour with a margin of healthy liver — performed open or minimally invasively depending on tumour size and position. Small, well-placed tumours may be removed laparoscopically; larger or centrally placed tumours need open surgery. The amount of liver removed is planned around remnant liver volume, so enough healthy liver remains to recover.</p>" },
+      { heading: "Recovery and follow-up", body: "<p>Hospital stay is typically a few days after resection, with liver function monitored closely in the first week. Most patients return to light activity within 2–3 weeks and to full activity within 6 weeks. Follow-up imaging confirms the remaining liver has regenerated and no new lesion has appeared. <a href='/contact/' title='Book consultation'>Book a consultation</a> to discuss your imaging.</p>" },
     ],
     faq: [
-      { q: "Will I need to follow a special diet after gallbladder removal?", a: "Most patients tolerate a normal diet within a week. Fatty meals may cause loose stools for the first 4–6 weeks while the bile-flow pattern adjusts — this almost always settles. No long-term restrictions are required for most patients." },
-      { q: "Can gallstones come back after the gallbladder is removed?", a: "No — once the gallbladder is removed, gallbladder stones cannot recur. Stones can rarely form inside the bile ducts (choledocholithiasis); these are managed by ERCP or bile-duct exploration if they occur." },
-      { q: "Is single-incision (SILS) cholecystectomy available?", a: "Single-incision cholecystectomy is offered for selected slim patients with uncomplicated stones, but the standard 4-port technique remains safer for most cases. Dr. Arefin will recommend the safest approach for your anatomy." },
+      { q: "Do benign liver tumours need surgery?", a: "Not always. Many haemangiomas and FNH lesions are watched with regular imaging. Surgery is recommended when a tumour causes pain, grows, risks bleeding, or cannot be distinguished from cancer on imaging." },
+      { q: "Can a benign liver tumour turn cancerous?", a: "Haemangioma and FNH almost never turn cancerous. Some hepatic adenomas carry a small risk of malignant change, which is one reason large adenomas are usually resected." },
+      { q: "Is liver resection safe for a benign tumour?", a: "Liver resection is major surgery, so it is only recommended when the benefit outweighs the risk. Planning around imaging, liver function and remnant liver volume is what makes it safe — this is the core of hepatobiliary surgical planning." },
     ],
     related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Comprehensive gallbladder surgery overview" },
-      { to: "/conditions/gallstones/", label: "Gallstones", title: "Gallstones — symptoms and treatment" },
-      { to: "/treatment/gallstone-removal-dhaka/", label: "Gallstone Removal", title: "Gallstone removal in Dhaka" },
-      { to: "/treatment/cholecystitis-surgery-dhaka/", label: "Cholecystitis Surgery", title: "Acute and chronic cholecystitis surgery" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
+      { to: "/treatment/liver-cyst-surgery-dhaka/", label: "Liver Cyst Surgery", title: "Liver cyst surgery in Dhaka" },
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery overview" },
+      { to: "/treatment/minimally-invasive-liver-surgery-dhaka/", label: "Minimally Invasive Liver Surgery", title: "Minimally invasive liver surgery in Dhaka" },
     ],
   },
 
   {
-    slug: "/treatment/gallstone-removal-dhaka",
-    kicker: "Gallbladder Surgery",
-    title: "Gallstone Removal Surgery Dhaka — Dr. Arefin",
-    metaDesc: "Gallstone removal surgery in Dhaka — laparoscopic cholecystectomy and gallbladder stone removal by Dr. Murshidul Arefin at Popular Medical College Hospital, Dhanmondi.",
-    h1: "Gallstone Removal Dhaka",
-    intro: "<p><strong>Gallstones</strong> are hardened deposits inside the gallbladder. Once they cause pain, infection, or jaundice, surgical removal is the only definitive cure. <a href='/about/' title='Dr. Murshidul Arefin'>Dr. Murshidul Arefin</a> offers <a href='/treatment/laparoscopic-cholecystectomy-dhaka/' title='Laparoscopic cholecystectomy'>laparoscopic gallstone removal</a> as a routine day-care procedure at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>.</p>",
-    heroImage: IMG.gallstones,
-    heroAlt: "Gallbladder stones removed laparoscopically — Dr. Arefin's surgery in Dhaka",
+    slug: "/treatment/liver-abscess-dhaka",
+    kicker: "Liver Surgery",
+    title: "Liver Abscess Treatment in Dhaka — Dr. Arefin",
+    metaDesc: "Liver abscess treatment in Dhaka — drainage and surgery for pyogenic and amoebic liver abscess by liver surgeon Dr. Murshidul Arefin at Popular Medical College Hospital.",
+    h1: "Liver Abscess Treatment in Dhaka",
+    intro: "<p>A <strong>liver abscess</strong> is a pus-filled cavity in the liver, usually caused by bacterial infection or amoebic infection. It causes fever, right-upper-abdominal pain and a feeling of being seriously unwell, and it needs urgent treatment. <a href='/about/' title='Dr. Murshidul Arefin'>Dr. Murshidul Arefin</a>, a liver surgeon at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>, treats liver abscess with antibiotics, image-guided drainage and, when needed, surgery.</p>",
+    heroImage: IMG.hepatobiliary,
+    heroAlt: "Liver abscess treatment — Dr. Murshidul Arefin, liver surgeon in Dhaka",
     sections: [
-      { heading: "Symptoms that mean stones need removal", body: "<ul><li>Right upper-abdominal pain after fatty meals (biliary colic)</li><li>Pain radiating to the right shoulder or back</li><li>Nausea, vomiting, fatty-food intolerance</li><li>Yellowing of eyes or skin (jaundice — suggests bile-duct stone)</li><li>Fever with right-upper pain (cholecystitis or cholangitis — emergency)</li></ul>" },
-      { heading: "How stones are diagnosed and assessed", body: "<p>Diagnosis is straightforward with an <strong>abdominal ultrasound</strong>, which detects 95% of gallbladder stones. If a bile-duct stone is suspected (raised liver enzymes, jaundice, dilated ducts), Dr. Arefin orders an <strong>MRCP</strong> for non-invasive bile-duct mapping. Routine pre-op blood work and an ECG complete the workup.</p>" },
-      { heading: "Surgical approach", body: "<p>The standard treatment is <a href='/treatment/laparoscopic-cholecystectomy-dhaka/' title='Laparoscopic cholecystectomy in Dhaka'>laparoscopic cholecystectomy</a> — keyhole removal of the entire gallbladder containing the stones. If a stone has slipped into the common bile duct, Dr. Arefin performs <strong>laparoscopic common bile duct exploration</strong> at the same sitting, or coordinates pre-operative ERCP. Trying to remove only the stones (leaving the gallbladder) is not recommended — stones recur in &gt;90% of cases.</p>" },
-      { heading: "What happens if you ignore symptoms", body: "<p>Untreated symptomatic gallstones cause recurrent attacks and serious complications — <a href='/treatment/cholecystitis-surgery-dhaka/' title='Cholecystitis'>acute cholecystitis</a>, <a href='/treatment/empyema-gallbladder-dhaka/' title='Empyema'>empyema</a>, gallstone pancreatitis, cholangitis, and (rarely) gallbladder cancer. Elective day-care surgery is far safer than emergency surgery during an attack. <a href='/contact/' title='Book consultation'>Book a consultation</a> early.</p>" },
+      { heading: "What a liver abscess is", body: "<p>A liver abscess forms when infection reaches the liver through the bloodstream, the bile ducts, or from a nearby infection. <strong>Pyogenic abscess</strong> is bacterial; <strong>amoebic abscess</strong> follows amoebic dysentery and is common in Bangladesh. Without treatment an abscess can rupture into the chest or abdomen — a surgical emergency.</p>" },
+      { heading: "Symptoms and diagnosis", body: "<ul><li>Fever with chills and rigors, often for days</li><li>Right-upper-abdominal pain and tenderness</li><li>Loss of appetite and weight loss</li><li>Jaundice in some cases</li><li>Ultrasound and CT show a cavity in the liver; blood tests show raised white-cell count and liver enzymes</li></ul>" },
+      { heading: "Treatment — drainage and surgery", body: "<p>Most liver abscesses are treated with <strong>antibiotics plus image-guided percutaneous drainage</strong> — a needle or drain placed through the skin under ultrasound or CT guidance. Surgery is needed when drainage fails, the abscess is large or multi-loculated, it has ruptured, or the diagnosis is uncertain. Dr. Arefin performs open or laparoscopic drainage and, rarely, resection of the affected liver segment.</p>" },
+      { heading: "Recovery", body: "<p>Antibiotics continue for several weeks after drainage. Hospital stay is typically a few days, with repeat imaging to confirm the cavity is shrinking. Most patients recover fully, though large abscesses need longer follow-up. <a href='/contact/' title='Contact the chamber urgently'>Contact the chamber urgently</a> if fever and right-upper pain suggest a liver abscess.</p>" },
     ],
     faq: [
-      { q: "Can gallstones be dissolved with medicine?", a: "Oral bile-acid therapy (ursodeoxycholic acid) dissolves only small cholesterol stones in selected patients, takes 6–24 months, and stones recur in &gt;50% within 5 years. Surgery is the definitive cure for symptomatic stones." },
-      { q: "Is surgery needed for asymptomatic gallstones?", a: "Most asymptomatic stones do not require surgery. Exceptions: diabetics, sickle-cell patients, transplant candidates, stones &gt;3 cm, porcelain gallbladder, and patients planning pregnancy or bariatric surgery." },
-      { q: "How long is the surgery and hospital stay?", a: "Laparoscopic gallstone removal takes 30–60 minutes. Hospital stay is typically same-day or one night. Most patients return to work in 5–7 days." },
+      { q: "What is the treatment for liver abscess in Dhaka?", a: "Antibiotics plus image-guided drainage is the standard treatment. Surgery is needed when drainage fails, the abscess is large or ruptured, or the diagnosis is uncertain." },
+      { q: "Is a liver abscess dangerous?", a: "Yes — an untreated liver abscess can rupture and cause life-threatening infection in the chest or abdomen. Early antibiotics and drainage are life-saving." },
+      { q: "Can a liver abscess come back?", a: "Recurrence is uncommon if the abscess is fully drained and the full antibiotic course is completed. Follow-up imaging checks that the cavity has resolved." },
     ],
     related: [
-      { to: "/treatment/laparoscopic-cholecystectomy-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Keyhole gallbladder removal in Dhaka" },
-      { to: "/conditions/gallstones/", label: "Gallstones", title: "Gallstones — symptoms and treatment" },
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery overview" },
-      { to: "/treatment/cholecystitis-surgery-dhaka/", label: "Cholecystitis Surgery", title: "Surgery for inflamed gallbladder" },
-    ],
-  },
-
-  {
-    slug: "/treatment/empyema-gallbladder-dhaka",
-    kicker: "Gallbladder Surgery",
-    title: "Empyema Gallbladder Surgery Dhaka — Dr. Arefin",
-    metaDesc: "Empyema gallbladder surgery in Dhaka — urgent laparoscopic drainage and cholecystectomy for pus-filled gallbladder by Dr. Murshidul Arefin.",
-    h1: "Empyema Gallbladder Surgery Dhaka",
-    intro: "<p><strong>Empyema of the gallbladder</strong> is a surgical emergency — pus accumulates inside an obstructed gallbladder, causing severe sepsis and risk of perforation. <a href='/about/' title='Dr. Arefin — emergency hepatobiliary surgeon'>Dr. Murshidul Arefin</a> performs urgent laparoscopic drainage and cholecystectomy at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>, with 24-hour OT and ICU support.</p>",
-    heroImage: IMG.bestSurgeon,
-    heroAlt: "Emergency gallbladder surgery for empyema — Dr. Arefin's team in Dhaka",
-    sections: [
-      { heading: "What gallbladder empyema means", body: "<p>Empyema is the late stage of <a href='/treatment/cholecystitis-surgery-dhaka/' title='Acute cholecystitis'>acute cholecystitis</a>. The cystic duct is blocked by a stone, the trapped bile becomes infected, and the gallbladder distends with frank pus. Without urgent intervention, the wall can perforate — leading to bile peritonitis, abscess, and septic shock.</p>" },
-      { heading: "Symptoms and diagnosis", body: "<ul><li>Severe constant right-upper pain (worse than biliary colic)</li><li>High fever (often &gt;38.5 °C) with rigors</li><li>Tachycardia, low blood pressure (sepsis signs)</li><li>Tender, palpable mass in right upper abdomen</li><li>Raised white-cell count and CRP; ultrasound shows distended gallbladder with debris and thickened wall</li></ul>" },
-      { heading: "Surgical management", body: "<p>Treatment is <strong>urgent laparoscopic cholecystectomy</strong> within 24–72 hours of presentation, after IV antibiotics, fluid resuscitation, and (for unstable patients) percutaneous cholecystostomy drainage. Dr. Arefin uses a low-threshold for sub-total cholecystectomy when Calot's triangle anatomy is obscured by inflammation — this is safer than insisting on standard dissection in a fragile, septic patient.</p>" },
-      { heading: "Recovery", body: "<p>Hospital stay is typically 3–5 days for drainage of inflammation, IV antibiotics, and monitoring. A drain is sometimes left in the gallbladder fossa for 48 hours. Most patients return to normal activities within 3–4 weeks. Open conversion rates are higher (10–20%) than for elective surgery — patient safety always takes priority over the laparoscopic approach. <a href='/contact/' title='Emergency contact'>Contact the chamber urgently</a> if symptoms suggest empyema.</p>" },
-    ],
-    faq: [
-      { q: "Is gallbladder empyema dangerous?", a: "Yes — untreated empyema can lead to perforation, peritonitis, and septic shock with mortality rates of 10–20%. Early surgical drainage and antibiotics are life-saving." },
-      { q: "Can empyema be treated without surgery?", a: "Percutaneous cholecystostomy (a drain inserted under ultrasound) is a temporising measure for very unstable elderly patients. Definitive treatment requires cholecystectomy when the patient is fit." },
-      { q: "How is this different from acute cholecystitis?", a: "Acute cholecystitis is inflammation; empyema is the same disease with frank pus accumulation. Empyema patients are sicker, more septic, and need more urgent surgery." },
-    ],
-    related: [
-      { to: "/treatment/cholecystitis-surgery-dhaka/", label: "Cholecystitis Surgery", title: "Acute and chronic cholecystitis" },
-      { to: "/treatment/laparoscopic-cholecystectomy-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Keyhole gallbladder removal" },
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery overview" },
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery overview" },
+      { to: "/treatment/liver-cyst-surgery-dhaka/", label: "Liver Cyst Surgery", title: "Liver cyst surgery in Dhaka" },
+      { to: "/treatment/benign-liver-tumour-surgery-dhaka/", label: "Benign Liver Tumour Surgery", title: "Benign liver tumour surgery in Dhaka" },
       { to: "/contact/", label: "Emergency Contact", title: "Contact Dr. Arefin's clinic urgently" },
     ],
   },
 
   {
-    slug: "/treatment/gallbladder-cancer-resection-dhaka",
-    kicker: "Gallbladder Surgery",
-    title: "Gallbladder Cancer Resection Dhaka — Dr. Arefin",
-    metaDesc: "Gallbladder cancer resection in Dhaka — radical cholecystectomy and extended liver resection for gallbladder and bile-duct cancers by Dr. Murshidul Arefin.",
-    h1: "Gallbladder Cancer Resection Dhaka",
-    intro: "<p><strong>Gallbladder cancer</strong> is an aggressive hepatobiliary malignancy that requires radical surgical resection for curative treatment. <a href='/about/' title='Dr. Arefin — hepatobiliary cancer surgeon'>Dr. Murshidul Arefin</a> performs the full spectrum of gallbladder cancer surgery — from extended cholecystectomy to liver wedge resection and lymph-node clearance — at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>.</p>",
+    slug: "/treatment/liver-cancer-resection-dhaka",
+    kicker: "Liver Surgery",
+    title: "Liver Cancer Resection in Dhaka — Dr. Arefin",
+    metaDesc: "Liver cancer resection in Dhaka — hepatectomy for hepatocellular carcinoma and liver metastases by liver surgeon Dr. Murshidul Arefin at Popular Medical College Hospital.",
+    h1: "Liver Cancer Resection (Hepatectomy) in Dhaka",
+    intro: "<p><strong>Liver cancer</strong> — hepatocellular carcinoma (HCC) and cancer that has spread to the liver from elsewhere — is treated by surgical resection when the tumour can be removed with enough healthy liver left behind. <a href='/about/' title='Dr. Arefin — hepatobiliary cancer surgeon'>Dr. Murshidul Arefin</a> performs liver resection, from wedge resection to formal hepatectomy, at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>.</p>",
     heroImage: IMG.bileDuct,
-    heroAlt: "Hepatobiliary oncology surgery for gallbladder cancer — Dr. Arefin's team",
+    heroAlt: "Liver cancer resection surgery — Dr. Murshidul Arefin, liver surgeon in Dhaka",
     sections: [
-      { heading: "Who needs gallbladder cancer resection", body: "<ul><li>Suspicious gallbladder mass or thickening on imaging</li><li>Incidentally found cancer after routine cholecystectomy (T1b or higher)</li><li>Gallbladder polyps &gt;1 cm with malignant features</li><li>Porcelain gallbladder with mass</li><li>Selected metastatic disease for palliative bypass</li></ul>" },
-      { heading: "Surgical procedures", body: "<p>The extent of surgery depends on T-stage. <strong>T1a</strong> (mucosa only) is cured by simple cholecystectomy. <strong>T1b–T3</strong> requires <strong>extended (radical) cholecystectomy</strong> — removal of the gallbladder en bloc with a 2 cm wedge of liver bed (segments IVb and V) and porta hepatis lymphadenectomy. Selected <strong>T3–T4</strong> tumours invading adjacent liver may need formal right hepatectomy or extended right hepatectomy with bile-duct resection — overlapping with <a href='/treatment/cholangiocarcinoma-surgery-dhaka/' title='Cholangiocarcinoma surgery'>cholangiocarcinoma surgery</a>.</p>" },
-      { heading: "Multidisciplinary care", body: "<p>Every gallbladder cancer case at Dr. Arefin's practice is reviewed in a multidisciplinary tumour board with radiology, oncology, and pathology. Adjuvant chemotherapy (capecitabine) is recommended for T2 and above, or for node-positive disease. This integrated pathway gives the best long-term survival outcomes.</p>" },
-      { heading: "Outcomes and follow-up", body: "<p>5-year survival is 80–90% for T1a, 50–70% for T1b–T2 with R0 resection, and 20–40% for T3 disease. Structured follow-up includes 3-monthly imaging and tumour-marker (CA 19-9) review for the first 2 years. <a href='/contact/' title='Book oncology consultation'>Book a consultation</a> for second opinion or surgical planning.</p>" },
+      { heading: "Who needs liver cancer resection", body: "<ul><li>Hepatocellular carcinoma (HCC) confined to the liver with adequate remnant liver</li><li>Liver metastases, most commonly from colorectal cancer, that can be removed completely</li><li>Selected bile-duct cancers involving the liver</li><li>Tumours found incidentally on imaging that need tissue diagnosis and resection</li></ul>" },
+      { heading: "Surgical procedures", body: "<p>The extent of surgery depends on tumour size, number and position, and on liver function and remnant liver volume. Options range from <strong>wedge resection</strong> of a small peripheral tumour to <strong>segmentectomy, sectionectomy, or formal right or left hepatectomy</strong>. Every case is planned with triphasic CT or MRI, liver function testing and, where needed, assessment of portal hypertension. Selected cases are discussed in a multidisciplinary tumour board with radiology, oncology and pathology.</p>" },
+      { heading: "Multidisciplinary care", body: "<p>Liver cancer is rarely treated by surgery alone. Depending on the case, treatment may combine resection with ablation, transarterial chemoembolisation (TACE), targeted therapy or immunotherapy, coordinated with oncology. This integrated pathway gives the best long-term outcomes.</p>" },
+      { heading: "Outcomes and follow-up", body: "<p>Outcomes depend on tumour stage, liver function and whether the resection is complete (R0). Structured follow-up includes regular imaging and tumour-marker review, with early detection of recurrence the goal. <a href='/contact/' title='Book oncology consultation'>Book a consultation</a> for a second opinion or surgical planning.</p>" },
     ],
     faq: [
-      { q: "Can gallbladder cancer be diagnosed before surgery?", a: "Pre-operative diagnosis is difficult — most tumours present as gallbladder thickening or polyps on ultrasound. CT and MRI help with staging, and EUS-guided biopsy is sometimes used. Approximately 1–2% of routine cholecystectomies reveal incidental cancer on histology." },
-      { q: "What if cancer is found incidentally after a routine cholecystectomy?", a: "If the depth is T1b or greater, a second-stage radical resection (liver wedge plus lymphadenectomy) is recommended within 4–8 weeks. Dr. Arefin manages many such referrals from other surgeons across Bangladesh." },
-      { q: "Is liver transplant ever an option?", a: "Liver transplantation is not standard treatment for gallbladder cancer due to high recurrence rates. Resection with adjuvant chemotherapy remains the curative pathway." },
+      { q: "Can liver cancer be cured by surgery?", a: "When a liver cancer is confined to the liver and can be removed completely with enough healthy liver remaining, resection offers the best chance of cure. Outcomes depend on tumour stage and liver function." },
+      { q: "What if the tumour is too large to remove?", a: "Large tumours may first be treated with ablation, TACE or systemic therapy to shrink them, after which resection may become possible. A multidisciplinary review decides the sequence." },
+      { q: "Is liver transplant ever an option for liver cancer?", a: "Liver transplantation is an option for selected patients with HCC within defined criteria and end-stage liver disease. Dr. Arefin coordinates transplant evaluation and referral — see the liver transplant pages for details." },
     ],
     related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery overview" },
-      { to: "/treatment/cholangiocarcinoma-surgery-dhaka/", label: "Cholangiocarcinoma Surgery", title: "Bile-duct cancer surgery" },
-      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumor Surgery", title: "Liver tumour and cancer resection" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery overview" },
+      { to: "/treatment/minimally-invasive-liver-surgery-dhaka/", label: "Minimally Invasive Liver Surgery", title: "Minimally invasive liver surgery in Dhaka" },
       { to: "/second-opinion/", label: "Second Opinion", title: "Independent surgical review" },
     ],
   },
 
   {
-    slug: "/treatment/cholecystitis-surgery-dhaka",
-    kicker: "Gallbladder Surgery",
-    title: "Cholecystitis Surgery Dhaka — Dr. Arefin",
-    metaDesc: "Cholecystitis surgery in Dhaka — acute and chronic gallbladder inflammation treated with minimally invasive laparoscopic cholecystectomy by Dr. Murshidul Arefin.",
-    h1: "Cholecystitis Surgery Dhaka",
-    intro: "<p><strong>Cholecystitis</strong> is inflammation of the gallbladder, almost always caused by gallstones obstructing the cystic duct. Both acute and chronic cholecystitis are best treated by <a href='/treatment/laparoscopic-cholecystectomy-dhaka/' title='Laparoscopic cholecystectomy'>laparoscopic cholecystectomy</a>. <a href='/about/' title='Dr. Arefin — gallbladder surgeon'>Dr. Murshidul Arefin</a> manages both elective and emergency cholecystitis cases at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>.</p>",
-    heroImage: IMG.fatty,
-    heroAlt: "Laparoscopic gallbladder surgery for cholecystitis — Dr. Arefin's OT team",
+    slug: "/treatment/acute-liver-conditions-dhaka",
+    kicker: "Liver Surgery",
+    title: "Acute Liver Conditions in Dhaka — Dr. Arefin",
+    metaDesc: "Acute liver conditions in Dhaka — urgent assessment of acute liver failure, liver abscess and liver trauma by liver surgeon Dr. Murshidul Arefin at Popular Medical College Hospital.",
+    h1: "Acute Liver Conditions & Emergency Liver Surgery in Dhaka",
+    intro: "<p>Some liver conditions need <strong>urgent assessment</strong> — sudden liver failure, a ruptured liver abscess or cyst, bleeding liver tumours, and liver injury after trauma. <a href='/about/' title='Dr. Arefin — liver surgeon'>Dr. Murshidul Arefin</a>, a liver surgeon at <a href='/popular-medical-college-hospital/' title='Popular Medical College Hospital'>Popular Medical College Hospital, Dhanmondi</a>, provides urgent hepatobiliary assessment with 24-hour OT and ICU support, and operates when surgery is the safest option.</p>",
+    heroImage: IMG.hepatobiliary,
+    heroAlt: "Emergency liver surgery — Dr. Murshidul Arefin, liver surgeon in Dhaka",
     sections: [
-      { heading: "Acute versus chronic cholecystitis", body: "<p><strong>Acute cholecystitis</strong> presents with sudden severe right-upper-abdominal pain, fever, and a tender, palpable gallbladder (positive Murphy's sign). <strong>Chronic cholecystitis</strong> presents with recurrent biliary colic and fatty-food intolerance over months. Both are caused by gallstone-induced cystic-duct obstruction in &gt;95% of cases.</p>" },
-      { heading: "Diagnosis and timing of surgery", body: "<p>Ultrasound confirms a thickened (&gt;3 mm) gallbladder wall, pericholecystic fluid, and stones. Modern guidelines (Tokyo Guidelines) recommend <strong>early laparoscopic cholecystectomy within 72 hours</strong> of acute presentation — this is safer than the old practice of cooling down with antibiotics and operating 6 weeks later. Dr. Arefin follows this evidence-based pathway whenever the patient is stable.</p>" },
-      { heading: "Surgical approach", body: "<p>The standard operation is <a href='/treatment/laparoscopic-cholecystectomy-dhaka/' title='Laparoscopic cholecystectomy'>laparoscopic cholecystectomy</a>, often with placement of a sub-hepatic drain for 24–48 hours when significant inflammation is present. In severe inflammation that obscures Calot's triangle, Dr. Arefin uses a <strong>sub-total cholecystectomy</strong> — removing the gallbladder dome and stones while leaving a small cuff. This is far safer than risking bile-duct injury and is fully accepted modern practice.</p>" },
-      { heading: "Recovery", body: "<p>Hospital stay is typically 1–3 days for acute cases and same-day for chronic cases. Patients return to office work in 1 week and to manual work in 2–3 weeks. Untreated cholecystitis can progress to <a href='/treatment/empyema-gallbladder-dhaka/' title='Empyema'>empyema</a>, gangrene, or perforation — early surgery is far safer than delay. <a href='/contact/' title='Book consultation'>Book a consultation</a> as soon as symptoms appear.</p>" },
+      { heading: "Acute liver conditions that need urgent care", body: "<ul><li>Acute liver failure — sudden loss of liver function, with jaundice, confusion and clotting problems</li><li>Ruptured liver abscess or ruptured liver cyst</li><li>Bleeding liver tumour (haemangioma or adenoma rupture)</li><li>Liver injury after road traffic accident or fall</li><li>Severe infection of the liver or bile ducts with sepsis</li></ul>" },
+      { heading: "Diagnosis and timing", body: "<p>Urgent assessment starts with blood tests (liver function, clotting, lactate), ultrasound and CT of the liver. The decision — operate now, drain first, or stabilise and plan — is made on imaging, liver function and how unwell the patient is. Early hepatobiliary review matters: delay turns a drainage procedure into a major emergency operation.</p>" },
+      { heading: "Surgical approach", body: "<p>Emergency liver surgery ranges from drainage of an abscess or cyst, to control of bleeding, to resection of a damaged or ruptured liver segment. In unstable patients Dr. Arefin uses damage-control principles — stop the bleeding, drain the infection, and return for definitive surgery when the patient is stable. This judgement is the core of emergency hepatobiliary surgery.</p>" },
+      { heading: "Recovery", body: "<p>Recovery after emergency liver surgery needs close monitoring of liver function, clotting and infection, usually in ICU for the first days. Follow-up imaging confirms the liver is healing. <a href='/contact/' title='Contact the chamber urgently'>Contact the chamber urgently</a> if symptoms suggest an acute liver condition.</p>" },
     ],
     faq: [
-      { q: "Is early surgery safer than waiting?", a: "Yes — early laparoscopic cholecystectomy (within 72 hours) is now the global standard. It has lower complication rates, shorter total hospital stay, and avoids the risk of recurrent attacks while waiting." },
-      { q: "Can cholecystitis be treated with antibiotics alone?", a: "Antibiotics alone are reserved for very unfit patients who cannot undergo surgery — they treat the infection but do not remove the underlying stones, so recurrence is common (30–50% within one year)." },
-      { q: "Does chronic cholecystitis always need surgery?", a: "If symptoms are recurrent and stones are confirmed, surgery is recommended to prevent acute attacks, complications, and the small long-term risk of gallbladder cancer." },
+      { q: "When is liver surgery an emergency?", a: "When there is bleeding, rupture, or rapidly worsening liver failure. Fever with severe right-upper pain, jaundice with confusion, or abdominal injury with bleeding all need urgent hepatobiliary review." },
+      { q: "Can acute liver failure be treated with surgery?", a: "Surgery is not the treatment for most acute liver failure — intensive care and, in selected cases, liver transplant evaluation are. Surgery is needed when there is a surgical cause: rupture, bleeding, abscess or obstruction." },
+      { q: "What should I do if I suspect an acute liver problem?", a: "Seek urgent care the same day. Bring all recent blood tests and imaging — the hepatobiliary team will assess liver function and imaging before deciding on drainage, surgery or referral." },
     ],
     related: [
-      { to: "/treatment/laparoscopic-cholecystectomy-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Keyhole gallbladder removal" },
-      { to: "/treatment/empyema-gallbladder-dhaka/", label: "Gallbladder Empyema", title: "Surgery for pus-filled gallbladder" },
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery overview" },
-      { to: "/conditions/gallstones/", label: "Gallstones", title: "Gallstones — symptoms and treatment" },
+      { to: "/treatment/liver-abscess-dhaka/", label: "Liver Abscess Treatment", title: "Liver abscess treatment in Dhaka" },
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery overview" },
+      { to: "/treatment/liver-cancer-resection-dhaka/", label: "Liver Cancer Resection", title: "Liver cancer resection in Dhaka" },
+      { to: "/contact/", label: "Emergency Contact", title: "Contact Dr. Arefin's clinic urgently" },
     ],
   },
 
@@ -1725,7 +1607,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     sections: [
       { heading: "Severity grading and initial management", body: "<p>Severity is graded by the <strong>Tokyo Guidelines</strong>: Grade I (mild), Grade II (moderate), Grade III (severe with organ failure). Initial management for all grades includes IV fluids, broad-spectrum antibiotics covering Gram-negative and anaerobic organisms (piperacillin-tazobactam or carbapenem), and prompt biliary drainage. Severe cases need ICU support.</p>" },
       { heading: "Biliary decompression — first-line treatment", body: "<p><strong>Urgent biliary drainage within 24 hours</strong> is the cornerstone of treatment. Options:</p><ul><li><strong>ERCP with sphincterotomy and stone extraction</strong> — first choice for stone-related cholangitis</li><li><strong>Percutaneous transhepatic biliary drainage (PTBD)</strong> — when ERCP fails or is anatomically impossible</li><li><strong>Emergency surgical decompression</strong> — reserved for failed ERCP/PTBD or where these are unavailable</li></ul>" },
-      { heading: "Definitive surgery after recovery", body: "<p>Once the infection is controlled, definitive surgery addresses the underlying cause: <a href='/treatment/laparoscopic-cholecystectomy-dhaka/' title='Laparoscopic cholecystectomy'>laparoscopic cholecystectomy</a> for stones (within 4–6 weeks), <a href='/treatment/bile-duct-obstruction-surgery-dhaka/' title='Bile duct reconstruction'>bile-duct reconstruction</a> for strictures, or resection for tumours. Skipping definitive surgery leads to recurrent attacks and progressive liver damage.</p>" },
+      { heading: "Definitive surgery after recovery", body: "<p>Once the infection is controlled, definitive surgery addresses the underlying cause: <a href='/treatment/minimally-invasive-liver-surgery-dhaka/' title='Laparoscopic cholecystectomy'>laparoscopic cholecystectomy</a> for stones (within 4–6 weeks), <a href='/treatment/bile-duct-obstruction-surgery-dhaka/' title='Bile duct reconstruction'>bile-duct reconstruction</a> for strictures, or resection for tumours. Skipping definitive surgery leads to recurrent attacks and progressive liver damage.</p>" },
       { heading: "Outcomes and prevention", body: "<p>With prompt drainage, mortality from acute cholangitis has fallen from &gt;50% to under 10%. Severe (Grade III) cholangitis still carries 10–20% mortality — early referral matters. Patients with recurrent cholangitis from intrahepatic stones or strictures need long-term surveillance. <a href='/contact/' title='Book consultation'>Book a consultation</a> if you have had even one episode of cholangitis.</p>" },
     ],
     faq: [
@@ -1735,7 +1617,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
     related: [
       { to: "/treatment/bile-duct-obstruction-surgery-dhaka/", label: "Bile Duct Obstruction Surgery", title: "Reconstruction for biliary stricture" },
-      { to: "/treatment/laparoscopic-cholecystectomy-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Definitive treatment for stone disease" },
+      { to: "/treatment/minimally-invasive-liver-surgery-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Definitive treatment for stone disease" },
       { to: "/treatment/cholangiocarcinoma-surgery-dhaka/", label: "Cholangiocarcinoma Surgery", title: "Surgery for bile-duct cancer" },
       { to: "/treatment/biliary-tract-surgery/", label: "Biliary Tract Surgery", title: "Biliary tract surgery overview" },
     ],
@@ -1899,7 +1781,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ["/critical-liver-surgery", "Critical Liver Surgery", "Critical liver and hepatobiliary surgeries by Dr. Murshidul Arefin — complex hepatic procedures in Dhaka."],
     ["/patients-who-need-hope", "Patients Who Need Hope", "Hepatobiliary care for patients who need hope the most — Dr. Murshidul Arefin's mission in Dhaka."],
     ["/financial-assistance", "Surgery Financial Assistance", "Patient financial assistance programme for liver, gallbladder, and hepatobiliary surgeries — Dr. Arefin's clinic in Dhaka."],
-    ["/laparoscopic-cholecystectomy", "Laparoscopic Cholecystectomy", "Laparoscopic cholecystectomy — keyhole gallbladder removal surgery by Dr. Murshidul Arefin in Dhaka."],
+    ["/laparoscopic-liver-surgery", "Laparoscopic Liver Surgery", "Laparoscopic liver surgery — keyhole liver resection by Dr. Murshidul Arefin in Dhaka."],
     ["/second-opinion", "Surgical Second Opinion", "Independent surgical second opinion for liver, gallbladder, and hepatobiliary cases by Dr. Murshidul Arefin in Dhaka."],
     ["/mentorship/hpb-fellowship-training-dhaka", "HPB Fellowship Training Dhaka", "Hepatobiliary and pancreatic (HPB) fellowship-style training in Dhaka — structured surgical training tracks, operative exposure, and academic mentorship under Dr. Murshidul Arefin at Popular Medical College Hospital, Dhanmondi."],
     ["/mentorship/surgical-mentorship-bangladesh", "Surgical Mentorship Bangladesh", "Surgical mentorship in Bangladesh — Dr. Murshidul Arefin's structured mentorship programme for general and hepatobiliary surgeons, covering case planning, operative judgement, and long-term career development."],
@@ -1989,7 +1871,7 @@ export const SATELLITE_PAGES: SatellitePage[] = [
           ]
         : isGallbladder
         ? [
-            { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Comprehensive gallbladder surgery by Dr. Arefin" },
+            { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
             { to: "/treatment/hepatobiliary-surgery/", label: "Hepatobiliary Surgery", title: "Hepatobiliary surgery overview" },
             { to: "/treatment/laparoscopic-surgery/", label: "Laparoscopic Surgery", title: "Minimally invasive surgery in Dhaka" },
             { to: "/contact/", label: "Book Consultation", title: "Contact Dr. Arefin's clinic" },
@@ -2078,203 +1960,108 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
   })),
 
-  /* ───────────── CREDENTIAL TRUST PAGES — gallbladder-focused ───────────── */
+  /* ───────────── CREDENTIAL TRUST PAGES — liverr-focused ───────────── */
   /* These are linked from every satellite hero's trust-chip strip. They give
      each chip a real SEO landing page and concentrate gallbladder keyword
      authority on three high-intent angles: credentials, volume, experience. */
   {
-    slug: "/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka",
+    slug: "/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka",
     kicker: "Verified Credentials",
-    title: "FCPS · MS Hepatobiliary Gallbladder Surgeon Dhaka",
+    title: "FCPS · MS Hepatobiliary Liver Surgeon, Dhaka",
     metaDesc:
-      "Dr. Murshidul Arefin holds FCPS & MS in Hepatobiliary Surgery — a board-certified gallbladder, liver & bile-duct surgeon in Dhanmondi, Dhaka.",
-    h1: "FCPS · MS Hepatobiliary — Verified Gallbladder Surgeon in Dhaka",
-    intro: `<p><strong>Dr. Murshidul Arefin</strong> is an <strong>FCPS-certified, MS (Hepatobiliary Surgery) trained gallbladder surgeon</strong> practising in <strong>Dhanmondi, Dhaka</strong>. Every credential — <a href="/about/" title="About Dr. Arefin">FCPS, MS, fellowship training</a> — is verifiable in clinic before booking surgery.</p>`,
-    heroImage: IMG.bestSurgeon,
+      "Dr. Murshidul Arefin holds FCPS & MS in Hepatobiliary Surgery — a board-certified liver surgeon in Dhanmondi, Dhaka. Credentials verifiable in clinic.",
+    h1: "FCPS · MS Hepatobiliary — Verified Liver Surgeon in Dhaka",
+    intro: `<p><strong>Dr. Murshidul Arefin</strong> is an <strong>FCPS-certified, MS (Hepatobiliary Surgery) trained liver surgeon</strong> practising in <strong>Dhanmondi, Dhaka</strong>. Every credential — <a href="/about/" title="About Dr. Arefin">FCPS, MS, fellowship training</a> — is verifiable in clinic before booking surgery.</p>`,
+    heroImage: IMG.liverSurgeon,
     heroAlt:
-      "Dr. Murshidul Arefin — FCPS & MS Hepatobiliary certified gallbladder surgeon, Dhaka",
+      "Dr. Murshidul Arefin — FCPS & MS Hepatobiliary certified liver surgeon, Dhaka",
     sections: [
       {
         heading: "What FCPS and MS Hepatobiliary actually mean",
-        body: `<p><strong>FCPS (Surgery)</strong> from the Bangladesh College of Physicians & Surgeons is the country's highest surgical board certification. <strong>MS in Hepatobiliary Surgery</strong> from <strong>BSMMU</strong> is a dedicated postgraduate sub-specialty covering liver, gallbladder, bile-duct, and pancreatic disease. Together they certify that your <a href="/treatment/gallbladder-surgery/" title="Gallbladder surgery overview">gallbladder surgery</a> — most commonly a <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</a> — is performed by a sub-specialist, not a general surgeon.</p>`,
+        body: `<p><strong>FCPS (Surgery)</strong> from the Bangladesh College of Physicians & Surgeons is the country's highest surgical board certification. <strong>MS in Hepatobiliary Surgery</strong> from <strong>BSMMU</strong> is a dedicated postgraduate sub-specialty covering liver, bile-duct, and pancreatic disease. Together they certify that your <a href="/treatment/liver-surgery/" title="Liver surgery overview">liver surgery</a> — most commonly a <a href="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka">minimally invasive liver resection</a> — is performed by a sub-specialist, not a general surgeon.</p>`,
       },
       {
-        heading: "Why credentials matter for gallbladder surgery",
-        body: `<p>Most gallbladder operations are routine; however, <strong>bile-duct injury rates fall sharply</strong> when the operating surgeon has hepatobiliary sub-specialty training. Therefore, choosing an <strong>FCPS-MS hepatobiliary surgeon</strong> reduces the risk of the one complication that turns a 24-hour discharge into a months-long recovery. Moreover, complex cases — <a href="/conditions/gallstones/" title="Gallstones treatment">gallstones</a> with cholecystitis, prior abdominal surgery, or suspected malignancy — are handled in the same chamber rather than referred elsewhere.</p>`,
+        heading: "Why credentials matter for liver surgery",
+        body: `<p>Most liver operations are complex; however, <strong>complication rates fall sharply</strong> when the operating surgeon has hepatobiliary sub-specialty training. Therefore, choosing an <strong>FCPS-MS hepatobiliary surgeon</strong> reduces the risk of the complications that turn a planned resection into a prolonged recovery. Moreover, complex cases — liver tumours, cysts, and bile-duct disease — are handled in the same chamber rather than referred elsewhere.</p>`,
       },
       {
         heading: "Verification & second-opinion policy",
-        body: `<p>Original FCPS and MS certificates are available in chamber on request. Furthermore, an independent <a href="/second-opinion/" title="Second-opinion review">second-opinion review</a> on outside ultrasound or MRCP reports is welcomed before any gallbladder surgery is booked. Consequently, you make the decision with full transparency on credentials, technique, and cost.</p>`,
+        body: `<p>Original FCPS and MS certificates are available in chamber on request. Furthermore, an independent <a href="/second-opinion/" title="Second-opinion review">second-opinion review</a> on outside imaging or reports is welcomed before any liver surgery is booked. Consequently, you make the decision with full transparency on credentials, technique, and cost.</p>`,
       },
     ],
     faq: [
       {
-        q: "Is Dr. Arefin FCPS-certified for gallbladder surgery?",
-        a: "Yes — Dr. Arefin holds <strong>FCPS (Surgery)</strong> and <strong>MS in Hepatobiliary Surgery (BSMMU)</strong>. Both certificates are verifiable in clinic before booking gallbladder removal.",
+        q: "Is Dr. Arefin FCPS-certified for liver surgery?",
+        a: "Yes — Dr. Arefin holds <strong>FCPS (Surgery)</strong> and <strong>MS in Hepatobiliary Surgery (BSMMU)</strong>. Both certificates are verifiable in clinic before booking liver surgery.",
       },
       {
-        q: "Does MS Hepatobiliary cover routine gallbladder removal?",
-        a: "Yes. MS Hepatobiliary explicitly covers gallbladder, bile-duct, liver, and pancreatic surgery — including laparoscopic cholecystectomy for symptomatic gallstones.",
+        q: "Does MS Hepatobiliary cover liver resection?",
+        a: "Yes. MS Hepatobiliary explicitly covers liver, bile-duct, and pancreatic surgery — including liver resection for tumours and cysts.",
       },
       {
-        q: "How do I verify a Dhaka gallbladder surgeon's credentials?",
+        q: "How do I verify a Dhaka liver surgeon's credentials?",
         a: "Ask for FCPS and MS certificates. Reputable hepatobiliary specialists — including Dr. Arefin — share these on request and welcome a second-opinion review.",
       },
     ],
     related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery in Dhaka — Dr. Arefin" },
-      { to: "/treatment/laparoscopic-cholecystectomy-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Laparoscopic gallbladder removal in Dhaka" },
-      { to: "/credentials/1500-gallbladder-surgeries-dhaka/", label: "1500+ Surgeries", title: "1500+ hepatobiliary & gallbladder surgeries performed" },
-      { to: "/credentials/20-years-gallbladder-surgery-experience-dhaka/", label: "20+ Years Experience", title: "20+ years of gallbladder & hepatobiliary surgery experience" },
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery in Dhaka — Dr. Arefin" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
+      { to: "/about/dr-arefin-liver-specialist/", label: "About Dr. Arefin — Liver Specialist", title: "About Dr. Murshidul Arefin, liver specialist" },
       { to: "/about/", label: "About Dr. Arefin", title: "About Dr. Murshidul Arefin" },
     ],
   },
+  /* ───────────── About — Liver Specialist ───────────── */
   {
-    slug: "/credentials/1500-gallbladder-surgeries-dhaka",
-    kicker: "Surgical Volume",
-    title: "1500+ Gallbladder & Hepatobiliary Surgeries — Dhaka",
-    metaDesc:
-      "Dr. Arefin has performed 1500+ gallbladder, liver, and bile-duct surgeries in Dhaka — volume that drives lower complication rates and faster recovery.",
-    h1: "1500+ Gallbladder & Hepatobiliary Surgeries Performed in Dhaka",
-    intro: `<p><strong>Dr. Murshidul Arefin</strong> has performed over <strong>1500 gallbladder, liver, and bile-duct procedures</strong> at <a href="/popular-medical-college-hospital/" title="Popular Medical College Hospital">Popular Medical College Hospital, Dhanmondi</a>. High volume is the single strongest predictor of safe outcomes in <a href="/treatment/gallbladder-surgery/" title="Gallbladder surgery">gallbladder surgery</a>.</p>`,
-    heroImage: IMG.laparoscopic,
-    heroAlt:
-      "Operating theatre — 1500+ gallbladder and hepatobiliary surgeries by Dr. Arefin, Dhaka",
-    sections: [
-      {
-        heading: "Why surgical volume matters for gallbladder removal",
-        body: `<p>Published data consistently link high-volume <strong>hepatobiliary surgeons</strong> to <strong>lower bile-duct injury rates</strong>, fewer conversions from laparoscopic to open surgery, and shorter hospital stays. Therefore, choosing a surgeon who performs <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</a> weekly — not occasionally — measurably improves your outcome.</p>`,
-      },
-      {
-        heading: "What 1500+ cases looks like in practice",
-        body: `<p>The caseload spans routine symptomatic <a href="/conditions/gallstones/" title="Gallstones">gallstones</a>, acute cholecystitis, Mirizzi syndrome, intra-operative bile-duct findings, and re-do biliary surgery. Consequently, unexpected operative findings are handled in the same theatre rather than triggering a referral. Moreover, this volume informs the standardised protocols used here — pre-op imaging review, port placement, critical-view-of-safety dissection, and same-day discharge planning.</p>`,
-      },
-      {
-        heading: "What you should ask any Dhaka gallbladder surgeon",
-        body: `<p>Before booking, ask any surgeon: <strong>how many gallbladder operations do you perform per month?</strong> A clear, specific answer signals genuine focus. Furthermore, ask for their personal bile-duct injury rate — sub-specialists track this metric openly. Finally, request a <a href="/second-opinion/" title="Second-opinion review">second-opinion review</a> on outside reports.</p>`,
-      },
-    ],
-    faq: [
-      {
-        q: "How many gallbladder surgeries has Dr. Arefin performed?",
-        a: "More than <strong>1500 gallbladder, liver, and bile-duct procedures</strong> across his career — with weekly laparoscopic cholecystectomy lists at Popular Medical College Hospital, Dhanmondi.",
-      },
-      {
-        q: "Does surgical volume really change gallbladder surgery outcomes?",
-        a: "Yes. Higher annual case volume is consistently associated with lower bile-duct injury rates, fewer conversions to open surgery, and shorter hospital stays.",
-      },
-      {
-        q: "Are complex gallbladder cases included in that volume?",
-        a: "Yes — acute cholecystitis, Mirizzi syndrome, bile-duct stones, and re-do biliary surgery are a regular part of the weekly caseload.",
-      },
-    ],
-    related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery in Dhaka" },
-      { to: "/treatment/laparoscopic-cholecystectomy-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Laparoscopic gallbladder removal in Dhaka" },
-      { to: "/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/", label: "FCPS · MS Credentials", title: "FCPS & MS Hepatobiliary credentials" },
-      { to: "/credentials/20-years-gallbladder-surgery-experience-dhaka/", label: "20+ Years Experience", title: "20+ years of gallbladder & hepatobiliary surgery experience" },
-      { to: "/contact/", label: "Book Consultation", title: "Book a consultation with Dr. Arefin" },
-    ],
-  },
-  {
-    slug: "/credentials/20-years-gallbladder-surgery-experience-dhaka",
-    kicker: "Experience",
-    title: "20+ Years Gallbladder Surgery Experience — Dhaka",
-    metaDesc:
-      "20+ years of focused gallbladder, liver, and bile-duct surgery in Dhaka. Dr. Murshidul Arefin's experience explained — for patients comparing surgeons.",
-    h1: "20+ Years of Gallbladder & Hepatobiliary Surgery Experience",
-    intro: `<p><strong>Dr. Murshidul Arefin</strong> brings <strong>more than 20 years of focused experience</strong> in <a href="/treatment/gallbladder-surgery/" title="Gallbladder surgery">gallbladder</a>, <a href="/treatment/liver-surgery/" title="Liver surgery">liver</a>, and <a href="/treatment/bile-duct-surgery/" title="Bile duct surgery">bile-duct</a> surgery — built across MBBS, MS Hepatobiliary, fellowship training, and a consultant practice at <a href="/popular-medical-college-hospital/" title="Popular Medical College Hospital chamber">Popular Medical College Hospital, Dhanmondi</a>.</p>`,
-    heroImage: IMG.popular,
-    heroAlt:
-      "Dr. Murshidul Arefin's surgical team — 20+ years of gallbladder & hepatobiliary experience, Dhaka",
-    sections: [
-      {
-        heading: "Two decades focused on the hepatobiliary system",
-        body: `<p>Twenty years in surgery is common; <strong>twenty years focused on the gallbladder, liver, bile duct, and pancreas</strong> is rare. Consequently, every consultation here is led by a specialist who has spent his career on the same organ system — not rotated across general surgery. Therefore, decisions around <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</a>, <a href="/conditions/gallstones/" title="Gallstones treatment">gallstone management</a>, and complex biliary work rest on pattern recognition built from thousands of cases.</p>`,
-      },
-      {
-        heading: "What 20+ years changes for a gallbladder patient",
-        body: `<p>Experience compresses time. A senior hepatobiliary surgeon will recognise atypical anatomy on imaging before surgery, identify the critical view of safety faster in theatre, and respond decisively to intra-operative surprises. Moreover, post-operative judgement — when to discharge, when to investigate pain, when to image — improves outcomes long after the operation ends.</p>`,
-      },
-      {
-        heading: "Teaching, mentoring, and continued learning",
-        body: `<p>Two decades of practice are reinforced by active <a href="/mentorship/" title="Mentorship & teaching">mentorship and teaching</a>, peer discussion, and engagement with international hepatobiliary guidelines. Furthermore, complex operative work is documented in the <a href="/gallery/" title="Surgical gallery">surgical gallery</a> so patients can see, not just hear about, the practice.</p>`,
-      },
-    ],
-    faq: [
-      {
-        q: "How many years has Dr. Arefin focused on gallbladder surgery?",
-        a: "More than <strong>20 years</strong> — across training and consultant practice, all focused on hepatobiliary surgery including gallbladder, liver, bile-duct, and pancreatic disease.",
-      },
-      {
-        q: "Does experience actually reduce gallbladder surgery risk?",
-        a: "Yes. Long-focused hepatobiliary experience improves anatomy recognition, reduces bile-duct injury risk, and shortens recovery — especially in complex or repeat cases.",
-      },
-      {
-        q: "Is the same surgeon present in clinic and in theatre?",
-        a: "Yes. The surgeon you meet in chamber is the surgeon who operates — there is no handover to a junior team for the gallbladder removal itself.",
-      },
-    ],
-    related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery in Dhaka" },
-      { to: "/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/", label: "FCPS · MS Credentials", title: "FCPS & MS Hepatobiliary credentials" },
-      { to: "/credentials/1500-gallbladder-surgeries-dhaka/", label: "1500+ Surgeries", title: "1500+ hepatobiliary & gallbladder surgeries performed" },
-      { to: "/about/", label: "About Dr. Arefin", title: "About Dr. Murshidul Arefin" },
-      { to: "/contact/", label: "Book Consultation", title: "Book a consultation with Dr. Arefin" },
-    ],
-  },
-  /* ───────────── About — Gallbladder Specialist ───────────── */
-  {
-    slug: "/about/dr-arefin-gallbladder-specialist",
+    slug: "/about/dr-arefin-liver-specialist",
     kicker: "About the Surgeon",
-    title: "About Dr. Murshidul Arefin — Gallbladder Specialist, Dhaka",
+    title: "About Dr. Murshidul Arefin — Liver Specialist, Dhaka",
     metaDesc:
-      "Patient guide to choosing a gallbladder surgeon in Dhaka. Common questions answered — then meet Dr. Murshidul Arefin, focused hepatobiliary specialist.",
-    h1: "About Dr. Murshidul Arefin — Gallbladder Specialist in Dhaka",
-    intro: `<p>Choosing a <strong>gallbladder surgeon in Dhaka</strong> is a high-stakes decision. This page answers the questions patients ask most about <a href="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhaka">gallbladder surgery</a>, <a href="/conditions/gallstones/" title="Gallstones causes and treatment">gallstones</a>, and recovery — and then introduces <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin</a>, a focused hepatobiliary specialist who has performed <strong>1500+ gallbladder, liver, and bile-duct operations</strong>.</p>`,
-    heroImage: IMG.bestSurgeon,
+      "Patient guide to choosing a liver surgeon in Dhaka. Common questions answered — then meet Dr. Murshidul Arefin, focused hepatobiliary and liver specialist.",
+    h1: "About Dr. Murshidul Arefin — Liver Specialist in Dhaka",
+    intro: `<p>Choosing a <strong>liver surgeon in Dhaka</strong> is a high-stakes decision. This page answers the questions patients ask most about <a href="/treatment/liver-surgery/" title="Liver surgery in Dhaka">liver surgery</a>, liver tumours, and recovery — and then introduces <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin</a>, a focused hepatobiliary and liver specialist.</p>`,
+    heroImage: IMG.liverSurgeon,
     heroAlt:
-      "Dr. Murshidul Arefin — gallbladder specialist surgeon in Dhaka, Bangladesh",
+      "Dr. Murshidul Arefin — liver specialist surgeon in Dhaka, Bangladesh",
     sections: [
       {
-        heading: "What does a gallbladder specialist actually do?",
-        body: `<p>A <strong>gallbladder specialist</strong> is a hepatobiliary surgeon who focuses on the gallbladder, bile ducts, and liver — not a general surgeon who occasionally removes gallbladders. Consequently, decisions around <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</a>, acute cholecystitis, and <a href="/treatment/bile-duct-surgery/" title="Bile duct surgery">bile-duct stones</a> are made by a surgeon who sees these cases every week.</p>`,
+        heading: "What does a liver specialist actually do?",
+        body: `<p>A <strong>liver specialist</strong> is a hepatobiliary surgeon who focuses on the liver and bile ducts — not a general surgeon who occasionally operates on the liver. Consequently, decisions around <a href="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery in Dhaka">liver tumour resection</a>, liver cysts, and <a href="/treatment/liver-transplant-coordination/" title="Liver transplant coordination">liver transplant coordination</a> are made by a surgeon who sees these cases every week.</p>`,
       },
       {
-        heading: "When should you see a gallbladder surgeon?",
-        body: `<p>See a surgeon if you have <strong>recurrent right-upper-abdominal pain after meals</strong>, fatty-food intolerance, jaundice, or an ultrasound showing <a href="/conditions/gallstones/" title="Gallstones">gallstones</a>. Moreover, urgent review is needed if pain is severe, persistent, or paired with fever — these can indicate acute cholecystitis or a stone blocking the bile duct.</p>`,
+        heading: "When should you see a liver surgeon?",
+        body: `<p>See a surgeon if you have <strong>recurrent right-upper-abdominal pain</strong>, jaundice, unexplained weight loss, an abnormal liver function test, or imaging showing a liver tumour, cyst or abscess. Moreover, urgent review is needed if pain is severe, persistent, or paired with fever — these can indicate an acute liver condition.</p>`,
       },
       {
         heading: "What questions should you ask before surgery?",
-        body: `<p>Ask any surgeon: <strong>how many gallbladder operations do you perform per month?</strong> Ask for their bile-duct injury rate. Ask whether the surgeon you meet in chamber will personally perform the operation. Furthermore, ask for a <a href="/second-opinion/" title="Second-opinion review on gallbladder surgery">second-opinion review</a> if outside reports leave you unsure.</p>`,
+        body: `<p>Ask any surgeon: <strong>how many liver operations do you perform, and what is your experience with my condition?</strong> Ask about the planned operation, the expected hospital stay, and the follow-up. Furthermore, ask for a <a href="/second-opinion/" title="Second-opinion review on liver surgery">second-opinion review</a> if outside reports leave you unsure.</p>`,
       },
       {
         heading: "Meet Dr. Murshidul Arefin",
-        body: `<p>Once those questions are answered, the choice becomes simple. <strong>Dr. Murshidul Arefin</strong> is a <a href="/about/" title="Profile of Dr. Murshidul Arefin">hepatobiliary and liver-transplant surgeon</a> consulting at <a href="/popular-medical-college-hospital/" title="Popular Medical College Hospital, Dhanmondi">Popular Medical College Hospital, Dhanmondi</a>. His practice is focused — gallbladder, liver, bile duct, pancreas — with <a href="/credentials/20-years-gallbladder-surgery-experience-dhaka/" title="20+ years of gallbladder surgery experience">20+ years of focused experience</a> and <a href="/credentials/1500-gallbladder-surgeries-dhaka/" title="1500+ gallbladder & hepatobiliary surgeries">1500+ procedures</a> documented across his career.</p>`,
+        body: `<p>Once those questions are answered, the choice becomes simple. <strong>Dr. Murshidul Arefin</strong> is a <a href="/about/" title="Profile of Dr. Murshidul Arefin">hepatobiliary and liver surgeon</a> consulting at <a href="/popular-medical-college-hospital/" title="Popular Medical College Hospital, Dhanmondi">Popular Medical College Hospital, Dhanmondi</a>. His practice is focused on the liver and the hepatobiliary system, with <a href="/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/" title="FCPS · MS Hepatobiliary liver surgeon credentials">FCPS and MS (Hepatobiliary Surgery)</a> training behind it.</p>`,
       },
     ],
     faq: [
       {
-        q: "Is gallbladder removal a major surgery?",
-        a: "Laparoscopic cholecystectomy is a <strong>minimally invasive day-case operation</strong> for most patients — four small incisions, same-day discharge in straightforward cases, and a return to light activity within a week.",
+        q: "Is liver surgery a major surgery?",
+        a: "Liver resection is a <strong>major operation</strong> that needs careful planning around imaging and liver function. Minimally invasive techniques, where suitable, reduce pain and hospital stay — your surgeon will explain which approach fits your case.",
       },
       {
-        q: "Can you live a normal life without a gallbladder?",
-        a: "Yes. The liver continues to produce bile and most patients return to a normal diet within weeks. Some experience temporary fatty-food intolerance which usually settles.",
+        q: "Can you live a normal life after liver surgery?",
+        a: "Yes. The liver regenerates, and most patients return to normal activity within weeks. Follow-up imaging and blood tests check that the remaining liver has recovered.",
       },
       {
-        q: "How do I know if I need gallbladder surgery?",
-        a: "Symptomatic gallstones — recurrent pain, nausea, or complications such as cholecystitis — are the standard indication. An ultrasound and surgical review confirm whether surgery is needed.",
+        q: "How do I know if I need liver surgery?",
+        a: "Liver tumours, cysts, abscesses and other liver conditions are assessed with imaging and liver function tests. A surgical review confirms whether surgery, drainage, or surveillance is the right step.",
       },
       {
         q: "Why see Dr. Arefin specifically?",
-        a: "Because the gallbladder is the <strong>core of his weekly caseload</strong> — not an occasional operation. The same surgeon you meet in chamber performs your operation in theatre.",
+        a: "Because the liver is the <strong>core of his weekly caseload</strong> — not an occasional operation. The same surgeon you meet in chamber performs your operation in theatre.",
       },
     ],
     related: [
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery in Dhaka" },
-      { to: "/treatment/laparoscopic-cholecystectomy-dhaka/", label: "Laparoscopic Cholecystectomy", title: "Laparoscopic gallbladder removal in Dhaka" },
-      { to: "/conditions/gallstones/", label: "Gallstones", title: "Gallstones — causes, symptoms, treatment" },
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery in Dhaka" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
+      { to: "/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/", label: "FCPS · MS Credentials", title: "FCPS & MS Hepatobiliary credentials" },
       { to: "/about/", label: "About Dr. Arefin", title: "About Dr. Murshidul Arefin" },
       { to: "/contact/", label: "Book Consultation", title: "Book a consultation with Dr. Arefin" },
     ],
@@ -2283,36 +2070,36 @@ export const SATELLITE_PAGES: SatellitePage[] = [
   {
     slug: "/about/patient-centered-care",
     kicker: "Care Philosophy",
-    title: "Patient-Centered Gallbladder Care — Dr. Arefin, Dhaka",
+    title: "Patient-Centered Liver Care — Dr. Arefin, Dhaka",
     metaDesc:
-      "What patient-centered care means for gallbladder surgery in Dhaka — clear consent, same-surgeon continuity, and honest second opinions from Dr. Arefin.",
-    h1: "Patient-Centered Gallbladder Care in Dhaka",
-    intro: `<p>For patients facing <a href="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhaka">gallbladder surgery</a>, the surgeon's communication style matters as much as their technique. This page explains what <strong>patient-centered care</strong> actually looks like at <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin's</a> Dhanmondi chamber — and how to recognise it in any hepatobiliary practice.</p>`,
+      "What patient-centered care means for liver surgery in Dhaka — clear consent, same-surgeon continuity, and honest second opinions from Dr. Arefin.",
+    h1: "Patient-Centered Liver Care in Dhaka",
+    intro: `<p>For patients facing <a href="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery in Dhaka">liver surgery</a>, the surgeon's communication style matters as much as their technique. This page explains what <strong>patient-centered care</strong> actually looks like at <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin's</a> Dhanmondi chamber — and how to recognise it in any hepatobiliary practice.</p>`,
     heroImage: IMG.bestSurgeon,
     heroAlt:
-      "Patient-centered gallbladder consultation with Dr. Murshidul Arefin, Dhaka",
+      "Patient-centered liver consultation with Dr. Murshidul Arefin, Dhaka",
     sections: [
       {
-        heading: "What patients should expect from a gallbladder consultation",
-        body: `<p>A patient-centered consultation begins with <strong>listening</strong>: symptom history, prior <a href="/conditions/gallstones/" title="Gallstones — causes and treatment">gallstone</a> episodes, and the patient's own concerns. Consequently, imaging is reviewed together on screen — not summarised after the fact. Moreover, every recommendation is paired with its alternative, so the patient understands why <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</a> is being suggested over watchful waiting.</p>`,
+        heading: "What patients should expect from a liver consultation",
+        body: `<p>A patient-centered consultation begins with <strong>listening</strong>: symptom history, prior liver episodes, and the patient's own concerns. Consequently, imaging is reviewed together on screen — not summarised after the fact. Moreover, every recommendation is paired with its alternative, so the patient understands why <a href="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka">minimally invasive liver surgery</a> is being suggested over watchful waiting.</p>`,
       },
       {
         heading: "Same-surgeon continuity",
-        body: `<p>The surgeon you meet in chamber should be the surgeon who operates. At Dr. Arefin's practice, <strong>there is no handover to a junior team</strong> for the gallbladder removal itself — and follow-up reviews are with the same surgeon, not a rotating resident. Therefore, decisions about pain, discharge, and recovery are made by someone who already knows the case.</p>`,
+        body: `<p>The surgeon you meet in chamber should be the surgeon who operates. At Dr. Arefin's practice, <strong>there is no handover to a junior team</strong> for the liver surgery itself — and follow-up reviews are with the same surgeon, not a rotating resident. Therefore, decisions about pain, discharge, and recovery are made by someone who already knows the case.</p>`,
       },
       {
         heading: "Honest second opinions",
-        body: `<p>Patient-centered means <a href="/second-opinion/" title="Second-opinion review on gallbladder surgery">second opinions</a> are welcomed, not discouraged. Furthermore, when outside reports recommend surgery that may not be needed, the honest answer is given — even if it means no operation is booked. <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin</a> has spent 20+ years focused on the gallbladder, liver, and bile duct, and the confidence to say "wait" comes from that depth.</p>`,
+        body: `<p>Patient-centered means <a href="/second-opinion/" title="Second-opinion review on liver surgery">second opinions</a> are welcomed, not discouraged. Furthermore, when outside reports recommend surgery that may not be needed, the honest answer is given — even if it means no operation is booked. <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin</a> has spent his career focused on the liver and bile duct, and the confidence to say "wait" comes from that depth.</p>`,
       },
     ],
     faq: [
       {
-        q: "How long is a first gallbladder consultation?",
+        q: "How long is a first liver consultation?",
         a: "Plan for <strong>30–45 minutes</strong> for a first consultation — enough time to review imaging together, discuss alternatives, and answer questions without rushing.",
       },
       {
         q: "Will the same surgeon perform my operation?",
-        a: "Yes. Dr. Arefin personally performs the gallbladder removal — there is no handover to a junior team for the operation itself.",
+        a: "Yes. Dr. Arefin personally performs the liver surgery — there is no handover to a junior team for the operation itself.",
       },
       {
         q: "Is a second opinion welcomed?",
@@ -2321,8 +2108,8 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
     related: [
       { to: "/about/", label: "About Dr. Arefin", title: "About Dr. Murshidul Arefin" },
-      { to: "/about/proven-surgical-excellence/", label: "Surgical Excellence", title: "Proven surgical excellence in gallbladder & hepatobiliary surgery" },
-      { to: "/treatment/gallbladder-surgery/", label: "Gallbladder Surgery", title: "Gallbladder surgery in Dhaka" },
+      { to: "/about/proven-surgical-excellence/", label: "Surgical Excellence", title: "Proven surgical excellence in liver & hepatobiliary surgery" },
+      { to: "/treatment/liver-tumor-cancer-surgery-dhaka/", label: "Liver Tumour & Cancer Surgery", title: "Liver tumour and cancer surgery in Dhaka" },
       { to: "/second-opinion/", label: "Second Opinion", title: "Second-opinion review" },
       { to: "/contact/", label: "Book Consultation", title: "Book a consultation with Dr. Arefin" },
     ],
@@ -2331,18 +2118,18 @@ export const SATELLITE_PAGES: SatellitePage[] = [
   {
     slug: "/about/proven-surgical-excellence",
     kicker: "Surgical Excellence",
-    title: "Proven Surgical Excellence — Gallbladder Surgeon, Dhaka",
+    title: "Proven Surgical Excellence — Liver Surgeon, Dhaka",
     metaDesc:
-      "What proven surgical excellence means in gallbladder & hepatobiliary care — volume, technique, and outcomes from Dr. Murshidul Arefin's Dhaka practice.",
-    h1: "Proven Surgical Excellence in Gallbladder & Hepatobiliary Care",
-    intro: `<p>"Surgical excellence" is a claim every surgeon makes. This page sets out the <strong>measurable signals</strong> a gallbladder patient should look for — and how <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin's</a> practice meets each of them after <a href="/credentials/1500-gallbladder-surgeries-dhaka/" title="1500+ gallbladder and hepatobiliary surgeries">1500+ procedures</a> and <a href="/credentials/20-years-gallbladder-surgery-experience-dhaka/" title="20+ years of focused gallbladder surgery experience">20+ years of focused experience</a>.</p>`,
+      "What proven surgical excellence means in liver & hepatobiliary care — technique, planning, and outcomes from Dr. Murshidul Arefin's Dhaka practice.",
+    h1: "Proven Surgical Excellence in Liver & Hepatobiliary Care",
+    intro: `<p>"Surgical excellence" is a claim every surgeon makes. This page sets out the <strong>measurable signals</strong> a gallbladder patient should look for — and how <a href="/about/" title="About Dr. Murshidul Arefin">Dr. Murshidul Arefin's</a> practice meets each of them after a career focused on hepatobiliary and liver surgery.</p>`,
     heroImage: IMG.hepatobiliary,
     heroAlt:
       "Dr. Murshidul Arefin's surgical team performing hepatobiliary surgery in Dhaka",
     sections: [
       {
-        heading: "Signal 1 — Sub-specialty case volume",
-        body: `<p>Excellence in <a href="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhaka">gallbladder surgery</a> tracks with <strong>focused weekly volume</strong>. A surgeon performing dozens of <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomies</a> each month builds pattern recognition that a general surgeon doing occasional cases cannot match. Consequently, ask any surgeon for their monthly gallbladder volume — the answer is the most honest indicator available.</p>`,
+        heading: "Signal 1 — Sub-specialty focus",
+        body: `<p>Excellence in <a href="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery in Dhaka">liver surgery</a> tracks with <strong>focused sub-specialty practice</strong>. A surgeon who plans and performs liver resections every week builds pattern recognition that a general surgeon doing occasional cases cannot match. Consequently, ask any surgeon how often they perform liver surgery — the answer is the most honest indicator available.</p>`,
       },
       {
         heading: "Signal 2 — Technique discipline",
@@ -2356,11 +2143,11 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     faq: [
       {
         q: "How do I judge surgical excellence as a patient?",
-        a: "Ask for <strong>monthly gallbladder volume</strong>, bile-duct injury rate, and whether the same surgeon performs the operation. Specific answers signal genuine focus.",
+        a: "Ask how often the surgeon performs liver surgery, what their approach to planning and remnant liver volume is, and whether the same surgeon performs the operation. Specific answers signal genuine focus.",
       },
       {
-        q: "Are complex gallbladder cases handled here?",
-        a: "Yes — acute cholecystitis, Mirizzi syndrome, bile-duct stones, and re-do biliary surgery are part of the weekly caseload.",
+        q: "Are complex liver cases handled here?",
+        a: "Yes — complex liver tumours, liver cysts, bile-duct disease, and re-do hepatobiliary surgery are part of the weekly caseload.",
       },
       {
         q: "Can I see examples of previous surgical work?",
@@ -2369,9 +2156,9 @@ export const SATELLITE_PAGES: SatellitePage[] = [
     ],
     related: [
       { to: "/about/", label: "About Dr. Arefin", title: "About Dr. Murshidul Arefin" },
-      { to: "/about/patient-centered-care/", label: "Patient-Centered Care", title: "Patient-centered gallbladder care in Dhaka" },
-      { to: "/credentials/1500-gallbladder-surgeries-dhaka/", label: "1500+ Surgeries", title: "1500+ gallbladder & hepatobiliary surgeries performed" },
-      { to: "/credentials/20-years-gallbladder-surgery-experience-dhaka/", label: "20+ Years Experience", title: "20+ years of gallbladder & hepatobiliary surgery experience" },
+      { to: "/about/patient-centered-care/", label: "Patient-Centered Care", title: "Patient-centered liver care in Dhaka" },
+      { to: "/treatment/liver-surgery/", label: "Liver Surgery", title: "Liver surgery in Dhaka" },
+      { to: "/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/", label: "FCPS · MS Credentials", title: "FCPS & MS Hepatobiliary credentials" },
       { to: "/gallery/", label: "Surgical Gallery", title: "Surgical gallery" },
     ],
   },
