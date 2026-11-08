@@ -209,70 +209,30 @@ export const faqRegistry: FAQEntry[] = [
     categories: ["treatment"],
   },
 
-  /* ── Gallbladder Surgery — Dhanmondi/Dhaka SEO set (T26) ──────────────── */
+  /* ── Liver Surgery — Dhanmondi/Dhaka SEO set (was Gallbladder, T26) ──────────────── */
   {
-    slug: "best-gallbladder-surgeon-in-dhanmondi-dhaka",
-    q: "Who is the best gallbladder surgeon in Dhanmondi, Dhaka?",
+    slug: "what-is-the-treatment-for-liver-abscess-in-dhaka",
+    q: "What is the treatment for liver abscess in Dhaka?",
     aText:
-      "Dr. Murshidul Arefin is widely regarded as one of Dhanmondi's leading gallbladder surgeons — Associate Professor at Popular Medical College Hospital, with extensive experience in laparoscopic cholecystectomy, complicated gallstone disease and gallbladder cancer surgery.",
-    a: "Dr. Murshidul Arefin is widely regarded as one of Dhanmondi's leading gallbladder surgeons — Associate Professor at Popular Medical College Hospital, with extensive experience in laparoscopic cholecystectomy, complicated gallstone disease and gallbladder cancer surgery.",
+      "Liver abscess in Dhaka is treated with antibiotics plus image-guided drainage, and surgery when drainage fails or the abscess has ruptured. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi assesses the abscess on ultrasound and CT and performs drainage or surgery as needed.",
+    a: "Liver abscess in Dhaka is treated with antibiotics plus image-guided drainage, and surgery when drainage fails or the abscess has ruptured. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi assesses the abscess on ultrasound and CT and performs drainage or surgery as needed.",
     categories: ["treatment"],
   },
   {
-    slug: "how-much-does-gallbladder-stone-surgery-cost-in-dhaka",
-    q: "How much does gallbladder stone surgery cost in Dhaka?",
+    slug: "do-benign-liver-tumours-need-surgery-in-dhaka",
+    q: "Do benign liver tumours need surgery in Dhaka?",
     aText:
-      "Gallbladder stone surgery costs in Dhaka depend on whether the operation is laparoscopic or open and on the length of hospital stay. Dr. Arefin's chamber at Popular Medical College Hospital, Dhanmondi shares a clear written estimate after reviewing your ultrasound and reports.",
-    a: "Gallbladder stone surgery costs in Dhaka depend on whether the operation is laparoscopic or open and on the length of hospital stay. Dr. Arefin's chamber at Popular Medical College Hospital, Dhanmondi shares a clear written estimate after reviewing your ultrasound and reports.",
+      "Not all benign liver tumours need surgery. Dr. Arefin reviews imaging, size, growth and symptoms; haemangiomas and FNH are often watched, while large adenomas, growing tumours or tumours that cannot be distinguished from cancer are usually resected at Popular Medical College Hospital, Dhanmondi.",
+    a: "Not all benign liver tumours need surgery. Dr. Arefin reviews imaging, size, growth and symptoms; haemangiomas and FNH are often watched, while large adenomas, growing tumours or tumours that cannot be distinguished from cancer are usually resected at Popular Medical College Hospital, Dhanmondi.",
     categories: ["treatment"],
   },
   {
-    slug: "is-laparoscopic-cholecystectomy-available-in-dhanmondi",
-    q: "Is laparoscopic cholecystectomy available in Dhanmondi?",
+    slug: "how-to-book-a-liver-surgery-consultation-in-dhanmondi",
+    q: "How do I book a liver surgery consultation in Dhanmondi?",
     aText:
-      "Yes. Dr. Arefin performs laparoscopic cholecystectomy at Popular Medical College Hospital, Dhanmondi using modern Storz laparoscopic systems — typically through three or four small incisions, with most patients going home within 24–48 hours.",
-    a: "Yes. Dr. Arefin performs laparoscopic cholecystectomy at Popular Medical College Hospital, Dhanmondi using modern Storz laparoscopic systems — typically through three or four small incisions, with most patients going home within 24–48 hours.",
-    categories: ["treatment"],
-  },
-  {
-    slug: "how-long-does-recovery-after-gallbladder-surgery-take-in-dhaka",
-    q: "How long does recovery after gallbladder surgery take in Dhaka?",
-    aText:
-      "After laparoscopic gallbladder removal in Dhaka, most patients return to light activity in 1–2 weeks and to normal work in 2–3 weeks. Open cholecystectomy needs 4–6 weeks of recovery, with structured follow-up at the Dhanmondi chamber.",
-    a: "After laparoscopic gallbladder removal in Dhaka, most patients return to light activity in 1–2 weeks and to normal work in 2–3 weeks. Open cholecystectomy needs 4–6 weeks of recovery, with structured follow-up at the Dhanmondi chamber.",
-    categories: ["treatment"],
-  },
-  {
-    slug: "treatment-for-empyema-of-the-gallbladder-in-dhaka",
-    q: "What is the treatment for empyema of the gallbladder in Dhaka?",
-    aText:
-      "Empyema of the gallbladder is a surgical emergency. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi treats it with urgent drainage and cholecystectomy — laparoscopic where safe, open if anatomy or sepsis demands — alongside targeted intravenous antibiotics.",
-    a: "Empyema of the gallbladder is a surgical emergency. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi treats it with urgent drainage and cholecystectomy — laparoscopic where safe, open if anatomy or sepsis demands — alongside targeted intravenous antibiotics.",
-    categories: ["treatment"],
-  },
-  {
-    slug: "does-dr-arefin-perform-gallbladder-cancer-surgery-in-dhaka",
-    q: "Does Dr. Arefin perform gallbladder cancer surgery in Dhaka?",
-    aText:
-      "Yes. Dr. Arefin performs oncologic gallbladder and bile-duct cancer resections at Popular Medical College Hospital, Dhanmondi, including extended cholecystectomy with liver-bed resection and lymphadenectomy, with multidisciplinary input from radiology and oncology.",
-    a: "Yes. Dr. Arefin performs oncologic gallbladder and bile-duct cancer resections at Popular Medical College Hospital, Dhanmondi, including extended cholecystectomy with liver-bed resection and lymphadenectomy, with multidisciplinary input from radiology and oncology.",
-    categories: ["treatment"],
-  },
-  {
-    slug: "do-gallbladder-polyps-need-surgery-in-dhaka",
-    q: "Do gallbladder polyps need surgery in Dhaka?",
-    aText:
-      "Not all gallbladder polyps need surgery. Dr. Arefin reviews ultrasound size, growth on follow-up scans and patient symptoms; polyps over about 10 mm, rapidly growing polyps or symptomatic polyps are typically removed by laparoscopic cholecystectomy at Popular Medical College Hospital, Dhanmondi.",
-    a: "Not all gallbladder polyps need surgery. Dr. Arefin reviews ultrasound size, growth on follow-up scans and patient symptoms; polyps over about 10 mm, rapidly growing polyps or symptomatic polyps are typically removed by laparoscopic cholecystectomy at Popular Medical College Hospital, Dhanmondi.",
-    categories: ["treatment"],
-  },
-  {
-    slug: "how-to-book-a-gallbladder-surgery-consultation-in-dhanmondi",
-    q: "How do I book a gallbladder surgery consultation in Dhanmondi?",
-    aText:
-      "To consult Dr. Arefin for gallbladder surgery in Dhanmondi, call +880 1311 487 592 or message on WhatsApp. The chamber at Popular Medical College Hospital, House 25, Road 2, Dhanmondi 1205 will share the next available afternoon or evening slot.",
-    a: "To consult Dr. Arefin for gallbladder surgery in Dhanmondi, call +880 1311 487 592 or message on WhatsApp. The chamber at Popular Medical College Hospital, House 25, Road 2, Dhanmondi 1205 will share the next available afternoon or evening slot.",
-    categories: ["treatment", "consultation"],
+      "To consult Dr. Arefin for liver surgery in Dhanmondi, call +880 1311 487 592 or message on WhatsApp. The chamber at Popular Medical College Hospital, House 25, Road 2, Dhanmondi 1205 will share the next available afternoon or evening slot.",
+    a: "To consult Dr. Arefin for liver surgery in Dhanmondi, call +880 1311 487 592 or message on WhatsApp. The chamber at Popular Medical College Hospital, House 25, Road 2, Dhanmondi 1205 will share the next available afternoon or evening slot.",
+    categories: ["consultation"],
   },
 
   /* ── Pancreatic Surgery — Dhanmondi/Dhaka SEO set (T27) ──────────────── */
@@ -391,11 +351,11 @@ export const faqRegistry: FAQEntry[] = [
     categories: ["treatment"],
   },
   {
-    slug: "treatment-for-bile-duct-injury-after-gallbladder-surgery-in-dhaka",
-    q: "What is the treatment for bile duct injury after gallbladder surgery in Dhaka?",
+    slug: "treatment-for-bile-duct-injury-during-liver-surgery-in-dhaka",
+    q: "What is the treatment for bile duct injury during liver and HPB surgery in Dhaka?",
     aText:
-      "Bile duct injuries after gallbladder surgery need specialist hepatobiliary repair. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi assesses the level of injury on MRCP and performs Roux-en-Y hepaticojejunostomy or end-to-end repair, often after a controlled drainage period.",
-    a: "Bile duct injuries after gallbladder surgery need specialist hepatobiliary repair. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi assesses the level of injury on MRCP and performs Roux-en-Y hepaticojejunostomy or end-to-end repair, often after a controlled drainage period.",
+      "Bile duct injuries during liver and HPB surgery need specialist hepatobiliary repair. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi assesses the level of injury on MRCP and performs Roux-en-Y hepaticojejunostomy or end-to-end repair, often after a controlled drainage period.",
+    a: "Bile duct injuries during liver and HPB surgery need specialist hepatobiliary repair. Dr. Arefin's team at Popular Medical College Hospital, Dhanmondi assesses the level of injury on MRCP and performs Roux-en-Y hepaticojejunostomy or end-to-end repair, often after a controlled drainage period.",
     categories: ["treatment"],
   },
   {
