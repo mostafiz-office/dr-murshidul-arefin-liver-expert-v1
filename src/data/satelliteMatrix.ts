@@ -12,7 +12,7 @@
  *   const pages = generateMatrixPages(MATRIX_PILOT);  // pilot: 1 svc × 1 area
  *
  * To bulk-launch later:
- *   const pages = generateMatrixPages(MATRIX_FULL);   // full 12 × 15 grid
+ *   const pages = generateMatrixPages(MATRIX_FULL);   // full 11 × 15 grid
  *
  * Authoring rule: per-page copy MUST mix area-specific facts (areas[].context)
  * with service-specific facts (services[].clinical) so generated bodies are
@@ -21,7 +21,7 @@
 
 import type { SatellitePage } from "./satellitePages";
 
-/* ───────────────────────── Service catalog (12) ───────────────────────── */
+/* ───────────────────────── Service catalog (11) ───────────────────────── */
 
 export interface MatrixService {
   /** URL slug fragment (kebab-case, no leading slash) */
@@ -55,15 +55,15 @@ export const SERVICES: MatrixService[] = [
       "Modern liver surgery requires precise pre-operative imaging, vascular control during resection, and a multidisciplinary HPB team. Dr. Arefin performs both minimally invasive and open hepatectomies tailored to tumour location and remnant liver volume.",
   },
   {
-    slug: "gallbladder-surgery",
-    noun: "gallbladder surgery",
-    display: "Gallbladder Surgery",
-    surgeonNoun: "gallbladder surgeon",
-    symptoms: ["biliary colic", "indigestion after fatty meals", "right upper-quadrant pain", "jaundice"],
-    conditions: ["gallstones", "acute cholecystitis", "gallbladder polyps", "empyema"],
-    heroImage: "/src/assets/gallery/gallbladder-surgery-operating-room-panoramic-dhaka.webp",
+    slug: "liver-resection-surgery",
+    noun: "liver resection surgery",
+    display: "Liver Resection Surgery",
+    surgeonNoun: "liver resection surgeon",
+    symptoms: ["right upper-quadrant pain", "jaundice", "unexplained weight loss", "abdominal swelling"],
+    conditions: ["liver tumours", "hepatocellular carcinoma", "liver metastases", "benign liver tumours"],
+    heroImage: "/src/assets/gallery/liver-pancreatic-open-surgery-specialist-team-dhaka.webp",
     clinical:
-      "Laparoscopic cholecystectomy is the gold-standard for symptomatic gallstone disease. Dr. Arefin uses the critical view of safety technique to identify the cystic duct and artery before division — minimising the risk of bile-duct injury.",
+      "Liver resection (hepatectomy) removes the diseased part of the liver while preserving enough healthy liver to recover. Dr. Arefin plans every resection around pre-operative imaging and remnant liver volume, with vascular control during surgery and a multidisciplinary HPB team review, using open or minimally invasive techniques tailored to tumour location.",
   },
   {
     slug: "bile-duct-surgery",
@@ -130,17 +130,6 @@ export const SERVICES: MatrixService[] = [
     heroImage: "/src/assets/gallery/laparoscopic-gallbladder-surgery-full-ot-team-popular-medical-dhaka.webp",
     clinical:
       "Fatty liver is largely reversible when caught early. Management combines weight loss, glycaemic control, lipid management, and screening for fibrosis — with surgical referral only if complications develop.",
-  },
-  {
-    slug: "gallstone-removal",
-    noun: "gallstone removal",
-    display: "Gallstone Removal",
-    surgeonNoun: "gallstone surgeon",
-    symptoms: ["biliary colic", "fatty-food intolerance", "right shoulder-tip pain", "nausea"],
-    conditions: ["symptomatic cholelithiasis", "biliary pancreatitis", "choledocholithiasis"],
-    heroImage: "/src/assets/gallery/gallbladder-stone-laparoscopic-removal-surgery-dhaka.webp",
-    clinical:
-      "Stones in the gallbladder need surgery only when symptomatic; stones in the bile duct almost always need removal — endoscopically (ERCP) or surgically. Choosing the right pathway prevents pancreatitis and cholangitis.",
   },
   {
     slug: "hpb-cancer-surgery",
@@ -477,7 +466,7 @@ export const MATRIX_PAGES_PILOT: SatellitePage[] = generateMatrixPages(MATRIX_PI
  */
 export const MATRIX_MENU_SERVICE_SLUGS: string[] = [
   "liver-surgery",
-  "gallbladder-surgery",
+  "liver-resection-surgery",
   "bile-duct-surgery",
   "pancreatic-surgery",
   "hepatobiliary-surgery",
