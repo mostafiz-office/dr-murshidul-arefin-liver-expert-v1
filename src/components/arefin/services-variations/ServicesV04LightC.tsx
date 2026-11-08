@@ -11,7 +11,7 @@ interface Service {
 
 const services: Service[] = [
   { icon: Activity, title: "Advanced Liver Surgery", desc: "Expert surgical treatment for **liver tumors, cysts, and transplant procedures** using the latest **minimally invasive and open techniques** for faster recovery and reduced complications.", keywords: ["liver tumors", "transplant", "minimally invasive"], slug: "liver-tumor-cancer-surgery" },
-  { icon: Stethoscope, title: "Gallbladder & Biliary Surgery", desc: "Specialized care for **gallstones, bile duct obstructions, and biliary strictures**, ensuring precise diagnosis and safe surgical outcomes through **advanced laparoscopic procedures**.", keywords: ["gallstones", "bile duct", "laparoscopic"], slug: "gallstone-gallbladder-surgery" },
+  { icon: Stethoscope, title: "Liver Tumour & Biliary Surgery", desc: "Specialized care for **liver tumours, bile duct obstructions, and biliary strictures**, ensuring precise diagnosis and safe surgical outcomes through **advanced laparoscopic procedures**.", keywords: ["liver tumours", "bile duct", "laparoscopic"], slug: "liver-tumor-cancer-surgery" },
   { icon: HeartPulse, title: "Pancreatic & Upper GI Surgery", desc: "Comprehensive management of **pancreatic disorders, cysts, and upper gastrointestinal conditions** including **tumors and chronic pancreatitis**, performed with surgical precision and long-term **patient comfort and recovery** in mind.", keywords: ["pancreatic", "upper GI", "comfort"], slug: "pancreatic-cancer-surgery" },
   { icon: Microscope, title: "Laparoscopic & Minimally Invasive Surgery", desc: "State-of-the-art **keyhole surgeries** designed to **minimize scarring, shorten hospital stays**, and improve recovery time for hepatobiliary and abdominal conditions.", keywords: ["keyhole", "less scarring", "fast recovery"], slug: "" },
   { icon: ClipboardCheck, title: "Liver Transplant Consultation & Follow-Up", desc: "Personalized **pre- and post-transplant care** to guide patients through every stage of their **liver health journey** with compassion and expert supervision.", keywords: ["pre-transplant", "post-op care", "supervision"], slug: "liver-transplant-coordination-followup-care" },
@@ -70,7 +70,7 @@ const ServicesV04LightC = () => {
             className="services-c-intro mt-4 text-base"
             style={{ lineHeight: 1.75 }}
           >
-            From routine <strong>gallbladder procedures</strong> to <strong>complex liver transplants</strong> — explore our six core service areas.
+            From routine <strong>liver procedures</strong> to <strong>complex liver transplants</strong> — explore our six core service areas.
           </p>
         </div>
 

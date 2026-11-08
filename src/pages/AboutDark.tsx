@@ -133,19 +133,19 @@ const credentials = [
     year: "2003",
     icon: GraduationCap,
     title: "MBBS — University of Dhaka",
-    to: "/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/",
+    to: "/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/",
     linkTitle: "MBBS, University of Dhaka — foundation of Dr. Arefin's liver & hepatobiliary surgical training",
     body: (
       <>
         Earned{" "}
         <strong>
-          <Link to="/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/" title="MBBS credential — Dr. Arefin's medical degree, prerequisite to hepatobiliary specialisation">
+          <Link to="/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/" title="MBBS credential — Dr. Arefin's medical degree, prerequisite to hepatobiliary specialisation">
             MBBS
           </Link>
         </strong>{" "}
         from the{" "}
         <strong>
-          <Link to="/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/" title="University of Dhaka — clinical training origin of Dhaka's liver surgeon">
+          <Link to="/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/" title="University of Dhaka — clinical training origin of Dhaka's liver surgeon">
             University of Dhaka
           </Link>
         </strong>
@@ -158,19 +158,19 @@ const credentials = [
     year: "2011",
     icon: BookOpen,
     title: "MS in Hepatobiliary Surgery — BSMMU",
-    to: "/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/",
+    to: "/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/",
     linkTitle: "MS in Hepatobiliary Surgery — board-certified liver & pancreas surgeon credential",
     body: (
       <>
         Completed{" "}
         <strong>
-          <Link to="/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/" title="MS Hepatobiliary Surgery — sub-specialty training behind Dhaka's liver surgeon">
+          <Link to="/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/" title="MS Hepatobiliary Surgery — sub-specialty training behind Dhaka's liver surgeon">
             MS in Hepatobiliary Surgery
           </Link>
         </strong>{" "}
         at{" "}
         <strong>
-          <Link to="/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/" title="BSMMU — Bangladesh's leading institution for hepatobiliary & liver surgical training">
+          <Link to="/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/" title="BSMMU — Bangladesh's leading institution for hepatobiliary & liver surgical training">
             Bangabandhu Sheikh Mujib Medical University (BSMMU)
           </Link>
         </strong>{" "}
@@ -386,7 +386,7 @@ const AboutDark = () => {
                 <ul className="about-highlight-list mb-12 md:mb-16 space-y-3">
                   <li className="about-highlight-item flex items-start gap-3">
                     <ShieldCheck className="about-highlight-icon h-5 w-5 mt-0.5 shrink-0" aria-hidden="true" />
-                    <span><strong><Link to="/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/" title="MBBS, MS Hepatobiliary — board-certified liver surgeon credentials">MBBS, MS (Hepatobiliary Surgery)</Link></strong> — board-certified specialist</span>
+                    <span><strong><Link to="/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/" title="MBBS, MS Hepatobiliary — board-certified liver surgeon credentials">MBBS, MS (Hepatobiliary Surgery)</Link></strong> — board-certified specialist</span>
                   </li>
                   <li className="about-highlight-item flex items-start gap-3">
                     <HeartPulse className="about-highlight-icon h-5 w-5 mt-0.5 shrink-0" aria-hidden="true" />
@@ -484,7 +484,7 @@ const AboutDark = () => {
         subheading={
           <>
             A decade-plus path through Bangladesh's leading medical institutions —
-            from <strong><Link to="/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/" title="MBBS, University of Dhaka — Dr. Arefin's medical education">MBBS at the University of Dhaka</Link></strong> to a consultant hepatobiliary
+            from <strong><Link to="/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/" title="MBBS, University of Dhaka — Dr. Arefin's medical education">MBBS at the University of Dhaka</Link></strong> to a consultant hepatobiliary
             practice in <strong><Link to="/popular-medical-college-hospital/" title="Dhanmondi chamber — Popular Medical College Hospital">Dhanmondi</Link></strong>.
           </>
         }
@@ -535,7 +535,7 @@ const AboutDark = () => {
       </section>
 
       {/* LIVER Q&A BAND — Batch 2: liver questions from the central FAQ registry */}
-      <div className="about-gallbladder-qa-band about-gallbladder-qa-band--prefooter">
+      <div className="about-liver-qa-band about-liver-qa-band--prefooter">
         <FAQAccordion
           kicker="Liver Questions"
           heading="Liver Surgery — Patient Questions"

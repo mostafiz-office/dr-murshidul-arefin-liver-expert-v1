@@ -55,24 +55,24 @@ const jsonLdString = buildGraph(
 const TRUST_CHIPS = [
   {
     label: "FCPS · MS Hepatobiliary",
-    href: "/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/",
-    title: "Dr. Arefin's FCPS & MS Hepatobiliary credentials — verified gallbladder surgeon in Dhaka",
+    href: "/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/",
+    title: "Dr. Arefin's FCPS & MS Hepatobiliary credentials — verified liver surgeon in Dhaka",
   },
   {
-    label: "1500+ surgeries",
-    href: "/credentials/1500-gallbladder-surgeries-dhaka/",
-    title: "1500+ gallbladder & hepatobiliary surgeries performed by Dr. Arefin in Dhaka",
+    label: "Liver Specialist",
+    href: "/about/dr-arefin-liver-specialist/",
+    title: "About Dr. Murshidul Arefin — liver specialist in Dhaka",
   },
   {
-    label: "20+ years",
-    href: "/credentials/20-years-gallbladder-surgery-experience-dhaka/",
-    title: "20+ years of gallbladder, liver, and bile-duct surgery experience — Dr. Murshidul Arefin",
+    label: "BSMMU-trained",
+    href: "/about/",
+    title: "About Dr. Murshidul Arefin — BSMMU-trained hepatobiliary surgeon",
   },
 ];
 
 const STATS = [
-  { icon: Award, value: "20+ years", label: "of surgical practice" },
-  { icon: ShieldCheck, value: "1500+ surgeries", label: "performed in Dhaka" },
+  { icon: Award, value: "Liver Specialist", label: "hepatobiliary & liver surgery" },
+  { icon: ShieldCheck, value: "FCPS · MS", label: "hepatobiliary surgery, BSMMU" },
   { icon: GraduationCap, value: "Associate Professor", label: "Popular Medical College Hospital" },
   { icon: Building2, value: "BSMMU-trained", label: "hepatobiliary (HPB) surgeon" },
 ];
@@ -116,7 +116,7 @@ const STEPS = [
 /* Same concern options as the contact page form. */
 const medicalConcerns = [
   "Liver Disease Consultation",
-  "Gallbladder Stone Treatment",
+  "Liver Tumour Treatment",
   "Bile Duct Stone Treatment",
   "Pancreatic Disease Consultation",
   "Hepatobiliary Surgery Consultation",
@@ -253,7 +253,7 @@ const FirstInBangladesh = () => {
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <img
                   src={portrait}
-                  alt="Dr. Murshidul Arefin — gallbladder, liver and hepatobiliary surgeon in Dhanmondi, Dhaka"
+                  alt="Dr. Murshidul Arefin — liver and hepatobiliary surgeon in Dhanmondi, Dhaka"
                   className="w-full rounded-3xl border border-white/10 object-cover"
                   loading="eager"
                 />
@@ -262,7 +262,7 @@ const FirstInBangladesh = () => {
                     Prof. Dr. Murshidul Arefin
                   </p>
                   <p className="text-[13px] text-white/75">
-                    Hepatobiliary, Liver &amp; Gallbladder Surgeon — Popular Medical College Hospital, Dhanmondi
+                    Hepatobiliary &amp; Liver Surgeon — Popular Medical College Hospital, Dhanmondi
                   </p>
                 </div>
               </div>
@@ -350,15 +350,11 @@ const FirstInBangladesh = () => {
                     <Link to="/treatment/hepatobiliary-surgery/" title="Hepatobiliary surgery in Dhaka by Dr. Arefin">
                       <strong>hepatobiliary surgeon</strong>
                     </Link>{" "}
-                    with 20+ years of practice and{" "}
-                    <Link to="/credentials/1500-gallbladder-surgeries-dhaka/" title="1500+ gallbladder & hepatobiliary surgeries by Dr. Arefin in Dhaka">
-                      <strong>1500+ surgeries</strong>
+                    with a career focused on{" "}
+                    <Link to="/treatment/liver-surgery/" title="Liver surgery in Dhaka by Dr. Arefin">
+                      <strong>liver</strong>
                     </Link>{" "}
-                    across{" "}
-                    <Link to="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhanmondi, Dhaka">
-                      <strong>gallbladder</strong>
-                    </Link>
-                    ,{" "}
+                    care,{" "}
                     <Link to="/treatment/liver-surgery/" title="Liver surgery in Dhaka by Dr. Arefin">
                       <strong>liver</strong>
                     </Link>
@@ -641,9 +637,9 @@ const FirstInBangladesh = () => {
         <FAQAccordion
           items={getFaqsBySlugs([
             "chamber-address-and-visiting-hours-dhanmondi",
-            "how-to-book-a-gallbladder-surgery-consultation-in-dhanmondi",
+            "how-to-book-a-liver-surgery-consultation-in-dhanmondi",
             "appointment-fees-and-payment-dhaka",
-            "is-laparoscopic-cholecystectomy-available-in-dhanmondi",
+            "is-laparoscopic-liver-surgery-available-in-dhanmondi",
           ])}
         />
       </div>
@@ -675,13 +671,13 @@ const FirstInBangladesh = () => {
               </strong>{" "}
               — and Dr. Arefin's team will take it from there. Explore his{" "}
               <strong>
-                <Link to="/treatment/" title="Treatment services — liver, gallbladder, pancreatic and biliary surgery in Dhaka">
+                <Link to="/treatment/" title="Treatment services — liver, pancreatic and biliary surgery in Dhaka">
                   treatments
                 </Link>
               </strong>{" "}
               or read{" "}
               <strong>
-                <Link to="/articles/" title="Articles on hepatobiliary, liver and gallbladder health by Dr. Arefin">
+                <Link to="/articles/" title="Articles on hepatobiliary and liver health by Dr. Arefin">
                   patient articles
                 </Link>
               </strong>

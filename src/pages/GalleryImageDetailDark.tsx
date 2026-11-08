@@ -23,9 +23,9 @@ import {
  */
 
 /* ── Per-category SEO copy + FAQ templates ──────────────────────────────
-   T31: every Q&A follows the gallbladder satellite-page format:
-   gallbladder-keyword question + answer with internal links to the
-   /treatment/gallbladder-surgery, /treatment/laparoscopic-cholecystectomy-dhaka,
+   T31 (Batch 3, liver-first): every Q&A follows the liver satellite-page format:
+   liver-keyword question + answer with internal links to the
+   /treatment/liver-tumor-cancer-surgery-dhaka, /treatment/minimally-invasive-liver-surgery-dhaka,
    /treatment/liver-surgery, /treatment/liver-transplant-surgery-dhaka,
    /treatment/biliary-stricture-reconstruction-dhaka and /treatment/pancreatic-surgery
    satellite pages. Answers are JSX so React Router Links are real anchors. */
@@ -36,17 +36,17 @@ const CATEGORY_COPY: Record<
 > = {
   "Operation Theater": {
     intro: (alt) =>
-      `${alt}. This image is from <a href="/about/" title="About Dr. Murshidul Arefin"><strong>Dr. Murshidul Arefin's</strong></a> hepatobiliary operating theatre at Popular Medical College Hospital, Dhanmondi, Dhaka — where <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka"><strong>laparoscopic</strong></a> and open <a href="/treatment/liver-surgery/" title="Liver surgery by Dr. Arefin"><strong>liver</strong></a>, <a href="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhaka"><strong>gallbladder</strong></a>, <a href="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary surgery in Dhaka"><strong>biliary</strong></a> and <a href="/treatment/pancreatic-surgery/" title="Pancreatic surgery in Dhaka"><strong>pancreatic surgeries</strong></a> are performed daily by his team.`,
+      `${alt}. This image is from <a href="/about/" title="About Dr. Murshidul Arefin"><strong>Dr. Murshidul Arefin's</strong></a> hepatobiliary operating theatre at Popular Medical College Hospital, Dhanmondi, Dhaka — where <a href="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka"><strong>laparoscopic</strong></a> and open <a href="/treatment/liver-surgery/" title="Liver surgery by Dr. Arefin"><strong>liver</strong></a>, <a href="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery in Dhaka"><strong>liver tumour</strong></a>, <a href="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary surgery in Dhaka"><strong>biliary</strong></a> and <a href="/treatment/pancreatic-surgery/" title="Pancreatic surgery in Dhaka"><strong>pancreatic surgeries</strong></a> are performed daily by his team.`,
     faqs: [
       {
-        q: "What is gallbladder surgery in Dhanmondi?",
+        q: "What is liver surgery in Dhanmondi?",
         a: (
           <>
-            <Link to="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhaka">Gallbladder surgery</Link> at Dr. Arefin's Dhanmondi theatre most often means <Link to="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</Link> for symptomatic stones, with open conversion only when oncologic or anatomic safety demands it.
+            <Link to="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery in Dhaka">Liver surgery</Link> at Dr. Arefin's Dhanmondi theatre most often means <Link to="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka">laparoscopic liver resection</Link> for liver tumours and cysts, with open conversion only when oncologic or anatomic safety demands it.
           </>
         ),
         aText:
-          "Gallbladder surgery at Dr. Arefin's Dhanmondi theatre most often means laparoscopic cholecystectomy for symptomatic stones, with open conversion only when oncologic or anatomic safety demands it.",
+          "Liver surgery at Dr. Arefin's Dhanmondi theatre most often means laparoscopic liver resection for liver tumours and cysts, with open conversion only when oncologic or anatomic safety demands it.",
       },
       {
         q: "Does Dr. Arefin also operate on liver and bile duct cases here?",
@@ -64,7 +64,7 @@ const CATEGORY_COPY: Record<
       },
       {
         q: "Is laparoscopic surgery available with Dr. Arefin?",
-        a: "Yes. Dr. Arefin performs laparoscopic gallbladder, liver and selected biliary surgeries using modern Storz laparoscopic systems whenever clinically safe.",
+        a: "Yes. Dr. Arefin performs laparoscopic liver and selected biliary surgeries using modern Storz laparoscopic systems whenever clinically safe.",
       },
       {
         q: "How can I book a surgical consultation in Dhanmondi?",
@@ -77,24 +77,24 @@ const CATEGORY_COPY: Record<
       `${alt}. <a href="/about/" title="About Dr. Murshidul Arefin"><strong>Dr. Murshidul Arefin</strong></a> regularly speaks at and attends national and international <a href="/treatment/liver-surgery/" title="Hepatobiliary surgery in Dhaka"><strong>hepatobiliary surgery</strong></a> conferences, <a href="/mentorship/operative-skills-workshop/" title="Operative skills workshop"><strong>workshops</strong></a> and <a href="/mentorship/" title="Surgical mentorship programmes"><strong>training events</strong></a> — sharing experience from Popular Medical College Hospital, Dhanmondi, Dhaka.`,
     faqs: [
       {
-        q: "Does Dr. Arefin offer gallbladder-surgery training to other doctors?",
+        q: "Does Dr. Arefin offer liver-surgery training to other doctors?",
         a: (
           <>
-            Yes — the <Link to="/mentorship/operative-skills-workshop/" title="Operative skills workshop">operative skills workshop</Link> and the wider <Link to="/mentorship/" title="Surgical mentorship programmes">mentorship programme</Link> include <Link to="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</Link> as a core hands-on module alongside <Link to="/treatment/liver-surgery/" title="Liver surgery training">liver</Link> and <Link to="/treatment/pancreatic-surgery/" title="Pancreatic surgery training">pancreatic surgery</Link>.
+            Yes — the <Link to="/mentorship/operative-skills-workshop/" title="Operative skills workshop">operative skills workshop</Link> and the wider <Link to="/mentorship/" title="Surgical mentorship programmes">mentorship programme</Link> include <Link to="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka">laparoscopic liver surgery</Link> as a core hands-on module alongside <Link to="/treatment/liver-surgery/" title="Liver surgery training">liver</Link> and <Link to="/treatment/pancreatic-surgery/" title="Pancreatic surgery training">pancreatic surgery</Link>.
           </>
         ),
         aText:
-          "Yes — the operative skills workshop and the wider mentorship programme include laparoscopic cholecystectomy as a core hands-on module alongside liver and pancreatic surgery.",
+          "Yes — the operative skills workshop and the wider mentorship programme include laparoscopic liver surgery as a core hands-on module alongside liver and pancreatic surgery.",
       },
       {
-        q: "Which gallbladder topics are covered at conferences?",
+        q: "Which liver topics are covered at conferences?",
         a: (
           <>
-            Sessions typically cover difficult <Link to="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhaka">gallbladder anatomy</Link>, safe <Link to="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</Link>, prevention of bile duct injury and <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary stricture reconstruction">post-injury reconstruction</Link>.
+            Sessions typically cover complex <Link to="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery in Dhaka">liver anatomy</Link>, safe <Link to="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka">laparoscopic liver resection</Link>, prevention of bile duct injury and <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary stricture reconstruction">post-injury reconstruction</Link>.
           </>
         ),
         aText:
-          "Sessions typically cover difficult gallbladder anatomy, safe laparoscopic cholecystectomy, prevention of bile duct injury and post-injury reconstruction.",
+          "Sessions typically cover complex liver anatomy, safe laparoscopic liver resection, prevention of bile duct injury and post-injury reconstruction.",
       },
       {
         q: "Does Dr. Arefin teach hepatobiliary surgery?",
@@ -112,27 +112,27 @@ const CATEGORY_COPY: Record<
   },
   Chamber: {
     intro: (alt) =>
-      `${alt}. <a href="/about/" title="About Dr. Murshidul Arefin"><strong>Dr. Murshidul Arefin</strong></a> sees patients at his Dhanmondi chamber inside Popular Medical College Hospital, House 25, Road 2, Dhanmondi 1205 — for <a href="/treatment/liver-surgery/" title="Liver consultations in Dhaka"><strong>liver</strong></a>, <a href="/treatment/gallbladder-surgery/" title="Gallbladder consultations in Dhaka"><strong>gallbladder</strong></a>, <a href="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary consultations in Dhaka"><strong>biliary</strong></a> and <a href="/treatment/pancreatic-surgery/" title="Pancreatic consultations in Dhaka"><strong>pancreatic consultations</strong></a>.`,
+      `${alt}. <a href="/about/" title="About Dr. Murshidul Arefin"><strong>Dr. Murshidul Arefin</strong></a> sees patients at his Dhanmondi chamber inside Popular Medical College Hospital, House 25, Road 2, Dhanmondi 1205 — for <a href="/treatment/liver-surgery/" title="Liver consultations in Dhaka"><strong>liver</strong></a>, <a href="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour consultations in Dhaka"><strong>liver tumour</strong></a>, <a href="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary consultations in Dhaka"><strong>biliary</strong></a> and <a href="/treatment/pancreatic-surgery/" title="Pancreatic consultations in Dhaka"><strong>pancreatic consultations</strong></a>.`,
     faqs: [
       {
-        q: "Where do I book a gallbladder consultation in Dhanmondi?",
+        q: "Where do I book a liver consultation in Dhanmondi?",
         a: (
           <>
-            Book at Dr. Arefin's Dhanmondi chamber for a <Link to="/treatment/gallbladder-surgery/" title="Gallbladder surgery consultation">gallbladder consultation</Link>; many patients are also seen for <Link to="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</Link> planning or <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary stricture reconstruction">post-cholecystectomy bile duct review</Link>.
+            Book at Dr. Arefin's Dhanmondi chamber for a <Link to="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery consultation">liver consultation</Link>; many patients are also seen for <Link to="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka">laparoscopic liver surgery</Link> planning or <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary stricture reconstruction">bile duct review</Link>.
           </>
         ),
         aText:
-          "Book at Dr. Arefin's Dhanmondi chamber for a gallbladder consultation; many patients are also seen for laparoscopic cholecystectomy planning or post-cholecystectomy bile duct review.",
+          "Book at Dr. Arefin's Dhanmondi chamber for a liver consultation; many patients are also seen for laparoscopic liver surgery planning or bile duct review.",
       },
       {
         q: "Which hepatobiliary conditions are reviewed at the chamber?",
         a: (
           <>
-            The chamber sees <Link to="/treatment/gallbladder-surgery/" title="Gallbladder disease in Dhaka">gallbladder</Link>, <Link to="/treatment/liver-surgery/" title="Liver disease in Dhaka">liver</Link>, <Link to="/treatment/liver-transplant-surgery-dhaka/" title="Liver transplant consultation in Dhaka">liver-transplant</Link>, <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary disease in Dhaka">biliary</Link> and <Link to="/treatment/pancreatic-surgery/" title="Pancreatic disease in Dhaka">pancreatic</Link> referrals.
+            The chamber sees <Link to="/treatment/liver-surgery/" title="Liver disease in Dhaka">liver</Link>, <Link to="/treatment/liver-transplant-surgery-dhaka/" title="Liver transplant consultation in Dhaka">liver-transplant</Link>, <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary disease in Dhaka">biliary</Link> and <Link to="/treatment/pancreatic-surgery/" title="Pancreatic disease in Dhaka">pancreatic</Link> referrals.
           </>
         ),
         aText:
-          "The chamber sees gallbladder, liver, liver-transplant, biliary and pancreatic referrals.",
+          "The chamber sees liver, liver-transplant, biliary and pancreatic referrals.",
       },
       {
         q: "Where is Dr. Arefin's chamber in Dhaka?",
@@ -150,17 +150,17 @@ const CATEGORY_COPY: Record<
   },
   "Successful OT": {
     intro: (alt) =>
-      `${alt}. This moment is from <a href="/about/" title="About Dr. Murshidul Arefin"><strong>Dr. Murshidul Arefin's</strong></a> <a href="/treatment/liver-surgery/" title="Hepatobiliary surgery in Dhaka"><strong>hepatobiliary practice</strong></a> at Popular Medical College Hospital, Dhanmondi, Dhaka — where every successful <a href="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic gallbladder removal"><strong>gallbladder</strong></a>, <a href="/treatment/liver-transplant-surgery-dhaka/" title="Liver transplant surgery in Dhaka"><strong>liver-transplant</strong></a> or <a href="/treatment/pancreatic-surgery/" title="Pancreatic surgery in Dhaka"><strong>pancreatic</strong></a> operation is followed by structured recovery and long-term follow-up.`,
+      `${alt}. This moment is from <a href="/about/" title="About Dr. Murshidul Arefin"><strong>Dr. Murshidul Arefin's</strong></a> <a href="/treatment/liver-surgery/" title="Hepatobiliary surgery in Dhaka"><strong>hepatobiliary practice</strong></a> at Popular Medical College Hospital, Dhanmondi, Dhaka — where every successful <a href="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery"><strong>liver</strong></a>, <a href="/treatment/liver-transplant-surgery-dhaka/" title="Liver transplant surgery in Dhaka"><strong>liver-transplant</strong></a> or <a href="/treatment/pancreatic-surgery/" title="Pancreatic surgery in Dhaka"><strong>pancreatic</strong></a> operation is followed by structured recovery and long-term follow-up.`,
     faqs: [
       {
-        q: "What does a successful gallbladder operation look like here?",
+        q: "What does a successful liver operation look like here?",
         a: (
           <>
-            A typical successful case is a 30–45 minute <Link to="/treatment/laparoscopic-cholecystectomy-dhaka/" title="Laparoscopic cholecystectomy in Dhaka">laparoscopic cholecystectomy</Link> with same-day mobilisation; complex <Link to="/treatment/gallbladder-surgery/" title="Gallbladder surgery in Dhaka">gallbladder</Link> cases may need open conversion or <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary reconstruction in Dhaka">bile duct reconstruction</Link>.
+            A typical successful case is a <Link to="/treatment/minimally-invasive-liver-surgery-dhaka/" title="Minimally invasive liver surgery in Dhaka">laparoscopic liver resection</Link> with early mobilisation; complex <Link to="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour surgery in Dhaka">liver tumour</Link> cases may need open conversion or <Link to="/treatment/biliary-stricture-reconstruction-dhaka/" title="Biliary reconstruction in Dhaka">bile duct reconstruction</Link>.
           </>
         ),
         aText:
-          "A typical successful case is a 30–45 minute laparoscopic cholecystectomy with same-day mobilisation; complex gallbladder cases may need open conversion or bile duct reconstruction.",
+          "A typical successful case is a laparoscopic liver resection with early mobilisation; complex liver tumour cases may need open conversion or bile duct reconstruction.",
       },
       {
         q: "How are liver and pancreatic outcomes tracked after surgery?",
@@ -174,7 +174,7 @@ const CATEGORY_COPY: Record<
       },
       {
         q: "What is recovery like after surgery with Dr. Arefin?",
-        a: "Recovery depends on the procedure: laparoscopic gallbladder removal often goes home in 24–48 hours, while complex liver or pancreatic resections need 7–14 days in hospital.",
+        a: "Recovery depends on the procedure: minimally invasive liver surgery often allows early mobilisation, while complex liver or pancreatic resections need 7–14 days in hospital.",
       },
       {
         q: "Does Dr. Arefin offer follow-up after surgery?",

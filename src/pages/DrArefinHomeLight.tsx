@@ -10,6 +10,8 @@ import {
 } from "lucide-react";
 import DrArefinHeader, { CallBookPill } from "@/components/arefin/DrArefinHeader";
 import DrArefinFooter from "@/components/arefin/DrArefinFooter";
+import GlobalCTABand from "@/components/arefin/GlobalCTABand";
+import { Helmet } from "react-helmet-async";
 import SlideButton from "@/components/arefin/SlideButton";
 import HeroV04LightA from "@/components/arefin/hero-variations/HeroV04LightA";
 import ValuePropV04LightA from "@/components/arefin/value-prop-variations/ValuePropV04LightA";
@@ -30,7 +32,7 @@ const initiatives = [
   {
     icon: HeartHandshake,
     title: "Surgery Assistance",
-    body: "We offer guidance and support for patients in need of complex liver, gallbladder, and pancreatic surgeries, helping them access the right care and financial assistance for timely treatment.",
+    body: "We offer guidance and support for patients in need of complex liver and pancreatic surgeries, helping them access the right care and financial assistance for timely treatment.",
   },
   {
     icon: GraduationCap,
@@ -136,6 +138,11 @@ const jsonLd = {
 const DrArefinHomeLight = () => {
   return (
     <div className="arefin min-h-screen bg-background text-foreground font-arefin">
+      <Helmet>
+        <title>Liver Surgery in Dhaka — Dr. Murshidul Arefin, Liver Specialist</title>
+        <meta name="description" content="Liver surgery in Dhaka by Dr. Murshidul Arefin — liver tumours, cysts, fatty liver and transplant care at Popular Medical College Hospital, Dhanmondi." />
+        <link rel="canonical" href="https://drarefin.com/light/" />
+      </Helmet>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <DrArefinHeader />
@@ -185,7 +192,7 @@ const DrArefinHomeLight = () => {
               Your trust and support help{" "}
               <SeoLink to="/dr-murshidul-arefin/" title="About Dr. Murshidul Arefin — hepatobiliary surgeon in Dhaka" bold>Dr. Murshidul Arefin</SeoLink> deliver{" "}
               <SeoLink to="/critical-liver-surgery/" title="Critical liver surgery — complex hepatic procedures by Dr. Arefin" bold>critical liver</SeoLink> and{" "}
-              <SeoLink to="/hepatobiliary-surgery/" title="Hepatobiliary surgery — liver, gallbladder, and bile duct surgical care" bold>hepatobiliary surgeries</SeoLink> to{" "}
+              <SeoLink to="/hepatobiliary-surgery/" title="Hepatobiliary surgery — liver and bile duct surgical care" bold>hepatobiliary surgeries</SeoLink> to{" "}
               <SeoLink to="/patients-who-need-hope/" title="Hepatobiliary care for patients who need hope the most" bold>patients who need hope the most</SeoLink>.
             </p>
           </Reveal>
@@ -236,7 +243,7 @@ const DrArefinHomeLight = () => {
                 Real stories of courage, recovery, and renewed life made possible through{" "}
                 <SeoLink
                   to="/dr-murshidul-arefin/"
-                  title="Dr. Murshidul Arefin — Dhaka's leading hepatobiliary, liver, gallbladder, and pancreatic surgeon at Popular Medical College Hospital"
+                  title="Dr. Murshidul Arefin — Dhaka's leading hepatobiliary, liver, and pancreatic surgeon at Popular Medical College Hospital"
                   bold
                 >
                   Dr. Murshidul Arefin
@@ -244,7 +251,7 @@ const DrArefinHomeLight = () => {
                 's expertise in{" "}
                 <SeoLink
                   to="/hepatobiliary-pancreatic-surgery/"
-                  title="Hepatobiliary and pancreatic surgery — liver, gallbladder, bile duct, and pancreas surgical care by Dr. Murshidul Arefin in Dhaka"
+                  title="Hepatobiliary and pancreatic surgery — liver, bile duct, and pancreas surgical care by Dr. Murshidul Arefin in Dhaka"
                   bold
                 >
                   hepatobiliary and pancreatic surgery
@@ -450,6 +457,19 @@ const DrArefinHomeLight = () => {
           }
         `}</style>
       </section>
+
+      <GlobalCTABand
+        headingLead="Ready for "
+        headingAccent="Expert Liver Consultation?"
+        body={
+          <>
+            <Link to="/contact/" className="liver-inline-link"><strong>Connect with Dr. Arefin</strong></Link> for a{" "}
+            <Link to="/treatment/liver-surgery/" className="liver-inline-link"><strong>comprehensive liver evaluation</strong></Link>,{" "}
+            <Link to="/contact/" className="liver-inline-link"><strong>expert surgical advice</strong></Link>, and a{" "}
+            <Link to="/diagnosis-surgery-recovery/" className="liver-inline-link"><strong>clear path to recovery</strong></Link>.
+          </>
+        }
+      />
 
       <DrArefinFooter />
     </div>

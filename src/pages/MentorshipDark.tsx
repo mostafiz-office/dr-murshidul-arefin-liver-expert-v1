@@ -47,7 +47,7 @@ const audiences = [
     title: "Intern Doctors",
     titleHref: "/mentorship/operative-skills-workshop/",
     titleAlt: "Operative skills workshop for intern doctors — hands-on laparoscopic training in Dhaka",
-    body: "<a href='/treatment/laparoscopic-cholecystectomy-dhaka/' title='Hands-on laparoscopic surgery training with Dr. Arefin'><strong>Hands-on surgical</strong></a>, operation-theatre, and patient-management experience under expert mentorship.",
+    body: "<a href='/treatment/minimally-invasive-liver-surgery-dhaka/' title='Hands-on laparoscopic liver surgery training with Dr. Arefin'><strong>Hands-on surgical</strong></a>, operation-theatre, and patient-management experience under expert mentorship.",
   },
   {
     icon: BookOpen,
@@ -111,7 +111,7 @@ const curriculum = [
     title: "Pancreatic & Biliary Surgery Skills",
     titleHref: "/treatment/pancreatic-surgery/",
     titleAlt: "Pancreatic & biliary surgery skills — laparoscopic and open techniques with Dr. Arefin",
-    body: "Focused training on <a href='/treatment/pancreatic-surgery/' title='Pancreatic and biliary disorder surgery by Dr. Arefin'><strong>managing complex pancreatic and biliary disorders</strong></a> using <a href='/treatment/laparoscopic-cholecystectomy-dhaka/' title='Laparoscopic surgery training'><strong>modern laparoscopic and open surgical approaches.</strong></a>",
+    body: "Focused training on <a href='/treatment/pancreatic-surgery/' title='Pancreatic and biliary disorder surgery by Dr. Arefin'><strong>managing complex pancreatic and biliary disorders</strong></a> using <a href='/treatment/minimally-invasive-liver-surgery-dhaka/' title='Laparoscopic liver surgery training'><strong>modern laparoscopic and open surgical approaches.</strong></a>",
   },
   {
     icon: Stethoscope,
@@ -155,9 +155,9 @@ const reasons = [
   {
     icon: Users,
     title: "International Faculty",
-    titleHref: "/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/",
+    titleHref: "/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/",
     titleAlt: "International faculty network — hepatobiliary credentials & transplant collaborators",
-    body: "Tap into a <a href='/credentials/fcps-ms-hepatobiliary-gallbladder-surgeon-dhaka/' title='Global academic network — Dr. Arefin FCPS/MS hepatobiliary credentials and collaborators'><strong>global academic network</strong></a> of <a href='/treatment/liver-surgery/' title='Hepatobiliary specialists network'><strong>hepatobiliary specialists</strong></a>, transplant centres, and research collaborators built over years of international practice.",
+    body: "Tap into a <a href='/credentials/fcps-ms-hepatobiliary-liver-surgeon-dhaka/' title='Global academic network — Dr. Arefin FCPS/MS hepatobiliary credentials and collaborators'><strong>global academic network</strong></a> of <a href='/treatment/liver-surgery/' title='Hepatobiliary specialists network'><strong>hepatobiliary specialists</strong></a>, transplant centres, and research collaborators built over years of international practice.",
   },
   {
     icon: UserCheck,

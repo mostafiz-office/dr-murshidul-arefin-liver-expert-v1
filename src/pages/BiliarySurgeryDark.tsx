@@ -93,7 +93,7 @@ const conditions: BiliaryCondition[] = [
     titleHref: "/treatment/choledochal-cyst-surgery-dhaka/",
     titleAlt: "Choledochal cyst excision surgery in Dhaka by Dr. Arefin",
     description:
-      "<a href='/treatment/choledochal-cyst-surgery-dhaka/' title='Choledochal cyst excision surgery in Dhaka by Dr. Arefin'><strong>Choledochal cysts</strong></a> are congenital bile duct dilations that carry a risk of <a href='/treatment/cholangiocarcinoma-surgery-dhaka/' title='Malignant transformation risk in biliary disease'><strong>malignant transformation</strong></a>. Dr. Arefin performs <a href='/treatment/choledochal-cyst-surgery-dhaka/' title='Complete cyst excision with Roux-en-Y hepaticojejunostomy'><strong>complete cyst excision with Roux-en-Y hepaticojejunostomy</strong></a> — the definitive treatment to eliminate cancer risk and restore normal biliary anatomy. For related <a href='/treatment/gallbladder-surgery/' class='bt-inline-link'>gallbladder conditions</a>, coordinated care is available.",
+      "<a href='/treatment/choledochal-cyst-surgery-dhaka/' title='Choledochal cyst excision surgery in Dhaka by Dr. Arefin'><strong>Choledochal cysts</strong></a> are congenital bile duct dilations that carry a risk of <a href='/treatment/cholangiocarcinoma-surgery-dhaka/' title='Malignant transformation risk in biliary disease'><strong>malignant transformation</strong></a>. Dr. Arefin performs <a href='/treatment/choledochal-cyst-surgery-dhaka/' title='Complete cyst excision with Roux-en-Y hepaticojejunostomy'><strong>complete cyst excision with Roux-en-Y hepaticojejunostomy</strong></a> — the definitive treatment to eliminate cancer risk and restore normal biliary anatomy. For related <a href='/treatment/' class='bt-inline-link'>gallbladder conditions</a>, coordinated care is available.",
     img: imgCyst,
     imgAlt:
       "Choledochal cyst excision — Dr. Arefin's surgical team at Popular Medical College Hospital — কোলিডোকাল সিস্ট সার্জারি",
@@ -149,7 +149,7 @@ const BILIARY_FAQ_SLUGS = [
   "does-dr-arefin-treat-cholangiocarcinoma-in-dhaka",
   "where-is-choledochal-cyst-surgery-performed-in-dhaka",
   "how-long-does-recovery-after-bile-duct-surgery-take-in-dhaka",
-  "treatment-for-bile-duct-injury-after-gallbladder-surgery-in-dhaka",
+  "treatment-for-bile-duct-injury-during-liver-surgery-in-dhaka",
   "how-to-book-a-biliary-tract-surgery-consultation-in-dhanmondi",
 ];
 const faqs = getFaqsBySlugs(BILIARY_FAQ_SLUGS);
@@ -405,9 +405,9 @@ const BiliarySurgeryDark = () => {
                 href: "/treatment/liver-surgery/",
               },
               {
-                title: "Gallbladder Surgery",
-                desc: "Laparoscopic cholecystectomy, gallstone removal, empyema treatment, and gallbladder cancer surgery.",
-                href: "/treatment/gallbladder-surgery/",
+                title: "Liver Tumour & Cancer Surgery",
+                desc: "Liver tumour resection, liver cancer surgery, benign liver tumours, and liver cyst surgery in Dhaka.",
+                href: "/treatment/liver-tumor-cancer-surgery-dhaka/",
               },
               {
                 title: "Pancreatic Surgery",

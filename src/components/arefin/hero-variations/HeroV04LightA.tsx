@@ -37,7 +37,7 @@ const HeroV04LightA = () => {
             <h1 className="hero-h1 font-arefin-heading">
               <span className="block hero-anim-fade-up hero-d-0">
                 Top{" "}
-                <Link to="/treatment/hepatobiliary-surgery/" title="Hepatobiliary surgery in Dhaka by Dr. Arefin — liver, gallbladder, bile duct procedures" className="hero-h1-link">Hepatobiliary</Link>,{" "}
+                <Link to="/treatment/hepatobiliary-surgery/" title="Hepatobiliary surgery in Dhaka by Dr. Arefin — liver, bile duct procedures" className="hero-h1-link">Hepatobiliary</Link>,{" "}
                 <Link to="/best-hepatobiliary-surgeon-dhaka/" title="Best hepatobiliary and pancreatic surgeon in Dhaka — Dr. Murshidul Arefin credentials" className="hero-h1-link">Pancreatic</Link>
                 <span className="whitespace-nowrap">&nbsp;&amp;</span>
               </span>
@@ -52,7 +52,7 @@ const HeroV04LightA = () => {
               Patient friendly, highly skilled surgical care by{" "}
               <Link to="/about/" title="About Dr. Murshidul Arefin" className="hero-p-link">Dr. Murshidul Arefin</Link>{" "}
               <Link to="/treatment/fatty-liver-management/" title="Fatty liver disease management and liver care by Dr. Arefin in Dhaka" className="hero-p-link">Liver</Link>,{" "}
-              <Link to="/conditions/gallstones/" title="Gallstones and gallbladder stone removal surgery in Dhaka" className="hero-p-link">Gall Bladder</Link>,{" "}
+              <Link to="/treatment/liver-tumor-cancer-surgery-dhaka/" title="Liver tumour and cancer surgery in Dhaka" className="hero-p-link">Liver Tumour</Link>,{" "}
               <Link to="/treatment/bile-duct-surgery/" title="Bile duct surgery, reconstruction and biliary tract procedures in Dhaka" className="hero-p-link">Biliary Tract</Link>,{" "}
               <Link to="/best-hepatobiliary-surgeon-dhaka/" title="Pancreatic surgery and Whipple procedure by best hepatobiliary surgeon in Dhaka" className="hero-p-link">Pancreas</Link>,{" "}
               <Link to="/treatment/spleen-surgery/" title="Spleen surgery and splenectomy by Dr. Arefin in Dhaka" className="hero-p-link">Spleen</Link>,{" "}

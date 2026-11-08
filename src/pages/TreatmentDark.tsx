@@ -19,6 +19,7 @@ import imgLiverCyst from "@/assets/treat-liver-cyst.webp";
 import imgFattyLiver from "@/assets/treat-fatty-liver.webp";
 import imgTransplant from "@/assets/gallery/liver-surgery-team-closeup-hepatobiliary-surgeon-dhaka.webp";
 import imgTransplantFollowup from "@/assets/dr-arefin-post-operation-real.webp";
+import imgAcuteLiver from "@/assets/gallery/hepatobiliary-open-surgery-best-surgeon-team-dhaka.webp";
 
 /**
  * Treatment — Dark version
@@ -51,6 +52,14 @@ const services: TreatmentService[] = [
     description:
       "<a href='/treatment/liver-cyst-surgery-dhaka/' title='Simple or complex liver cyst evaluation and surgery in Dhaka'><strong>Simple or complex liver cysts</strong></a> are carefully assessed using advanced imaging. When surgery is required, Dr. Arefin performs <a href='/treatment/liver-cyst-surgery-dhaka/' title='Safe liver cyst excision in Dhaka by Dr. Arefin'><strong>safe cyst excision</strong></a> to prevent recurrence, relieve discomfort, and <a href='/treatment/liver-surgery/' title='Restore normal liver function — hepatobiliary surgery in Dhaka'><strong>restore normal liver function.</strong></a>",
     img: imgLiverCyst,
+  },
+  {
+    title: "Liver Abscess & Acute Liver Conditions",
+    to: "/treatment/liver-abscess-dhaka/",
+    linkTitle: "Liver abscess treatment in Dhaka — drainage and surgery by liver surgeon Dr. Arefin",
+    description:
+      "For <a href='/treatment/liver-abscess-dhaka/' title='Liver abscess treatment in Dhaka'><strong>liver abscess and acute liver conditions</strong></a>, Dr. Arefin provides urgent assessment, image-guided drainage and surgery where needed — with 24-hour OT and ICU support at Popular Medical College Hospital.",
+    img: imgAcuteLiver,
   },
   {
     title: "Fatty Liver Surgical Intervention",

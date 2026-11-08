@@ -14,7 +14,7 @@ import { fetchPostBySlug, fetchPosts } from "@/lib/wpApi";
 /* ── Related articles sidebar ── */
 const relatedLinks = [
   { label: "Liver Surgery", path: "/treatment/liver-surgery/" },
-  { label: "Gallbladder Surgery", path: "/treatment/gallbladder-surgery/" },
+  { label: "Liver Tumour & Cancer Surgery", path: "/treatment/liver-tumor-cancer-surgery-dhaka/" },
   { label: "Pancreatic Surgery", path: "/treatment/pancreatic-surgery/" },
   { label: "Biliary Tract Surgery", path: "/treatment/biliary-tract-surgery/" },
   { label: "All Articles", path: "/articles/" },

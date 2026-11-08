@@ -391,9 +391,9 @@ const PancreaticSurgeryDark = () => {
                 href: "/treatment/liver-surgery/",
               },
               {
-                title: "Gallbladder Surgery",
-                desc: "Laparoscopic cholecystectomy, gallstone removal, empyema treatment, and gallbladder cancer surgery.",
-                href: "/treatment/gallbladder-surgery/",
+                title: "Liver Tumour & Cancer Surgery",
+                desc: "Liver tumour resection, liver cancer surgery, benign liver tumours, and liver cyst surgery in Dhaka.",
+                href: "/treatment/liver-tumor-cancer-surgery-dhaka/",
               },
               {
                 title: "Biliary Tract Surgery",

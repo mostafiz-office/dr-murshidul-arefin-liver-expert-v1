@@ -91,7 +91,7 @@ const navLinks: NavItem[] = [
     mega: true,
     children: [
       { label: "Liver Surgery", description: "Resection, transplant & HCC care", path: "/treatment/liver-surgery/", icon: <LiverIcon /> },
-      { label: "Gall Bladder", description: "Laparoscopic cholecystectomy", path: "/treatment/gallbladder-surgery/", icon: <GallbladderIcon /> },
+      { label: "Liver Tumour & Cancer", description: "Tumour resection & cancer care", path: "/treatment/liver-tumor-cancer-surgery-dhaka/", icon: <LiverIcon /> },
       { label: "Pancreatic Surgery", description: "Whipple & pseudocyst procedures", path: "/treatment/pancreatic-surgery/", icon: <PancreasIcon /> },
       { label: "Biliary Tract", description: "Bile duct reconstruction & stenting", path: "/treatment/biliary-tract-surgery/", icon: <BiliaryIcon /> },
     ],

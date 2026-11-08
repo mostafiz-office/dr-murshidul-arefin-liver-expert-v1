@@ -3,14 +3,12 @@ import { Phone, ArrowRight, Award } from "lucide-react";
 import { Link } from "react-router-dom";
 import portrait from "@/assets/arefin-portrait-light.webp";
 import organLiver from "@/assets/organ-liver-3d.webp";
-import organGallbladder from "@/assets/organ-gallbladder-3d.webp";
 import organStomach from "@/assets/organ-stomach-3d.webp";
 
-type OrganId = "liver" | "gall" | "stomach";
+type OrganId = "liver" | "stomach";
 
 const ORGANS: Record<OrganId, { label: string; href: string; blurb: string }> = {
   liver:   { label: "Liver",       href: "/treatment/liver-surgeon-dhaka/",       blurb: "Liver resection & HPB surgery" },
-  gall:    { label: "Gallbladder", href: "/treatment/gallbladder-surgery-dhaka/", blurb: "Laparoscopic cholecystectomy" },
   stomach: { label: "Stomach",     href: "/treatment/biliary-surgery-dhaka/",     blurb: "Upper-GI & biliary care" },
 };
 
@@ -65,7 +63,6 @@ const HomeMobileHeroV1 = () => {
             />
           </div>
           {renderOrgan("liver",   organLiver,       "liver")}
-          {renderOrgan("gall",    organGallbladder, "gall")}
           {renderOrgan("stomach", organStomach,     "stomach")}
         </div>
 

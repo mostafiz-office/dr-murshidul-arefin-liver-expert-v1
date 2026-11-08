@@ -35,7 +35,7 @@ const sections: Section[] = [
       { id: 3, anchor: "Liver Surgeon in Dhaka", currentLink: "#treatment", slug: "/treatment/liver-surgeon-dhaka/", title: "Best Liver Surgeon in Dhaka — Dr. Arefin", focus: "Geo-targeted liver surgery + Dhaka location, chamber info, map", status: "new" },
       { id: 4, anchor: "Dr. Murshidul Arefin", currentLink: "#about", slug: "/about/", title: "About Dr. Murshidul Arefin — HPB Surgeon", focus: "Already exists", status: "exists" },
       { id: 5, anchor: "Liver", currentLink: "#treatment", slug: "/treatment/liver-surgery/", title: "Advanced Liver Surgery — Dr. Arefin", focus: "Already exists", status: "exists" },
-      { id: 6, anchor: "Gall Bladder", currentLink: "#treatment", slug: "/treatment/gallbladder-surgery/", title: "Gallbladder Surgery in Dhaka", focus: "Already exists", status: "exists" },
+      { id: 6, anchor: "Liver Tumour", currentLink: "#treatment", slug: "/treatment/liver-tumor-cancer-surgery-dhaka/", title: "Liver Tumour & Cancer Surgery in Dhaka", focus: "Already exists", status: "exists" },
       { id: 7, anchor: "Biliary Tract", currentLink: "#treatment", slug: "/treatment/biliary-tract-surgery/", title: "Biliary Tract Surgery — Dr. Arefin", focus: "Already exists", status: "exists" },
       { id: 8, anchor: "Pancreas", currentLink: "#treatment", slug: "/treatment/pancreas-diseases/", title: "Pancreas Diseases & Surgery — Dr. Arefin", focus: "Diseases, symptoms, treatment options, when surgery is needed", status: "new" },
       { id: 9, anchor: "Spleen", currentLink: "#treatment", slug: "/treatment/spleen-surgery/", title: "Spleen Surgery & Splenectomy in Dhaka", focus: "Spleen enlargement, splenectomy, Dr. Arefin's experience", status: "new" },
@@ -48,7 +48,7 @@ const sections: Section[] = [
   {
     name: "Section 2 — Value Proposition",
     entries: [
-      { id: 14, anchor: "hepatobiliary, liver, and gallbladder surgery", currentLink: "—", slug: "/treatment/hepatobiliary-liver-gallbladder/", title: "Hepatobiliary, Liver & Gallbladder Surgery", focus: "Combined overview of three core specializations", status: "new" },
+      { id: 14, anchor: "hepatobiliary and liver surgery", currentLink: "—", slug: "/treatment/hepatobiliary-surgery/", title: "Hepatobiliary & Liver Surgery", focus: "Combined overview of three core specializations", status: "new" },
       { id: 15, anchor: "liver, pancreas, and biliary tract", currentLink: "—", slug: "/treatment/liver-pancreas-biliary/", title: "Liver, Pancreas & Biliary Tract Treatment", focus: "Diseases of these three organs, treatment pathways", status: "new" },
       { id: 16, anchor: "laparoscopic", currentLink: "—", slug: "/treatment/laparoscopic-surgery/", title: "Laparoscopic Surgery in Dhaka — Dr. Arefin", focus: "Minimally invasive/keyhole surgery, benefits, procedures", status: "new" },
       { id: 17, anchor: "open surgical", currentLink: "—", slug: "/treatment/open-surgery/", title: "Open Surgical Techniques — Dr. Arefin", focus: "When open surgery is preferred, Dr. Arefin's expertise", status: "new" },
@@ -76,7 +76,7 @@ const sections: Section[] = [
       { id: 29, anchor: "Surgery Assistance", currentLink: "—", slug: "/initiatives/surgery-assistance/", title: "Surgery Assistance Program — Dr. Arefin", focus: "Financial assistance, eligibility, success stories", status: "new" },
       { id: 30, anchor: "Health Education (card)", currentLink: "—", slug: "/initiatives/health-education/", title: "(same as #26)", focus: "(same as #26)", status: "covered", coveredBy: 26 },
       { id: 31, anchor: "Support Groups", currentLink: "—", slug: "/initiatives/support-groups/", title: "Patient Support Groups — Dr. Arefin", focus: "How to join, meeting details, testimonials", status: "new" },
-      { id: 32, anchor: "complex liver, gallbladder, and pancreatic surgeries", currentLink: "—", slug: "/treatment/complex-hepatobiliary-surgery/", title: "Complex Liver, Gallbladder & Pancreatic Surgery", focus: "High-risk/complex cases, case studies", status: "new" },
+      { id: 32, anchor: "complex liver and pancreatic surgeries", currentLink: "—", slug: "/treatment/complex-hepatobiliary-surgery/", title: "Complex Liver & Pancreatic Surgery", focus: "High-risk/complex cases, case studies", status: "new" },
       { id: 33, anchor: "hepatobiliary or liver transplant treatments", currentLink: "—", slug: "/treatment/liver-transplant/", title: "Liver Transplant Care — Dr. Arefin", focus: "Pre/post transplant journey, coordination", status: "new" },
     ],
   },
@@ -92,20 +92,20 @@ const sections: Section[] = [
   {
     name: "Section 6 — Recent Videos",
     entries: [
-      { id: 38, anchor: "liver, gallbladder and digestive surgery", currentLink: "—", slug: "/treatment/liver-gallbladder-digestive/", title: "Liver, Gallbladder & Digestive Surgery Topics", focus: "Hub page linking to video content + treatment detail", status: "new" },
+      { id: 38, anchor: "liver and digestive surgery", currentLink: "—", slug: "/treatment/liver-surgery/", title: "Liver & Digestive Surgery Topics", focus: "Hub page linking to video content + treatment detail", status: "new" },
     ],
   },
   {
     name: "Section 7 — Services (Sticky Stack Cards)",
     entries: [
       { id: 39, anchor: "Advanced Liver Surgery", currentLink: "/treatment/liver-surgery/", slug: "/treatment/liver-surgery/", title: "Advanced Liver Surgery — Dr. Arefin", focus: "exists", status: "exists" },
-      { id: 40, anchor: "Gallbladder & Biliary Surgery", currentLink: "/treatment/gallbladder-surgery/", slug: "/treatment/gallbladder-surgery/", title: "Gallbladder & Biliary Surgery", focus: "exists", status: "exists" },
+      { id: 40, anchor: "Liver & Biliary Surgery", currentLink: "/treatment/liver-tumor-cancer-surgery-dhaka/", slug: "/treatment/liver-tumor-cancer-surgery-dhaka/", title: "Liver & Biliary Surgery", focus: "exists", status: "exists" },
       { id: 41, anchor: "Pancreatic & Upper GI Surgery", currentLink: "/treatment/pancreatic-surgery/", slug: "/treatment/pancreatic-surgery/", title: "Pancreatic & Upper GI Surgery", focus: "exists", status: "exists" },
       { id: 42, anchor: "Bile Duct & Hepatic Surgery", currentLink: "—", slug: "/treatment/bile-duct-surgery/", title: "Bile Duct & Hepatic Surgery — Dr. Arefin", focus: "Bile duct injuries, strictures, choledochal cysts", status: "new" },
       { id: 43, anchor: "Liver Transplant Coordination", currentLink: "—", slug: "/treatment/liver-transplant-coordination/", title: "Liver Transplant Coordination — Dr. Arefin", focus: "Pre/post transplant care, center coordination", status: "new" },
       { id: 44, anchor: "Fatty Liver & Disease Management", currentLink: "—", slug: "/treatment/fatty-liver-management/", title: "Fatty Liver & Disease Management", focus: "Non-surgical approach, lifestyle, monitoring", status: "new" },
       { id: 45, anchor: "liver tumors, cysts", currentLink: "—", slug: "/conditions/liver-tumors-cysts/", title: "Liver Tumors & Cysts Treatment in Dhaka", focus: "Types, diagnosis, surgical options", status: "new" },
-      { id: 46, anchor: "gallstones", currentLink: "—", slug: "/conditions/gallstones/", title: "Gallstone Surgery in Dhaka — Dr. Arefin", focus: "Symptoms, diagnosis, laparoscopic removal, recovery", status: "new" },
+      { id: 46, anchor: "liver cysts", currentLink: "—", slug: "/treatment/liver-cyst-surgery-dhaka/", title: "Liver Cyst Surgery in Dhaka — Dr. Arefin", focus: "Symptoms, diagnosis, laparoscopic removal, recovery", status: "new" },
       { id: 47, anchor: "bile duct obstructions", currentLink: "—", slug: "/conditions/bile-duct-obstruction/", title: "Bile Duct Obstruction Treatment", focus: "Causes, symptoms, surgical vs endoscopic treatment", status: "new" },
       { id: 48, anchor: "pancreatic disorders", currentLink: "—", slug: "/conditions/pancreatic-disorders/", title: "Pancreatic Disorders — Diagnosis & Surgery", focus: "Types of conditions, treatment pathways", status: "new" },
       { id: 49, anchor: "fatty liver, hepatitis", currentLink: "—", slug: "/conditions/fatty-liver-hepatitis/", title: "Fatty Liver & Hepatitis Management in Dhaka", focus: "Non-surgical management, treatment plans", status: "new" },

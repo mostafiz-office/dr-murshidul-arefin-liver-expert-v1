@@ -1,6 +1,6 @@
 # Dr. Murshidul Arefin — Hepatobiliary, Pancreatic & Liver Surgeon, Dhaka
 
-> Patient-friendly hepatobiliary, pancreatic, and liver surgical care by Dr. Murshidul Arefin at Popular Medical College Hospital, Dhanmondi, Dhaka, Bangladesh. Specialising in liver, gallbladder, biliary tract, pancreas, and upper GI surgery — open and laparoscopic.
+> Patient-friendly hepatobiliary, pancreatic, and liver surgical care by Dr. Murshidul Arefin at Popular Medical College Hospital, Dhanmondi, Dhaka, Bangladesh. Specialising in liver, biliary tract, pancreas, and upper GI surgery — open and laparoscopic.
 
 Dr. Murshidul Arefin (MBBS, MS Hepatobiliary Surgery, BSMMU) is a senior hepatobiliary, pancreatic, and liver surgeon based in Dhaka. The site documents his surgical services, treatments, patient education, mentorship, articles, and contact details.
 
@@ -10,17 +10,17 @@ Dr. Murshidul Arefin (MBBS, MS Hepatobiliary Surgery, BSMMU) is a senior hepatob
 - [About Dr. Arefin](/about/): Background, training, credentials, and surgical philosophy.
 - [Treatments](/treatment/): Full list of hepatobiliary, pancreatic, and liver surgical services.
 - [Mentorship](/mentorship/): Surgical mentorship and academic teaching activities.
-- [Articles](/articles/): Patient-education articles on liver, gallbladder, and biliary conditions.
+- [Articles](/articles/): Patient-education articles on liver and biliary conditions.
 - [Gallery](/gallery/): Photos from the operating theatre, chamber, and academic events.
 - [Contact](/contact/): Chamber address, phone, email, and appointment booking.
 
 ## Treatment hubs
 
 - [Liver Surgery](/treatment/liver-surgery/): Open and laparoscopic liver resection and hepatic procedures.
-- [Gallbladder Surgery](/treatment/gallbladder-surgery/): Cholecystectomy and gallstone management.
+- [Liver Tumour & Cancer Surgery](/treatment/liver-tumor-cancer-surgery-dhaka/): Liver tumour and cancer surgery, including liver resection.
 - [Pancreatic Surgery](/treatment/pancreatic-surgery/): Pancreatic resections and complex pancreatic procedures.
 - [Biliary Tract Surgery](/treatment/biliary-tract-surgery/): Bile duct reconstruction and biliary procedures.
-- [Hepatobiliary Surgery](/treatment/hepatobiliary-surgery/): Combined liver, gallbladder, and bile duct surgical care.
+- [Hepatobiliary Surgery](/treatment/hepatobiliary-surgery/): Combined liver and bile duct surgical care.
 - [Laparoscopic Surgery](/treatment/laparoscopic-surgery/): Minimally invasive hepatobiliary techniques.
 - [Bile Duct Surgery](/treatment/bile-duct-surgery/): Surgical management of bile duct disease.
 - [Fatty Liver Management](/treatment/fatty-liver-management/): Evaluation and management of fatty liver disease.
@@ -39,13 +39,13 @@ Dr. Murshidul Arefin (MBBS, MS Hepatobiliary Surgery, BSMMU) is a senior hepatob
 - [Liver Surgery in Dhanmondi](/treatment/liver-surgery-in-dhanmondi/): Local liver surgery service at Dhanmondi.
 - [Liver Surgeon, Dhaka](/treatment/liver-surgeon-dhaka/): Liver surgeon profile and consultation.
 
-## Specialised gallbladder procedures
+## Specialised liver procedures
 
-- [Laparoscopic Cholecystectomy, Dhaka](/treatment/laparoscopic-cholecystectomy-dhaka/): Keyhole gallbladder removal.
-- [Gallstone Removal, Dhaka](/treatment/gallstone-removal-dhaka/): Surgical and endoscopic stone management.
-- [Cholecystitis Surgery, Dhaka](/treatment/cholecystitis-surgery-dhaka/): Surgery for acute and chronic gallbladder inflammation.
-- [Empyema Gallbladder, Dhaka](/treatment/empyema-gallbladder-dhaka/): Emergency surgery for infected gallbladder.
-- [Gallbladder Cancer Resection, Dhaka](/treatment/gallbladder-cancer-resection-dhaka/): Radical surgery for gallbladder malignancy.
+- [Liver Tumour & Cancer Surgery, Dhaka](/treatment/liver-tumor-cancer-surgery-dhaka/): Liver resection for primary and metastatic liver tumours.
+- [Minimally Invasive Liver Surgery, Dhaka](/treatment/minimally-invasive-liver-surgery-dhaka/): Keyhole liver resection.
+- [Benign Liver Tumour Surgery, Dhaka](/treatment/benign-liver-tumour-surgery-dhaka/): Surgery for benign liver tumours.
+- [Liver Abscess, Dhaka](/treatment/liver-abscess-dhaka/): Drainage and surgery for liver abscess.
+- [Liver Cancer Resection, Dhaka](/treatment/liver-cancer-resection-dhaka/): Radical surgery for liver malignancy.
 
 ## Specialised pancreatic procedures
 
@@ -65,7 +65,7 @@ Dr. Murshidul Arefin (MBBS, MS Hepatobiliary Surgery, BSMMU) is a senior hepatob
 
 ## Conditions
 
-- [Gallstones](/conditions/gallstones/): Diagnosis and surgical treatment of gallstones in Dhaka.
+- [Liver Cyst Surgery](/treatment/liver-cyst-surgery-dhaka/): Diagnosis and surgical treatment of liver cysts in Dhaka.
 
 ## About & credentials
 
@@ -95,4 +95,4 @@ Dr. Murshidul Arefin (MBBS, MS Hepatobiliary Surgery, BSMMU) is a senior hepatob
 
 ## Optional
 
-- [Sitemap](/sitemap.xml): Full machine-readable list of all 330+ indexable pages, including per-task journey pages under each treatment.
+- [Sitemap](/sitemap.xml): Full machine-readable list of all 416 indexable pages, including per-task journey pages under each treatment.
