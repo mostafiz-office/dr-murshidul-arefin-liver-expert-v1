@@ -28,7 +28,7 @@ interface JourneyStepSeed {
   tasks: string[];
 }
 interface JourneyVariantSeed {
-  variant: "liver" | "gallbladder" | "pancreatic" | "biliary" | "mentorship";
+  variant: "liver" | "liver-resection" | "pancreatic" | "biliary" | "mentorship";
   variantLabel: string;
   hubHref: string;           // e.g. /treatment/liver-surgery/
   hubLabel: string;
@@ -69,34 +69,34 @@ const VARIANTS: JourneyVariantSeed[] = [
     ],
   },
   {
-    variant: "gallbladder",
-    variantLabel: "Gallbladder Surgery",
-    hubHref: "/treatment/gallbladder-surgery/",
-    hubLabel: "Gallbladder Surgery Hub",
+    variant: "liver-resection",
+    variantLabel: "Liver Resection Surgery",
+    hubHref: "/treatment/liver-tumor-cancer-surgery-dhaka/",
+    hubLabel: "Liver Tumour & Cancer Surgery Hub",
     steps: [
       {
         badge: "Step 1", title: "Consultation & Diagnosis",
-        stepHref: "/treatment/cholecystitis-surgery-dhaka/",
-        stepLinkTitle: "Gallbladder consultation and cholecystitis evaluation in Dhaka",
-        tasks: ["Symptom Evaluation", "Abdominal Ultrasound", "MRCP When Indicated", "Liver Function Tests"],
+        stepHref: "/treatment/liver-surgeon-dhaka/",
+        stepLinkTitle: "Liver surgeon consultation in Dhaka by Dr. Arefin",
+        tasks: ["Medical History Review", "Diagnostic Imaging", "Lab Work Analysis", "Risk Assessment"],
       },
       {
         badge: "Step 2", title: "Treatment Planning",
-        stepHref: "/treatment/gallbladder-cancer-resection-dhaka/",
-        stepLinkTitle: "Gallbladder treatment planning in Dhaka by Dr. Arefin",
-        tasks: ["Laparoscopic vs Open Decision", "Anaesthetic Clearance", "Pre-op Optimisation", "Patient Counselling"],
+        stepHref: "/treatment/liver-tumor-cancer-surgery-dhaka/",
+        stepLinkTitle: "Liver tumour and cancer surgery planning in Dhaka by Dr. Arefin",
+        tasks: ["Multidisciplinary Review", "Surgical Approach Selection", "Pre-op Preparation", "Patient Counselling"],
       },
       {
-        badge: "Step 3", title: "Laparoscopic Cholecystectomy",
-        stepHref: "/treatment/laparoscopic-cholecystectomy-dhaka/",
-        stepLinkTitle: "Laparoscopic cholecystectomy in Dhaka by Dr. Arefin",
-        tasks: ["Keyhole Incisions", "Critical View of Safety", "Stone & Specimen Retrieval", "Drain Placement If Needed"],
+        badge: "Step 3", title: "Surgical Procedure",
+        stepHref: "/treatment/minimally-invasive-liver-surgery-dhaka/",
+        stepLinkTitle: "Minimally invasive liver surgery in Dhaka by Dr. Arefin",
+        tasks: ["Advanced Surgical Techniques", "Minimally Invasive Options", "Intraoperative Monitoring", "Expert Surgical Team"],
       },
       {
         badge: "Step 4", title: "Recovery & Follow-Up",
-        stepHref: "/treatment/gallstone-removal-dhaka/",
-        stepLinkTitle: "Gallbladder surgery recovery and follow-up in Dhaka",
-        tasks: ["Same/Next-Day Discharge", "Diet & Wound Guidance", "2-Week Review", "Long-Term Support"],
+        stepHref: "/treatment/liver-surgery-recovery/",
+        stepLinkTitle: "Post-operative liver care and follow-up by Dr. Arefin",
+        tasks: ["Recovery Protocol", "Follow-up Consultations", "Rehabilitation Guidance", "Lifetime Support"],
       },
     ],
   },

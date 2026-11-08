@@ -39,7 +39,7 @@ export interface TreatmentProcessHeader {
   ariaLabel: string;
 }
 
-export type TreatmentProcessVariant = "liver" | "gallbladder" | "pancreatic" | "biliary" | "mentorship";
+export type TreatmentProcessVariant = "liver" | "liver-resection" | "pancreatic" | "biliary" | "mentorship";
 
 const STEPS_BY_VARIANT: Record<TreatmentProcessVariant, Step[]> = {
   liver: [
@@ -84,46 +84,46 @@ const STEPS_BY_VARIANT: Record<TreatmentProcessVariant, Step[]> = {
       linkTitle: "Post-operative liver care and follow-up by Dr. Arefin",
     },
   ],
-  gallbladder: [
+  "liver-resection": [
     {
       badge: "Step 1",
       title: "Consultation & Diagnosis",
       description:
-        "We start with a focused clinical assessment of your symptoms — biliary colic, indigestion, jaundice — supported by abdominal ultrasound, liver function tests, and where required MRCP to map gallstones, polyps, or inflammation precisely.",
-      tasks: ["Symptom Evaluation", "Abdominal Ultrasound", "MRCP When Indicated", "Liver Function Tests"],
+        "Your journey begins with a thorough liver assessment. We review your complete medical history, conduct advanced diagnostic imaging, liver function tests, and clinical evaluation to build a precise diagnosis and determine the optimal resection pathway.",
+      tasks: ["Medical History Review", "Diagnostic Imaging", "Lab Work Analysis", "Risk Assessment"],
       glass: "diagnosis",
-      href: "/treatment/cholecystitis-surgery-dhaka/",
-      linkTitle: "Gallbladder consultation and cholecystitis evaluation in Dhaka",
+      href: "/treatment/liver-surgeon-dhaka/",
+      linkTitle: "Liver surgeon consultation in Dhaka by Dr. Arefin",
     },
     {
       badge: "Step 2",
       title: "Treatment Planning",
       description:
-        "Dr. Arefin selects the right approach for your gallbladder disease — elective laparoscopic cholecystectomy, urgent surgery for acute cholecystitis, or complex open conversion when anatomy demands it — and prepares you with clear pre-op counselling.",
-      tasks: ["Laparoscopic vs Open Decision", "Anaesthetic Clearance", "Pre-op Optimisation", "Patient Counselling"],
+        "Dr. Arefin and his multidisciplinary team craft a detailed, evidence-based resection plan tailored to your tumour — selecting the optimal surgical approach, assessing remnant liver volume, and preparing you with clear pre-op counselling.",
+      tasks: ["Multidisciplinary Review", "Surgical Approach Selection", "Pre-op Preparation", "Patient Counselling"],
       glass: "planning",
-      href: "/treatment/gallbladder-cancer-resection-dhaka/",
-      linkTitle: "Gallbladder treatment planning in Dhaka by Dr. Arefin",
+      href: "/treatment/liver-tumor-cancer-surgery-dhaka/",
+      linkTitle: "Liver tumour and cancer surgery planning in Dhaka by Dr. Arefin",
     },
     {
       badge: "Step 3",
-      title: "Laparoscopic Cholecystectomy",
+      title: "Surgical Procedure",
       description:
-        "Minimally invasive removal of the gallbladder through 3–4 keyhole incisions, using high-definition laparoscopy and meticulous Calot's triangle dissection to safely identify and protect the biliary tree throughout the procedure.",
-      tasks: ["Keyhole Incisions", "Critical View of Safety", "Stone & Specimen Retrieval", "Drain Placement If Needed"],
+        "Precision liver resection performed with advanced techniques in a state-of-the-art operating theatre. Minimally invasive options are prioritised when possible, with vascular control, real-time monitoring and an expert surgical team.",
+      tasks: ["Advanced Surgical Techniques", "Minimally Invasive Options", "Intraoperative Monitoring", "Expert Surgical Team"],
       glass: "surgery",
-      href: "/treatment/laparoscopic-cholecystectomy-dhaka/",
-      linkTitle: "Laparoscopic cholecystectomy in Dhaka by Dr. Arefin",
+      href: "/treatment/minimally-invasive-liver-surgery-dhaka/",
+      linkTitle: "Minimally invasive liver surgery in Dhaka by Dr. Arefin",
     },
     {
       badge: "Step 4",
       title: "Recovery & Follow-Up",
       description:
-        "Most patients go home within 24 hours. We guide you through diet reintroduction, wound care, and activity progression, with structured follow-up to confirm full recovery and resolve any post-cholecystectomy symptoms.",
-      tasks: ["Same/Next-Day Discharge", "Diet & Wound Guidance", "2-Week Review", "Long-Term Support"],
+        "Comprehensive post-operative care with structured recovery protocols, pain management, nutritional guidance, and regular follow-up visits. Dr. Arefin monitors your progress to ensure complete recovery and long-term liver health.",
+      tasks: ["Recovery Protocol", "Follow-up Consultations", "Rehabilitation Guidance", "Lifetime Support"],
       glass: "recovery",
-      href: "/treatment/gallstone-removal-dhaka/",
-      linkTitle: "Gallbladder surgery recovery and follow-up in Dhaka",
+      href: "/treatment/liver-surgery-recovery/",
+      linkTitle: "Post-operative liver care and follow-up by Dr. Arefin",
     },
   ],
   pancreatic: [
@@ -257,8 +257,8 @@ const STEPS_BY_VARIANT: Record<TreatmentProcessVariant, Step[]> = {
 const SUBTITLE_BY_VARIANT: Record<TreatmentProcessVariant, string> = {
   liver:
     "A structured, patient-centered approach from first consultation through full recovery — guided by 20+ years of hepatobiliary expertise.",
-  gallbladder:
-    "A streamlined, patient-centered pathway for gallbladder disease — from first ultrasound to laparoscopic recovery — backed by 20+ years of HPB surgical expertise.",
+  "liver-resection":
+    "A streamlined, patient-centered pathway for liver resection — from first imaging to resection and recovery — led by a liver surgeon.",
   pancreatic:
     "A multidisciplinary, precision-guided pathway for pancreatic disease — from advanced imaging through complex resection and long-term oncologic follow-up.",
   biliary:
@@ -271,7 +271,7 @@ type SectionHeader = TreatmentProcessHeader;
 
 const HEADER_BY_VARIANT: Record<TreatmentProcessVariant, SectionHeader> = {
   liver:       { label: "Treatment Process", headingLead: "Your Treatment ",  headingAccent: "Journey",  ariaLabel: "Our four-step treatment process" },
-  gallbladder: { label: "Treatment Process", headingLead: "Your Treatment ",  headingAccent: "Journey",  ariaLabel: "Our four-step treatment process" },
+  "liver-resection": { label: "Treatment Process", headingLead: "Your Treatment ",  headingAccent: "Journey",  ariaLabel: "Our four-step treatment process" },
   pancreatic:  { label: "Treatment Process", headingLead: "Your Treatment ",  headingAccent: "Journey",  ariaLabel: "Our four-step treatment process" },
   biliary:     { label: "Treatment Process", headingLead: "Your Treatment ",  headingAccent: "Journey",  ariaLabel: "Our four-step treatment process" },
   mentorship:  { label: "Training Timeline", headingLead: "Your Mentorship ", headingAccent: "Journey",  ariaLabel: "Our four-phase mentorship timeline" },
@@ -387,19 +387,6 @@ const IconClipboardLiver = () => (
   </svg>
 );
 
-/* Step 2 — Gallbladder planning: clipboard + tiny pear-shaped gallbladder. */
-const IconClipboardGallbladder = () => (
-  <svg {...SVG_PROPS}>
-    <rect x="7" y="6" width="14" height="20" rx="2.2" />
-    <path d="M11 6V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1" />
-    <path d="M10.5 13l1.5 1.5 3-3" />
-    <path d="M10.5 19l1.5 1.5 3-3" />
-    {/* mini gallbladder pear */}
-    <path d="M23 16.5c1.6 0 2.8 1.3 2.8 3 0 2-1.4 3.5-2.8 3.5s-2.8-1.5-2.8-3.5c0-1.7 1.2-3 2.8-3z" />
-    <path d="M23 16.5v-2" />
-  </svg>
-);
-
 /* Step 2 — Pancreatic planning: clipboard + slender pancreas curve. */
 const IconClipboardPancreas = () => (
   <svg {...SVG_PROPS}>
@@ -435,22 +422,6 @@ const IconLiverIncision = () => (
     <path d="M16 8v6" />
     <path d="M11 14.5h7" strokeDasharray="1.4 1.6" />
     <path d="M19.5 13l2.5-2.5 1.5 1.5L21 14.5z" />
-  </svg>
-);
-
-/* Step 3 — Gallbladder surgery: pear-shaped gallbladder with stones inside +
-   small clip marker representing laparoscopic ligation. */
-const IconGallbladderSurgery = () => (
-  <svg {...SVG_PROPS}>
-    {/* Pear-shaped gallbladder */}
-    <path d="M16 8c-4 0-7 3-7 8s3 10 7 10 7-5 7-10-3-8-7-8z" />
-    {/* Cystic duct stub at the top */}
-    <path d="M16 8V4" />
-    {/* Two gallstones */}
-    <circle cx="14" cy="17" r="1.6" />
-    <circle cx="18" cy="20" r="1.2" />
-    {/* Clip marker on the cystic duct */}
-    <path d="M14.5 5.5h3" />
   </svg>
 );
 
@@ -494,7 +465,7 @@ const IconShieldHeartbeat = () => (
 
 const STEP_ICONS_BY_VARIANT: Record<TreatmentProcessVariant, Array<() => JSX.Element>> = {
   liver: [IconStethoscopeMag, IconClipboardLiver, IconLiverIncision, IconShieldHeartbeat],
-  gallbladder: [IconStethoscopeMag, IconClipboardGallbladder, IconGallbladderSurgery, IconShieldHeartbeat],
+  "liver-resection": [IconStethoscopeMag, IconClipboardLiver, IconLiverIncision, IconShieldHeartbeat],
   pancreatic: [IconStethoscopeMag, IconClipboardPancreas, IconPancreasSurgery, IconShieldHeartbeat],
   biliary: [IconStethoscopeMag, IconClipboardBileTree, IconBiliarySurgery, IconShieldHeartbeat],
   mentorship: [IconStethoscopeMag, IconClipboardLiver, IconLiverIncision, IconShieldHeartbeat],
