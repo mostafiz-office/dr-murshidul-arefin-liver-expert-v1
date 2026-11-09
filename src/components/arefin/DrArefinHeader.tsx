@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone, MessageCircle, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, MessageCircle, ChevronDown, Send } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import logo from "@/assets/dr-arefin-logo-black.webp";
 import SlideButton from "./SlideButton";
@@ -73,6 +73,7 @@ const FattyLiverIcon = () => (
 /** Mega rail icon per service slug (same hand-drawn stroke style). */
 const MEGA_ICONS: Record<string, React.ReactNode> = {
   "liver-surgery": <LiverIcon />,
+  "liver-resection-surgery": <LiverIcon />,
   "gallbladder-surgery": <GallbladderIcon />,
   "bile-duct-surgery": <BiliaryIcon />,
   "pancreatic-surgery": <PancreasIcon />,
@@ -314,21 +315,26 @@ const NavItemLink = ({
                 in CSS so switching never resizes the panel (plan §10.2). */}
             <div className="arefin-mega-detail" key={activeService.slug}>
               <div className="arefin-mega-swap">
-                <h3 className="arefin-mega-detail-title">{activeService.display}</h3>
-                <p className="arefin-mega-detail-desc">{activeService.description}</p>
-                <div className="arefin-mega-actions">
-                  <Link
-                    to={activeService.hub}
-                    title={activeService.hubTitle}
-                    onClick={() => setOpenDropdown(null)}
-                    className="arefin-mega-btn-primary"
-                  >
-                    Treatment page →
-                  </Link>
+                <div className="arefin-mega-head">
+                  <div className="arefin-mega-head-text">
+                    <h3 className="arefin-mega-detail-title">{activeService.display}</h3>
+                    <p className="arefin-mega-detail-desc">{activeService.description}</p>
+                  </div>
+                  <div className="arefin-mega-actions">
+                    <Link
+                      to={`/contact/?treatment=${activeService.slug}`}
+                      title={`Send a query about ${activeService.display}`}
+                      onClick={() => setOpenDropdown(null)}
+                      className="arefin-mega-btn-primary"
+                    >
+                      <Send className="h-4 w-4" aria-hidden />
+                      Send a Query
+                    </Link>
                   <a href={MEGA_PHONE_HREF} className="arefin-mega-btn-call" title={`Call Dr. Arefin — ${MEGA_PHONE_DISPLAY}`}>
                     <Phone className="h-4 w-4" aria-hidden />
                     Call
-                  </a>
+                    </a>
+                  </div>
                 </div>
                 <span className="arefin-mega-areas-label">Areas We Serve</span>
                 <ul className="arefin-mega-areas">

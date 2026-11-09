@@ -891,6 +891,18 @@
     flex-direction: column;
     flex: 1;
   }
+  /* Nov 2026 fix (FIX-PLAN-5): title/description on the left, the
+     grouped buttons on the right, vertically centred. */
+  .arefin-mega-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .arefin-mega-head-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
   .arefin-mega-detail-title {
     font-family: var(--font-heading, 'Ubuntu'), 'Poppins', system-ui, sans-serif;
     font-size: 1.375rem;
@@ -912,12 +924,14 @@
   .arefin-mega-actions {
     display: inline-flex;
     gap: 0;
-    margin-top: 16px;
+    margin-top: 0;
+    align-self: center;
+    flex-shrink: 0;
   }
   /* Treatment dropdown buttons (owner direction 2026-11-09): the two
      buttons are one grouped segmented pill — primary = white text on
      bright green, call = black text on white, joined with no gap and a
-     thin divider between them. Hover swaps both to white on darker green.
+     thin divider between them. Primary hover deepens the green; Call hover turns light grey.
      Panel size uses the hero base geometry (3rem tall, 0.9375rem). The
      (0,4,0) locks below keep the global dark link-hover rule
      (.arefin.dark a:hover, (0,3,1)) from repainting these buttons' text
@@ -926,14 +940,18 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 3rem;
-    padding: 0 1.75rem;
+    gap: 8px;
+    height: 2.625rem;
+    padding: 0 1.25rem;
     border-radius: 999px 0 0 999px;
     background: hsl(var(--primary-bright));
     border: 1px solid hsl(var(--primary-bright));
     color: #ffffff;
-    font-size: 0.9375rem;
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
     text-decoration: none;
     transition: background-color 300ms cubic-bezier(0.22, 1, 0.36, 1), color 300ms cubic-bezier(0.22, 1, 0.36, 1);
   }
@@ -956,36 +974,40 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    height: 3rem;
-    padding: 0 1.75rem;
+    gap: 8px;
+    height: 2.625rem;
+    padding: 0 1.25rem;
     border-radius: 0 999px 999px 0;
     background: #ffffff;
     border: 1px solid #ffffff;
     border-left: 1px solid rgba(0, 0, 0, 0.12);
     color: hsl(0 0% 4%);
-    font-size: 0.9375rem;
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
     text-decoration: none;
     transition: background-color 300ms cubic-bezier(0.22, 1, 0.36, 1), border-color 300ms cubic-bezier(0.22, 1, 0.36, 1), color 300ms cubic-bezier(0.22, 1, 0.36, 1);
   }
   .arefin-mega-btn-call:hover {
-    background: hsl(var(--primary-darker));
-    border-color: hsl(var(--primary-darker));
-    color: #ffffff;
+    background: hsl(0 0% 92%);
+    border-color: hsl(0 0% 92%);
+    color: hsl(0 0% 4%);
   }
   .arefin-mega-btn-call:active {
-    background: hsl(var(--primary-darker));
-    border-color: hsl(var(--primary-darker));
-    color: #ffffff;
-    filter: brightness(0.94);
+    background: hsl(0 0% 88%);
+    border-color: hsl(0 0% 88%);
+    color: hsl(0 0% 4%);
+    filter: brightness(0.98);
   }
   .arefin.dark .arefin-mega-btn-call:hover,
   .arefin.dark .arefin-mega-btn-call:focus-visible,
   .arefin.dark .arefin-mega-btn-call:active {
-    background: hsl(var(--primary-darker));
-    border-color: hsl(var(--primary-darker));
-    color: #ffffff;
+    background: hsl(0 0% 92%);
+    border-color: hsl(0 0% 92%);
+    color: hsl(0 0% 4%);
+    text-shadow: none;
   }
   .arefin-mega-areas-label {
     display: block;
@@ -1006,25 +1028,35 @@
   }
   .arefin-mega-area-link {
     display: inline-flex;
-    align-items: flex-start;
+    /* Nov 2026 fix (FIX-PLAN-5): vertically centred, dynamic height —
+       a 1-line link no longer sits at the top of a fixed 2-line box.
+       Horizontal alignment stays left. */
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
     gap: 8px;
     font-size: 0.8rem;
     line-height: 1.35;
     color: hsl(40 10% 82%);
     text-decoration: none;
-    /* QA P4: cap at 2 lines (full label lives in the title attribute and
-       the target page H1) so long service names cannot stretch the panel */
-    max-height: calc(1.35em * 2 + 6px);
+    /* Nov 2026 fix (FIX-PLAN-5): dynamic height — one line of text plus
+       the symmetric top/bottom padding (2 x 9px). A 2-line link grows
+       to 2 lines with the same equal padding; no fixed 2-line box.
+       (Full label lives in the title attribute and the target page H1.) */
+    min-height: calc(1.35em + 18px);
     overflow: hidden;
     /* QA P8: hover pill (negative margins keep the grid rhythm) */
-    padding: 3px 8px;
-    margin: -3px -8px;
+    padding: 9px 10px;
+    margin: -9px -10px;
     border-radius: 8px;
     transition: color 300ms ease, background-color 300ms ease;
   }
   .arefin-mega-area-link:hover,
   .arefin-mega-area-link:focus-visible {
     background-color: hsl(var(--primary-bright) / 0.1);
+    color: hsl(var(--primary-bright));
+    /* Nov 2026 fix (FIX-PLAN-5): never underline on hover. */
+    text-decoration: none;
   }
   .arefin-mega-area-link::before {
     content: "";
@@ -1032,15 +1064,8 @@
     width: 5px;
     height: 5px;
     border-radius: 999px;
-    margin-top: 0.45em;
     background: hsl(40 8% 45%);
     transition: background-color 300ms ease;
-  }
-  .arefin-mega-area-link:hover,
-  .arefin-mega-area-link:focus-visible {
-    color: hsl(var(--primary-bright));
-    text-decoration: underline;
-    text-underline-offset: 3px;
   }
   .arefin-mega-area-link:hover::before,
   .arefin-mega-area-link:focus-visible::before {
