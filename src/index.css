@@ -910,25 +910,28 @@
     overflow: hidden;
   }
   .arefin-mega-actions {
-    display: flex;
-    gap: 10px;
+    display: inline-flex;
+    gap: 0;
     margin-top: 16px;
   }
-  /* Hero-pair styling (owner direction 2026-10-21): the dropdown buttons
-     mirror the hero CTAs — primary = black on bright green, hover swaps to
-     white on darker green; call = black on white, same swap hover. Panel
-     size uses the hero base geometry (3rem tall, 0.9375rem). The (0,4,0)
-     locks below keep the global dark link-hover rule (.arefin.dark a:hover,
-     (0,3,1)) from repainting these buttons' text bright green. */
+  /* Treatment dropdown buttons (owner direction 2026-11-09): the two
+     buttons are one grouped segmented pill — primary = white text on
+     bright green, call = black text on white, joined with no gap and a
+     thin divider between them. Hover swaps both to white on darker green.
+     Panel size uses the hero base geometry (3rem tall, 0.9375rem). The
+     (0,4,0) locks below keep the global dark link-hover rule
+     (.arefin.dark a:hover, (0,3,1)) from repainting these buttons' text
+     bright green. */
   .arefin-mega-btn-primary {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     height: 3rem;
     padding: 0 1.75rem;
-    border-radius: 999px;
+    border-radius: 999px 0 0 999px;
     background: hsl(var(--primary-bright));
-    color: #000000;
+    border: 1px solid hsl(var(--primary-bright));
+    color: #ffffff;
     font-size: 0.9375rem;
     font-weight: 600;
     text-decoration: none;
@@ -956,9 +959,10 @@
     gap: 10px;
     height: 3rem;
     padding: 0 1.75rem;
-    border-radius: 999px;
+    border-radius: 0 999px 999px 0;
     background: #ffffff;
     border: 1px solid #ffffff;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
     color: hsl(0 0% 4%);
     font-size: 0.9375rem;
     font-weight: 600;

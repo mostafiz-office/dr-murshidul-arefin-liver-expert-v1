@@ -29,12 +29,21 @@ export interface MegaService {
 }
 
 /** Hub URL per rail service — explicit mapping (plan §12 G6). */
-/* Batch 1 (27 Oct 2026, liver focus): mega menu shows liver services only.
-   Gallbladder, bile-duct, pancreatic, hepatobiliary and laparoscopic hubs are
-   intentionally omitted here so they do not lead the menu on the liver site.
-   Their pages still exist via routes and the Treatment index (Batch 2). */
+/* 2026-11-09 (owner request): restore the full 8-service rail from plan D1.
+   Batch 1 had narrowed this to 3 liver services only, which hid the
+   bile-duct, pancreatic, hepatobiliary and laparoscopic hub pages from the
+   menu even though the pages still exist. Every hub below is a real page
+   in this repo, and every description is liver-first: the bile-duct,
+   pancreatic and hepatobiliary hubs are HPB services of this liver
+   surgeon, framed as part of liver & HPB care. No gallbladder hub is
+   restored — the gallbladder hub was replaced by the liver tumour hub. */
 const HUBS: Record<string, string> = {
   "liver-surgery": "/treatment/liver-surgery/",
+  "liver-resection-surgery": "/treatment/liver-tumor-cancer-surgery-dhaka/",
+  "bile-duct-surgery": "/treatment/biliary-tract-surgery/",
+  "pancreatic-surgery": "/treatment/pancreatic-surgery/",
+  "hepatobiliary-surgery": "/treatment/hepatobiliary-surgery/",
+  "laparoscopic-surgery": "/treatment/minimally-invasive-liver-surgery-dhaka/",
   "liver-transplant-coordination": "/treatment/liver-transplant-coordination/",
   "fatty-liver-management": "/treatment/fatty-liver-management/",
 };
@@ -43,6 +52,16 @@ const HUBS: Record<string, string> = {
 const DESCRIPTIONS: Record<string, string> = {
   "liver-surgery":
     "Surgery for liver tumours, cysts and other liver conditions, planned around your imaging and liver function.",
+  "liver-resection-surgery":
+    "Liver resection (hepatectomy) removes the diseased part of the liver while preserving enough healthy liver to recover, planned around your imaging and remnant liver volume.",
+  "bile-duct-surgery":
+    "Bile-duct surgery for the liver's drainage system — meticulous reconstruction planned with MRCP, as part of liver and HPB care.",
+  "pancreatic-surgery":
+    "Pancreatic resection — Whipple, distal and total pancreatectomy — by the same high-volume HPB team that plans your liver care.",
+  "hepatobiliary-surgery":
+    "Hepatobiliary surgery covers the liver, bile ducts and pancreas together — one surgeon planning multi-organ procedures around your liver.",
+  "laparoscopic-surgery":
+    "Keyhole liver surgery — smaller incisions, less pain and faster recovery, with open surgery when a complex resection needs it.",
   "liver-transplant-coordination":
     "Assessment, referral and follow-up coordination for patients who may need a liver transplant.",
   "fatty-liver-management":
