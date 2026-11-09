@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import DrArefinHeader from "@/components/arefin/DrArefinHeader";
 import DrArefinFooter from "@/components/arefin/DrArefinFooter";
+import SimilarWebsiteBar from "@/components/arefin/SimilarWebsiteBar";
 
 import FAQAccordion from "@/components/arefin/FAQAccordion";
 import darkLogo from "@/assets/dr-arefin-logo-dark.webp";
@@ -175,6 +176,8 @@ const ContactDark = () => {
       </section>
 
       {/* CONTACT INFO CARDS section removed per request (General Enquiries / Official Address / Connect With Us) */}
+
+      <SimilarWebsiteBar />
 
       {/* ============== APPOINTMENT FORM — mint band relief, dark form card ============== */}
       <section

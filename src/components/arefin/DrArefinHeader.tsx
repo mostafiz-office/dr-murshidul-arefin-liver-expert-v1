@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone, MessageCircle, ChevronDown, Send } from "lucide-react";
+import { Menu, X, Phone, MessageCircle, ChevronDown } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import logo from "@/assets/dr-arefin-logo-black.webp";
 import SlideButton from "./SlideButton";
@@ -322,13 +322,12 @@ const NavItemLink = ({
                   </div>
                   <div className="arefin-mega-actions">
                     <Link
-                      to={`/contact/?treatment=${activeService.slug}`}
-                      title={`Send a query about ${activeService.display}`}
+                      to={activeService.hub}
+                      title={activeService.hubTitle}
                       onClick={() => setOpenDropdown(null)}
                       className="arefin-mega-btn-primary"
                     >
-                      <Send className="h-4 w-4" aria-hidden />
-                      Send a Query
+                      Treatment page →
                     </Link>
                   <a href={MEGA_PHONE_HREF} className="arefin-mega-btn-call" title={`Call Dr. Arefin — ${MEGA_PHONE_DISPLAY}`}>
                     <Phone className="h-4 w-4" aria-hidden />
